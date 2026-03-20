@@ -1,0 +1,17 @@
+unstructured[pdf]
+unstructured[md]
+langchain
+langchain-community
+langchain-cohere
+langchain-pinecone
+langchain-experimental
+langchain-text-splitters
+pinecone-client
+pinecone-text
+cohere
+python-dotenv
+tqdm
+pillow
+pdfminer.six
+pdf2image
+pytesseract
