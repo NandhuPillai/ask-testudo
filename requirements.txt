@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+langchain
+langchain-cohere
+langchain-pinecone
+langchain-community
+pinecone-client
+pinecone-text
+cohere
+openai
+python-dotenv
+pydantic
