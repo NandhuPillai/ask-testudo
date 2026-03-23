@@ -1,0 +1,215 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-sans);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* UMD brand tokens */
+  --color-umd-bg: var(--umd-bg);
+  --color-umd-surface: var(--umd-surface);
+  --color-umd-dark: var(--umd-dark);
+  --color-umd-mid: var(--umd-mid);
+  --color-umd-light: var(--umd-light);
+  --color-umd-text: var(--umd-text);
+  --color-umd-muted: var(--umd-muted);
+  --color-umd-border: var(--umd-border);
+}
+
+:root {
+  /* shadcn defaults (remapped to UMD palette) */
+  --background: #EED9B9;
+  --foreground: #1a0a00;
+  --card: #F7EDD9;
+  --card-foreground: #1a0a00;
+  --popover: #F7EDD9;
+  --popover-foreground: #1a0a00;
+  --primary: #5E0006;
+  --primary-foreground: #EED9B9;
+  --secondary: #F7EDD9;
+  --secondary-foreground: #1a0a00;
+  --muted: #e8cda0;
+  --muted-foreground: #6b3a2a;
+  --accent: #9B0F06;
+  --accent-foreground: #EED9B9;
+  --destructive: #D53E0F;
+  --border: rgba(94, 0, 6, 0.15);
+  --input: rgba(94, 0, 6, 0.1);
+  --ring: #9B0F06;
+  --radius: 0.625rem;
+
+  /* UMD brand tokens */
+  --umd-bg: #EED9B9;
+  --umd-surface: #F7EDD9;
+  --umd-dark: #5E0006;
+  --umd-mid: #9B0F06;
+  --umd-light: #D53E0F;
+  --umd-text: #1a0a00;
+  --umd-muted: #6b3a2a;
+  --umd-border: rgba(94, 0, 6, 0.15);
+  --umd-shadow: 0 2px 8px rgba(94, 0, 6, 0.08);
+
+  /* shadcn charts */
+  --chart-1: #5E0006;
+  --chart-2: #9B0F06;
+  --chart-3: #D53E0F;
+  --chart-4: #e8742a;
+  --chart-5: #f0a060;
+  --sidebar: #F7EDD9;
+  --sidebar-foreground: #1a0a00;
+  --sidebar-primary: #5E0006;
+  --sidebar-primary-foreground: #EED9B9;
+  --sidebar-accent: #e8cda0;
+  --sidebar-accent-foreground: #1a0a00;
+  --sidebar-border: rgba(94, 0, 6, 0.15);
+  --sidebar-ring: #9B0F06;
+}
+
+.dark {
+  --background: #1a0a00;
+  --foreground: #EED9B9;
+  --card: #2a1208;
+  --card-foreground: #EED9B9;
+  --popover: #2a1208;
+  --popover-foreground: #EED9B9;
+  --primary: #D53E0F;
+  --primary-foreground: #1a0a00;
+  --secondary: #2a1208;
+  --secondary-foreground: #EED9B9;
+  --muted: #3a1a0a;
+  --muted-foreground: #c4956a;
+  --accent: #9B0F06;
+  --accent-foreground: #EED9B9;
+  --destructive: #ff6b47;
+  --border: rgba(238, 217, 185, 0.15);
+  --input: rgba(238, 217, 185, 0.1);
+  --ring: #D53E0F;
+
+  /* UMD brand tokens – dark */
+  --umd-bg: #1a0a00;
+  --umd-surface: #2a1208;
+  --umd-dark: #D53E0F;
+  --umd-mid: #9B0F06;
+  --umd-light: #EED9B9;
+  --umd-text: #EED9B9;
+  --umd-muted: #c4956a;
+  --umd-border: rgba(238, 217, 185, 0.15);
+  --umd-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+
+  --sidebar: #2a1208;
+  --sidebar-foreground: #EED9B9;
+  --sidebar-primary: #D53E0F;
+  --sidebar-primary-foreground: #1a0a00;
+  --sidebar-accent: #3a1a0a;
+  --sidebar-accent-foreground: #EED9B9;
+  --sidebar-border: rgba(238, 217, 185, 0.15);
+  --sidebar-ring: #D53E0F;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+    box-sizing: border-box;
+  }
+  body {
+    @apply bg-background text-foreground;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    font-family: var(--font-sans), system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+
+/* ── Loading dots animation ───────────────────────────────────────────── */
+@keyframes dot-pulse {
+  0%, 80%, 100% { opacity: 0.25; transform: scale(0.8); }
+  40%           { opacity: 1;    transform: scale(1); }
+}
+.dot-pulse span {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--umd-light);
+  animation: dot-pulse 1.4s ease-in-out infinite;
+}
+.dot-pulse span:nth-child(2) { animation-delay: 0.2s; }
+.dot-pulse span:nth-child(3) { animation-delay: 0.4s; }
+
+/* ── Scrollbar styling ────────────────────────────────────────────────── */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--umd-border);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--umd-muted); }
+
+/* ── Prose (react-markdown) ───────────────────────────────────────────── */
+.prose-umd {
+  color: var(--umd-text);
+  line-height: 1.65;
+}
+.prose-umd p { margin: 0.5em 0; }
+.prose-umd ul, .prose-umd ol { margin: 0.5em 0; padding-left: 1.5em; }
+.prose-umd li { margin: 0.25em 0; }
+.prose-umd code {
+  background: var(--umd-border);
+  border-radius: 3px;
+  padding: 0.1em 0.35em;
+  font-size: 0.875em;
+  font-family: var(--font-mono), monospace;
+}
+.prose-umd strong { color: var(--umd-dark); font-weight: 600; }
+.dark .prose-umd strong { color: var(--umd-light); }
+
+/* ── Fade-in animation for messages ──────────────────────────────────── */
+@keyframes msg-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.msg-animate { animation: msg-in 0.25s ease forwards; }
