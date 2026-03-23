@@ -2,7 +2,7 @@
 
 import { AskResponse, HistoryMessage } from "./types"
 
-const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000"
+const API_URL = (process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000").replace(/\/$/, "")
 
 export async function askQuestion(
   question: string,
