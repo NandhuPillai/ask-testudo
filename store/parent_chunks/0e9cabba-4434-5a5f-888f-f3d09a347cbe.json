@@ -1,0 +1,11 @@
+{
+  "page_content": "SURV667 Introduction to Record Linkage with Big Data Applications (2 Credits) Methods to combine data on given entities (people, households, ﬁrms etc.) that are stored in different data sources. By showing the strengths of these methods and by showing how each of them are performed in practice using R, the course will demonstrate the various beneﬁts of record linkage. Participants will also learn about potential challenges that record linkage projects may face. Prerequisite: Basic statistical concepts; and intermediate knowledge of R. Recommended: Familiarity with regular expressions, the R packages ggplot2 and tidyverse. Restriction: Permission of BSOS-Joint Program in Survey Methodology department.\n\nSURV673 Introduction to Python and SQL (1 Credit) Basics of Python and SQL for data analysis.Students will explore real publicly-available datasets, using the data analysis toolsin Python to create summaries and generate visualizations. Students will learn thebasics of database management and organization, as well as learn how to code inSQL and work with PostgreSQL databases. By the end of the class, students shouldunderstand how to read in data from CSV ﬁles or from the internet and becomfortable using either SQL or Python to aggregate, summarize, describe, andvisualize these datasets. Recommended: Background knowledge in programming in Python and SQL structures.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 873,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "0e9cabba-4434-5a5f-888f-f3d09a347cbe"
+  }
+}

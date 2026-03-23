@@ -1,0 +1,11 @@
+{
+  "page_content": "CMSC733 Computer Processing of Pictorial Information (3 Credits) Input, output, and storage of pictorial information. Pictures as information sources, efﬁcient encoding, sampling, quantization, approximation. Position-invariant operations on pictures, digital and optical implementations, the pax language, applications to matched and spatial frequency ﬁltering. Picture quality, image enhancement and image restoration. Picture properties and pictorial pattern recognition. Processing of complex pictures; ﬁgure extraction, properties of ﬁgures. Data structures for pictures description and manipulation; picture languages. Graphics systems for alphanumeric and other symbols, line drawings of two- and three-dimensional objects, cartoons and movies. Prerequisite: CMSC420.\n\nCMSC734 Information Visualization (3 Credits) Information visualization deﬁned in relation to graphics, scientiﬁc visualization, databases, data mining, and human-computer interaction. Visualizations for dimensional, temporal, hierarchical and network data. Examines design alternatives, algorithms and data structures, coordinated views, and human factors evaluations of efﬁcacy. Prerequisite: CMSC434; or students who have taken courses with comparable content may contact the department; or permission of instructor.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 575,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "24b6a07a-bdbd-5659-b3d5-e8ce0a179102"
+  }
+}

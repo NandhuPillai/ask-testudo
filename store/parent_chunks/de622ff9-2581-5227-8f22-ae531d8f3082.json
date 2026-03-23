@@ -1,0 +1,11 @@
+{
+  "page_content": "EPIB654 Clinical Trials: Design and Analysis (3 Credits) This course provides an introduction to the clinical trials design and data analysis. Topics covered include: history/background and process for clinical trial, key concepts for good statistics practice (GSP)/good clinical practice (GCP), regulatory requirement for pharmaceutical/ clinical development, basic considerations for clinical trials, designs for clinical trials, classiﬁcation of clinical trials, power analysis for sample size calculation for different designs, statistical analysis for efﬁcacy evaluation, statistical analysis for safety assessment, implementation of a clinical protocol, statistical analysis plan, data safety monitoring, adaptive design methods in clinical trials (general concepts, group sequential design, dose ﬁnding design, and phase I/II or phase II/III design) and controversial issues in clinical trials. Prerequisite: EPIB650 or SPHL602, and EPIB651; or permission of instructor.\n\nEPIB655 Longitudinal Data Analysis (3 Credits) Statistical models for drawing scientiﬁc inferences from longitudinal data, longitudinal study design, repeated measures and random effects to account for experimental designs that involve correlated responses, handling of missing data. Prerequisite: EPIB651.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 704,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "de622ff9-2581-5227-8f22-ae531d8f3082"
+  }
+}

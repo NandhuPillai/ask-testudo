@@ -1,0 +1,11 @@
+{
+  "page_content": "ENPM696 Reverse Software Engineering (3 Credits) An in-depth understanding of software reverse engineering concepts and hands-on training with reverse engineering tools, including disassemblers, decompilers, and code analyzers. Students will become familiar with both low-level software and the x86 instruction set through binary reversing sessions. This course also provides insights into many subjects such as system security, source code analysis, software design, and program understanding that will be beneﬁcial in a variety of ﬁelds. Prerequisite: ENEE150 or equivalent. Recommended: Proﬁciency with using a *nix command line in a shell of their choice, e.g., Bash, Zsh, csh. Ability to create and manage virtual machines running intel-based Linux and Windows distributions.\n\nENPM700 Software Development for Robotics (3 Credits) Teaches the tools and processes to develop professional quality software for deployed systems and products. Students will learn the best practices of taking new ideas or prototypes, and understanding what it takes to build the complex software that is so important to today's commercialized robotic systems. Prerequisite: ENPM702. Restriction: Permission of Maryland Applied Graduate Engineering. Credit Only Granted for: ENPM808X or ENPM700. Formerly: ENPM808X.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 690,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "da56be6e-07c2-5db6-b808-d34e21ec7fa4"
+  }
+}

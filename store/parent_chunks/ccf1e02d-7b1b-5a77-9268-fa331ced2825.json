@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE612 Advanced Power Electronics (3 Credits) Advanced power electronic converters, techniques to model and control switching circuits, pulse width modulation, resonant switch converters, resonant DC-link converters, series and parallel loaded resonant (SLR, PLR) DC-DC converters, zero voltage switching clamped-voltage (ZVS- CV) converters, ZVS resonant-switch DC-DC converters are explained. In addition, this course deals with small-signal and large-signal modeling and control of switched mode power converters, sliding-mode operation, state space models, generalized state-space averaging, and feedback linearization techniques. Multiple-input converters and their operational principles are explained. Furthermore, practical design procedures for type II and type III compensators with voltage-mode error-ampliﬁer for DC/DC converters are explained. Prerequisite: ENEE303, ENEE475, or ENEE476; or students who have taken courses with comparable content may contact the department. Credit Only Granted for: ENEE719B or ENEE612. Formerly: ENEE719B.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 647,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "ccf1e02d-7b1b-5a77-9268-fa331ced2825"
+  }
+}

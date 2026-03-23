@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(.venv/Scripts/pip install:*)",
+      "Bash(.venv/Scripts/python --version)",
+      "Bash(curl -s http://localhost:8000/health)",
+      "Bash(.venv/Scripts/python -c \"import json; d=json.load\\(open\\(''store/bm25_encoder.json''\\)\\); print\\(''keys:'', list\\(d.keys\\(\\)\\)[:5]\\); vocab = d.get\\(''params'', {}\\).get\\(''doc_freq'', {}\\); print\\(''vocab_size:'', len\\(vocab\\) if isinstance\\(vocab, dict\\) else ''N/A''\\)\")",
+      "Bash(.venv/Scripts/python -c \"import json; d=json.load\\(open\\(''store/bm25_encoder.json''\\)\\); print\\(''n_docs:'', d.get\\(''n_docs''\\)\\); print\\(''avgdl:'', d.get\\(''avgdl''\\)\\); print\\(''b:'', d.get\\(''b''\\)\\); print\\(''k1:'', d.get\\(''k1''\\)\\); print\\(''doc_freq len:'', len\\(d.get\\(''doc_freq'', {}\\)\\)\\); print\\(''first 3 doc_freq keys:'', list\\(d.get\\(''doc_freq'', {}\\).keys\\(\\)\\)[:3]\\)\")",
+      "Bash(.venv/Scripts/python -c \":*)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(curl:*)",
+      "Bash(netstat -ano)",
+      "Bash(cmd /c \"taskkill /F /PID 21968\")",
+      "Bash(.venv/Scripts/uvicorn query:app --host 0.0.0.0 --port 8001)",
+      "Bash(.venv/Scripts/uvicorn query:app --host 0.0.0.0 --port 8002)"
+    ]
+  }
+}

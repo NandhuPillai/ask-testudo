@@ -1,0 +1,11 @@
+{
+  "page_content": "EPIB656 Applied Bayesian Data Analysis (3 Credits) The theory and practical application of Bayesian statistical methods in the ﬁeld of public health and related areas. A variety of models will be discussed including linear regression, multilevel model, generalized linear model, generalized linear mixed model. Prerequisite: EPIB652 or STAT700; or permission of instructor.\n\nEPIB657 Spatial Statistics for Public Health Data (3 Credits) Overview three main areas of spatial statistics: point patterns, geostatistical data, and lattice (areal) data. Application of spatial statistical models including CSR, k-function, krigging, semivariogram, CAR, SAR, GWR, spatial GLM, and multilevel model to public health and environmental data analysis. Prerequisite: EPIB651 and EPIB652; or permission of instructor.\n\nEPIB660 Analysis of National Health Survey Data (3 Credits) Provides background on how features such as stratiﬁcation, clustering, and unequal sample selection probabilities can invalidate the assumptions underlying traditional statistical techniques, those implicitly assuming a simple random sampling with replacement design. Application using the SURVEY family of SAS/STAT procedures (Version 9.4 or later). Prerequisite: EPIB650; or permission from Instructor. Recommended: EPIB697.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 704,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "cbff5498-b625-5fa0-92bd-359324f300bd"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE610 Electrical Network Theory (3 Credits) Matrix algebra, network elements, ports, passivity and activity, geometrical and analytical descriptions of networks, state variable characterizations, scattering matrices, signal flow graphs, sensitivity. Prerequisite: Must have completed undergraduate-level Circuit Theory; or permission of instructor.\n\nENEE611 Integrated Circuit Design and Analysis (3 Credits) Active and passive elements used in semiconductor structures. Design application of linear and digital integrated circuits. Recommended: ENEE610. Credit Only Granted for: ENEE611 or ENEE696. Formerly: ENEE696.\n\nENEE621 Estimation and Detection Theory (3 Credits) Estimation of unknown parameters, Cramer-Rao lower bound; optimum (map) demodulation; ﬁltering, amplitude and angle modulation, comparison with conventional systems; statistical decision theory Bayes, minimax, Neyman/Pearson, Criteria-68 simple and composite hypotheses; application to coherent and incoherent signal detection; M- ary hypotheses; application to uncoded and coded digital communication systems. Prerequisite: ENEE620; or students who have taken courses with comparable content may contact the department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 647,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "0b11fa0a-cdb4-511c-9b49-af614b020b39"
+  }
+}

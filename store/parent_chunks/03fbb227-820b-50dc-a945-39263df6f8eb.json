@@ -1,0 +1,11 @@
+{
+  "page_content": "ECON684 Applied Time Series Analysis and Forecasting (3 Credits) This course builds on the brief introduction to time series econometrics offered in ECON 645. Students will learn the theory of stationary processes and how it applies to econometric techniques for estimation and forecasting based on time series data. The techniques will be applied in macroeconomic, ﬁnancial and business applications. Prerequisite: ECON642; and ECON645. Restriction: Must be in M.Prof.Studies: Applied Economics program.\n\nECON687 Economics Applications of R Programming (3 Credits) Builds on the data analysis and econometric skills learned in the Empirical analysis sequence of ECON 643, 644, and 645. The STATA skills acquired in that sequence, such as basic data manipulation and econometric estimation, will be extended to the R programming language. The fundamentals of more advanced scientiﬁc programming-- objects, data structures, loops, functions, simulation, parallel computing-- will be introduced with applications to economics and the social sciences. Additional emphasis is placed on good coding practices and tools for version control and collaboration such as Git and R Markdown. Prerequisite: Must have completed or be concurrently enrolled in ECON645. Restriction: Must be in Applied Economics Master of Science program; or permission of the program director.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 596,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "03fbb227-820b-50dc-a945-39263df6f8eb"
+  }
+}

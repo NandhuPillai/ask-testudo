@@ -1,0 +1,11 @@
+{
+  "page_content": "GEOG661 Fundamentals of Geospatial Intelligence (3 Credits) Geospatial Intelligence (GEOINT) is the collection, analysis, visualization and dissemination of geospatial information to support decision-making. This course introduces the fundamental knowledge required to become a successful GEOINT practitioner, including the history of the GEOINT discipline, the intelligence applications of remote sensing and Geographic Information Systems (GIS) technologies, and how GEOINT products are used to support national security and humanitarian missions. Upon completion of this course you will understand the roles that technology, policy, doctrine, government, and industry play in shaping the Geospatial Intelligence discipline, and develop the technical knowledge and domain expertise to create basic GEOINT products that provide context for decision makers.\n\nGEOG656 Advanced Programming for GIS (3 Credits) Programming and scripting for intermediate GIS users. The fundamental concepts of computer programming will be introduced within the Geoprocessing framework in ArcGIS primarily using Python. Concepts of object-oriented programming and scripting will be presented. Students will develop skills in programming techniques to explore, manipulate and model spatial data using the Geoprocessor methods. Prerequisite: GEOG653. Restriction: Must be in Geospatial Information Sciences (Master's) program; or must be in Graduate Certiﬁcate: Professional Studies- Geospatial Information Sciences.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 717,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "6eb59530-53e0-5e73-aaa2-30ce4880ceba"
+  }
+}

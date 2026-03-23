@@ -1,0 +1,11 @@
+{
+  "page_content": "SURV627 Experimental Design and Causal Inference (2 Credits) Many of the questions we are interested in as researchers and practitioners are of a causal nature. We act upon the world; how can we tell if our actions have impact? How can we decide if an intervention would get us closer to our goals? In this course, we introduce the basic concepts from causal inference and econometrics, and show what makes a valid causal claim, and what would undo it. We then demonstrate how experiments can be used to evaluate causal hypotheses, and what options are available to conduct experiments in practice. Having discussed experimental data collection, we turn to the analysis of experiments, show how this, again, is linked to the logic of causal inference, and how to work with experimental data. We discuss how to design studies so that statistical inferences are informative and reliable. Next, we cover situations in which experiments might not be possible, and show how these can be addressed through study design ex ante and ex post through analysis. Prerequisite: Basic knowledge of data analysis. Familiarity with the R programming language and the RStudio IDE. Recommended: Experience in the use of SAS or STATA statistical analysis software. Restriction: Permission of BSOS-Joint Program in Survey Methodology department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 872,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "800f515e-1eaa-572c-add5-d58e87349d71"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "page_content": "CMSC430 Introduction to Compilers (3 Credits) Topics include lexical analysis, parsing, intermediate representations, program analysis, optimization, and code generation. Prerequisite: Minimum grade of C- in CMSC330 and CMSC351; and permission of CMNS-Computer Science department. Or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program.\n\nCMSC423 Bioinformatic Algorithms, Databases, and Tools (3 Credits) An introduction to the main algorithms, databases, and tools used in bioinformatics. Topics may include assembly and analysis of genome sequences, reconstructing evolutionary histories, predicting protein structure, and clustering of biological data. Use of scripting languages to perform analysis tasks on biological data. No prior knowledge of biology is assumed. Prerequisite: Minimum grade of C- in CMSC351 and CMSC330; and permission of CMNS-Computer Science department. Or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program.\n\nCMSC433 Programming Language Technologies and Paradigms (3 Credits) Programming language technologies (e.g., object-oriented programming), their implementations and use in software design and implementation. Prerequisite: Minimum grade of C- in CMSC330; or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program. Restriction: Permission of CMNS-Computer Science department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 570,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "b7025747-1b3b-51bc-b06e-7636afa9a6ed"
+  }
+}

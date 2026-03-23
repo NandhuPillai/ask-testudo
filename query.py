@@ -7,6 +7,7 @@ from pathlib import Path
 
 from dotenv import load_dotenv
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse, StreamingResponse
 from pydantic import BaseModel, Field
 
@@ -73,7 +74,7 @@ async def lifespan(app: FastAPI):
 
     # ── BM25 encoder ──────────────────────────────────────────────────────
     try:
-        bm25_encoder = BM25Encoder.load("./store/bm25_encoder.json")
+        bm25_encoder = BM25Encoder().load("./store/bm25_encoder.json")
         with open("./store/bm25_encoder.json", encoding="utf-8") as f:
             raw = json.load(f)
         if isinstance(raw, dict):
@@ -116,8 +117,8 @@ async def lifespan(app: FastAPI):
             embeddings=cohere_embeddings,
             sparse_encoder=bm25_encoder,
             index=pinecone_index,
-            top_k=10,
-            alpha=0.6,
+            top_k=15,
+            alpha=0.5,
             text_key="text",
         )
     except Exception as exc:
@@ -149,14 +150,32 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(title="ask-testudo", version="1.0.0", lifespan=lifespan)
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:3000",
+        "https://ask-testudo.vercel.app",
+        "https://*.vercel.app",
+    ],
+    allow_credentials=True,
+    allow_methods=["GET", "POST"],
+    allow_headers=["Content-Type"],
+)
+
 # ---------------------------------------------------------------------------
 # Request / response models
 # ---------------------------------------------------------------------------
 
 
+class Message(BaseModel):
+    role: str       # "user" or "assistant"
+    content: str
+
+
 class AskRequest(BaseModel):
     question: str = Field(..., min_length=1, max_length=500)
     stream: bool = False
+    history: list[Message] = []
 
 
 # ---------------------------------------------------------------------------
@@ -204,7 +223,9 @@ def retrieve_chunks(sub_queries: list[str], hyde_document: str) -> list:
     for query_str in all_queries:
         docs = retriever.invoke(query_str)
         for doc in docs:
-            child_id = doc.metadata.get("child_id")
+            parent_id = doc.metadata.get("parent_id")
+            chunk_index = int(doc.metadata.get("chunk_index", 0))
+            child_id = f"{parent_id}_{chunk_index}" if parent_id else None
             if child_id and child_id not in seen:
                 seen[child_id] = doc
 
@@ -253,7 +274,7 @@ def rerank_parents(parents: list[dict], question: str) -> tuple[list[dict], floa
         query=question,
         documents=[p["page_content"] for p in parents],
         model="rerank-v3.5",
-        top_n=min(4, len(parents)),
+        top_n=min(8, len(parents)),
     )
 
     reordered = [parents[r.index] for r in result.results]
@@ -267,14 +288,20 @@ def rerank_parents(parents: list[dict], question: str) -> tuple[list[dict], floa
 # ---------------------------------------------------------------------------
 
 
-def generate_answer(parents: list[dict], question: str) -> str:
+def generate_answer(parents: list[dict], question: str, history: list = []) -> str:
+    history_messages = [
+        {"role": m.role, "content": m.content}
+        for m in history[-6:]    # last 3 turns (6 messages) max
+    ]
+    messages = [
+        {"role": "system", "content": SYSTEM_PROMPT},
+        *history_messages,
+        {"role": "user", "content": build_context_prompt(parents, question)},
+    ]
     stream = xai_client.chat.completions.create(
         model="grok-4-1-fast-non-reasoning",
-        messages=[
-            {"role": "system", "content": SYSTEM_PROMPT},
-            {"role": "user", "content": build_context_prompt(parents, question)},
-        ],
-        max_tokens=800,
+        messages=messages,
+        max_tokens=1500,
         temperature=0.1,
         stream=True,
     )
@@ -466,7 +493,7 @@ def ask(req: AskRequest):
 
     # ── Step 6: generate (non-streaming) ──────────────────────────────────
     try:
-        answer = generate_answer(reranked_parents, question)
+        answer = generate_answer(reranked_parents, question, req.history)
     except Exception as exc:
         log.error("[query] generation failed: %s", exc)
         return JSONResponse(
@@ -502,11 +529,16 @@ def health():
     }
 
 
+@app.get("/ping")
+def ping():
+    return {"status": "warm"}
+
+
 @app.get("/")
 def root():
     return {
         "name": "ask-testudo",
         "version": "1.0.0",
         "description": "UMD academic policy assistant",
-        "endpoints": ["/ask", "/health"],
+        "endpoints": ["/ask", "/health", "/ping"],
     }

@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE626 Error Correcting Codes (3 Credits) Introduction to linear codes; bounds on the error correction capabilities of codes; convolutional codes with threshold, sequential and viterbi decoding; cyclic random error correcting codes; P-N sequences; cyclic and convolutional burst error correcting codes. Prerequisite: ENEE420; or students who have taken courses with comparable content may contact the department. Credit Only Granted for: ENEE626 or ENEE722. Formerly: ENEE722.\n\nENEE627 Information Theory (3 Credits) Information measures and their properties; entropy, relative entropy and mutual information. Information source models. Lossless data compression: the Kraft inequality, Shannon-Fano and Huffman codes. Typical sequences, asymptotic equipartition property, lossy source coding. Discrete memoryless channels: capacity, channel coding theorem. The additive Gaussian channel. Source coding under a ﬁdelity constraint: rate distortion function and rate distortion theorem. Prerequisite: ENEE620. Credit Only Granted for: ENEE627 or ENEE721. Formerly: ENEE721.\n\nENEE630 Advanced Digital Signal Processing (3 Credits) This is the ﬁrst-year graduate course in signal processing. The objective is to establish fundamental concepts of signal processing on multirate processing, parametric modeling, linear prediction theory, modern spectral estimation, and high-resolution techniques. Prerequisite: ENEE425. Corequisite: ENEE620. Credit Only Granted for: ENEE624 or ENEE630. Formerly: ENEE624.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 648,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "6ff85cf2-08c5-5aa7-a928-de15f87510dc"
+  }
+}

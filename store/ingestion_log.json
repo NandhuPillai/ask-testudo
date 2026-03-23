@@ -1,0 +1,2187 @@
+{
+  "timestamp": "2026-03-19T20:52:12.600889+00:00",
+  "total_files": 311,
+  "total_parents": 9095,
+  "total_children": 34870,
+  "pinecone_index": "ask-testudo",
+  "embedding_model": "embed-english-v3.0",
+  "files": [
+    {
+      "path": "data/2025-2026 Academic Catalog.pdf",
+      "doc_type": "pdf",
+      "file_hash": "14dada9f1bab",
+      "parent_count": 4898,
+      "child_count": 25540
+    },
+    {
+      "path": "data/AOSCFourYearPlan.pdf",
+      "doc_type": "pdf",
+      "file_hash": "a497ceb0d039",
+      "parent_count": 13,
+      "child_count": 20
+    },
+    {
+      "path": "data/ASTRFourYearPlan.pdf",
+      "doc_type": "pdf",
+      "file_hash": "793b1e462ff9",
+      "parent_count": 10,
+      "child_count": 13
+    },
+    {
+      "path": "data/Accounting BSA - 4 Year Plan - 2024.pdf",
+      "doc_type": "pdf",
+      "file_hash": "f3b69c47a367",
+      "parent_count": 10,
+      "child_count": 19
+    },
+    {
+      "path": "data/Accounting BSA - Degree Requirements - 2024.pdf",
+      "doc_type": "pdf",
+      "file_hash": "6b2759effc1a",
+      "parent_count": 13,
+      "child_count": 24
+    },
+    {
+      "path": "data/Accounting CPA - 4 Year Plan - 2024.pdf",
+      "doc_type": "pdf",
+      "file_hash": "040179998d1b",
+      "parent_count": 9,
+      "child_count": 22
+    },
+    {
+      "path": "data/Accounting CPA - Degree Requirements - 2024.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8411aa504f4c",
+      "parent_count": 15,
+      "child_count": 22
+    },
+    {
+      "path": "data/American Studies.pdf",
+      "doc_type": "pdf",
+      "file_hash": "e7f63c0db08f",
+      "parent_count": 13,
+      "child_count": 19
+    },
+    {
+      "path": "data/BA_Arch_Plan_of_Study_rem.pdf",
+      "doc_type": "pdf",
+      "file_hash": "3fcfb9be2797",
+      "parent_count": 11,
+      "child_count": 16
+    },
+    {
+      "path": "data/BCHM-4-Year-Plan (2).pdf",
+      "doc_type": "pdf",
+      "file_hash": "22c8ab7c021a",
+      "parent_count": 23,
+      "child_count": 40
+    },
+    {
+      "path": "data/BS_Arch_Plan_of_Study_rem.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c1e8aa8ed403",
+      "parent_count": 12,
+      "child_count": 17
+    },
+    {
+      "path": "data/CHEM-4-Year-Plan.pdf",
+      "doc_type": "pdf",
+      "file_hash": "922ec22214fc",
+      "parent_count": 20,
+      "child_count": 35
+    },
+    {
+      "path": "data/CMSCFourYearPlan.pdf",
+      "doc_type": "pdf",
+      "file_hash": "3ddee969df75",
+      "parent_count": 9,
+      "child_count": 16
+    },
+    {
+      "path": "data/ENSPFourYearPlan.pdf",
+      "doc_type": "pdf",
+      "file_hash": "3c35c423bfbf",
+      "parent_count": 11,
+      "child_count": 20
+    },
+    {
+      "path": "data/Finance - 4 Year Plan - 2024.pdf",
+      "doc_type": "pdf",
+      "file_hash": "349e17c878f4",
+      "parent_count": 10,
+      "child_count": 19
+    },
+    {
+      "path": "data/Finance - Degree Requirements - 2025.pdf",
+      "doc_type": "pdf",
+      "file_hash": "ad95ec48031a",
+      "parent_count": 15,
+      "child_count": 22
+    },
+    {
+      "path": "data/GEOL-Pro-FourYearPlan.pdf",
+      "doc_type": "pdf",
+      "file_hash": "604db266921a",
+      "parent_count": 0,
+      "child_count": 0
+    },
+    {
+      "path": "data/GEOL-SecondaryEd-FourYearPlan.pdf",
+      "doc_type": "pdf",
+      "file_hash": "cc8459658c9d",
+      "parent_count": 0,
+      "child_count": 0
+    },
+    {
+      "path": "data/GFPL Four Year Plan and Checklist.pdf",
+      "doc_type": "pdf",
+      "file_hash": "e4eda4183730",
+      "parent_count": 27,
+      "child_count": 29
+    },
+    {
+      "path": "data/IMD_Computing_FourYearPlan.pdf",
+      "doc_type": "pdf",
+      "file_hash": "72c77c746642",
+      "parent_count": 16,
+      "child_count": 20
+    },
+    {
+      "path": "data/Information Systems - 4 Year Plan - 2025.pdf",
+      "doc_type": "pdf",
+      "file_hash": "402c490ec157",
+      "parent_count": 25,
+      "child_count": 49
+    },
+    {
+      "path": "data/Information Systems - Degree Requirements - 2025.pdf",
+      "doc_type": "pdf",
+      "file_hash": "ba1b17f1d9ad",
+      "parent_count": 14,
+      "child_count": 26
+    },
+    {
+      "path": "data/International Business - 4 Year Plan - 2025.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7ca8986c3b79",
+      "parent_count": 10,
+      "child_count": 21
+    },
+    {
+      "path": "data/International Business - Degree Requirements - 2025.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b388ad7e6c64",
+      "parent_count": 15,
+      "child_count": 26
+    },
+    {
+      "path": "data/JournalismFourYearPlanDoc.pdf",
+      "doc_type": "pdf",
+      "file_hash": "95b177124ffc",
+      "parent_count": 15,
+      "child_count": 27
+    },
+    {
+      "path": "data/LGBTQ-studies-certificate.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8f9834d7709a",
+      "parent_count": 5,
+      "child_count": 16
+    },
+    {
+      "path": "data/MATH-Ed-FourYearPlan.pdf",
+      "doc_type": "pdf",
+      "file_hash": "6a2ec1024eb7",
+      "parent_count": 0,
+      "child_count": 0
+    },
+    {
+      "path": "data/MATH-FourYearPlan.pdf",
+      "doc_type": "pdf",
+      "file_hash": "5c757faba686",
+      "parent_count": 0,
+      "child_count": 0
+    },
+    {
+      "path": "data/MATH-STAT-FourYearPlan.pdf",
+      "doc_type": "pdf",
+      "file_hash": "90527d254a7a",
+      "parent_count": 0,
+      "child_count": 0
+    },
+    {
+      "path": "data/Management - 4 Year Plan - 2024.pdf",
+      "doc_type": "pdf",
+      "file_hash": "9cd8c520e1c9",
+      "parent_count": 10,
+      "child_count": 19
+    },
+    {
+      "path": "data/Management - Degree Requirements - 2024.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7f69b4603404",
+      "parent_count": 14,
+      "child_count": 22
+    },
+    {
+      "path": "data/Marketing - 4 Year Plan - 2025.pdf",
+      "doc_type": "pdf",
+      "file_hash": "e54b344fdbba",
+      "parent_count": 10,
+      "child_count": 19
+    },
+    {
+      "path": "data/Marketing - Degree Requirements - 2025.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c8a1593f6f1a",
+      "parent_count": 14,
+      "child_count": 22
+    },
+    {
+      "path": "data/NEUR Major Requirements Sheet 02_05_26 - NEUR MAJOR REQUIREMENTS (1).pdf",
+      "doc_type": "pdf",
+      "file_hash": "4188102d0607",
+      "parent_count": 19,
+      "child_count": 26
+    },
+    {
+      "path": "data/Operations Management and Business Analytics - 4 Year Plan - 2025.pdf",
+      "doc_type": "pdf",
+      "file_hash": "6c7aa745d0e8",
+      "parent_count": 10,
+      "child_count": 19
+    },
+    {
+      "path": "data/Operations Management and Business Analytics - Degree Requirements - 2025.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7d02b21ffb57",
+      "parent_count": 15,
+      "child_count": 21
+    },
+    {
+      "path": "data/PHYS-Meto-FourYearPlan.pdf",
+      "doc_type": "pdf",
+      "file_hash": "337fcd6397b0",
+      "parent_count": 0,
+      "child_count": 0
+    },
+    {
+      "path": "data/PhysicsFourYearPlan.pdf",
+      "doc_type": "pdf",
+      "file_hash": "39abc732c5ed",
+      "parent_count": 5,
+      "child_count": 5
+    },
+    {
+      "path": "data/Public Policy Four Year Plan and Checklist March 2020 (1).pdf",
+      "doc_type": "pdf",
+      "file_hash": "73ad3e430e3e",
+      "parent_count": 21,
+      "child_count": 27
+    },
+    {
+      "path": "data/REBE_Plan_of_Study_0.pdf",
+      "doc_type": "pdf",
+      "file_hash": "47e3299f4737",
+      "parent_count": 12,
+      "child_count": 17
+    },
+    {
+      "path": "data/Supply Chain Management - 4 Year Plan - 2024.pdf",
+      "doc_type": "pdf",
+      "file_hash": "0af332acb852",
+      "parent_count": 10,
+      "child_count": 19
+    },
+    {
+      "path": "data/Supply Chain Management - Degree Requirements - 2024.pdf",
+      "doc_type": "pdf",
+      "file_hash": "1196155745d7",
+      "parent_count": 13,
+      "child_count": 24
+    },
+    {
+      "path": "data/accounting-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "df1905894162",
+      "parent_count": 15,
+      "child_count": 34
+    },
+    {
+      "path": "data/accounting.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c4414b275b23",
+      "parent_count": 16,
+      "child_count": 32
+    },
+    {
+      "path": "data/actuarial-mathematics-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "cce827683709",
+      "parent_count": 6,
+      "child_count": 11
+    },
+    {
+      "path": "data/advanced-cybersecurity-experience-students-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "058c07bfac69",
+      "parent_count": 6,
+      "child_count": 15
+    },
+    {
+      "path": "data/aerospace-engineering-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "0deeaca4c076",
+      "parent_count": 17,
+      "child_count": 43
+    },
+    {
+      "path": "data/aerospace-fall-2025-gradplan-ADA.pdf",
+      "doc_type": "pdf",
+      "file_hash": "24f5174b4c93",
+      "parent_count": 8,
+      "child_count": 26
+    },
+    {
+      "path": "data/african-american-africana-studies--black-womens-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "89707696e1eb",
+      "parent_count": 6,
+      "child_count": 17
+    },
+    {
+      "path": "data/african-american-africana-studies-certificate.pdf",
+      "doc_type": "pdf",
+      "file_hash": "04bf6958eac4",
+      "parent_count": 5,
+      "child_count": 10
+    },
+    {
+      "path": "data/african-american-africana-studies-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8f0129c1e72c",
+      "parent_count": 15,
+      "child_count": 42
+    },
+    {
+      "path": "data/african-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "99a544344ce2",
+      "parent_count": 9,
+      "child_count": 13
+    },
+    {
+      "path": "data/agricultural-resource-economics-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "5a4d85080efd",
+      "parent_count": 41,
+      "child_count": 55
+    },
+    {
+      "path": "data/agricultural-science-technology-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b3d0254f1f6d",
+      "parent_count": 61,
+      "child_count": 97
+    },
+    {
+      "path": "data/agricultural-science-technology-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "f5dd625ea4a2",
+      "parent_count": 9,
+      "child_count": 13
+    },
+    {
+      "path": "data/american-studies-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "e733818da245",
+      "parent_count": 9,
+      "child_count": 23
+    },
+    {
+      "path": "data/animal-sciences-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "cf3e6c90e08e",
+      "parent_count": 30,
+      "child_count": 69
+    },
+    {
+      "path": "data/anthropology-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "26e8a3a3b52f",
+      "parent_count": 24,
+      "child_count": 43
+    },
+    {
+      "path": "data/anti-black-racism-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "fcd2418237df",
+      "parent_count": 25,
+      "child_count": 38
+    },
+    {
+      "path": "data/applied-agriculture.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c80b2d7c5fc7",
+      "parent_count": 61,
+      "child_count": 78
+    },
+    {
+      "path": "data/arabic-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "ba7cdc22cac7",
+      "parent_count": 4,
+      "child_count": 10
+    },
+    {
+      "path": "data/arabic-studies-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "836ab7fe4e1d",
+      "parent_count": 11,
+      "child_count": 28
+    },
+    {
+      "path": "data/architecture-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7cee2f2530fa",
+      "parent_count": 11,
+      "child_count": 32
+    },
+    {
+      "path": "data/architecture-planning-preservation--construction-project-management-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7d801e08800d",
+      "parent_count": 8,
+      "child_count": 16
+    },
+    {
+      "path": "data/architecture-planning-preservation--creative-placemaking-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "2bf85af91a5d",
+      "parent_count": 6,
+      "child_count": 16
+    },
+    {
+      "path": "data/army-leadership-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "921b87c9e7a4",
+      "parent_count": 3,
+      "child_count": 11
+    },
+    {
+      "path": "data/art--immersive-media-design-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "33dff442073a",
+      "parent_count": 23,
+      "child_count": 44
+    },
+    {
+      "path": "data/art-education-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "f8ddcc96d461",
+      "parent_count": 14,
+      "child_count": 47
+    },
+    {
+      "path": "data/art-history-archaeology--archaeology-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "672d309bfc80",
+      "parent_count": 3,
+      "child_count": 11
+    },
+    {
+      "path": "data/art-history-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "d83e93cfbabd",
+      "parent_count": 10,
+      "child_count": 33
+    },
+    {
+      "path": "data/art-history-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "a47f1de21fcd",
+      "parent_count": 3,
+      "child_count": 7
+    },
+    {
+      "path": "data/art-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "6c10b36c2f57",
+      "parent_count": 35,
+      "child_count": 67
+    },
+    {
+      "path": "data/arts-humanities--creative-placemaking-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "636b0f427788",
+      "parent_count": 6,
+      "child_count": 16
+    },
+    {
+      "path": "data/arts-leadership-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7aa91255ed93",
+      "parent_count": 5,
+      "child_count": 10
+    },
+    {
+      "path": "data/asian-american-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "70a2ff3529c0",
+      "parent_count": 11,
+      "child_count": 22
+    },
+    {
+      "path": "data/astronomy--planetary-sciences-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "9d64fbd9ebc4",
+      "parent_count": 8,
+      "child_count": 16
+    },
+    {
+      "path": "data/astronomy-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "6be988ceae4a",
+      "parent_count": 13,
+      "child_count": 25
+    },
+    {
+      "path": "data/astronomy-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "059ec8c85f84",
+      "parent_count": 5,
+      "child_count": 10
+    },
+    {
+      "path": "data/atmospheric-chemistry-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "6d4aef223331",
+      "parent_count": 5,
+      "child_count": 15
+    },
+    {
+      "path": "data/atmospheric-oceanic-science-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c7ffdf3b816a",
+      "parent_count": 11,
+      "child_count": 35
+    },
+    {
+      "path": "data/atmospheric-sciences-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "f949ae4af309",
+      "parent_count": 4,
+      "child_count": 14
+    },
+    {
+      "path": "data/behavioral-social-sciences--criminology-criminal-justice-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "1e5783d6cd03",
+      "parent_count": 15,
+      "child_count": 40
+    },
+    {
+      "path": "data/behavioral-social-sciences--social-data-science-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "791f8061d968",
+      "parent_count": 48,
+      "child_count": 64
+    },
+    {
+      "path": "data/biochemistry-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "a0f087536125",
+      "parent_count": 12,
+      "child_count": 30
+    },
+    {
+      "path": "data/biocomputational-engineering-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "a54a07b5189e",
+      "parent_count": 17,
+      "child_count": 36
+    },
+    {
+      "path": "data/biocomputational-engineering.pdf",
+      "doc_type": "pdf",
+      "file_hash": "9c4f0b41e173",
+      "parent_count": 16,
+      "child_count": 37
+    },
+    {
+      "path": "data/bioe-fall-2025-gradplan-ADA.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8936f4f92a67",
+      "parent_count": 12,
+      "child_count": 21
+    },
+    {
+      "path": "data/bioengineering-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "a1f746c495da",
+      "parent_count": 9,
+      "child_count": 37
+    },
+    {
+      "path": "data/biology--neuroscience-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "37c81db7ad51",
+      "parent_count": 24,
+      "child_count": 46
+    },
+    {
+      "path": "data/business--computational-finance-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "1b3a48ffe01e",
+      "parent_count": 6,
+      "child_count": 12
+    },
+    {
+      "path": "data/business-analytics-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "64c472a16bcd",
+      "parent_count": 7,
+      "child_count": 11
+    },
+    {
+      "path": "data/chemical-biomolecular-engineering-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "3461d60c464b",
+      "parent_count": 11,
+      "child_count": 32
+    },
+    {
+      "path": "data/chemical-fall 2025-gradplan-ADA.pdf",
+      "doc_type": "pdf",
+      "file_hash": "9af03f4b74da",
+      "parent_count": 10,
+      "child_count": 28
+    },
+    {
+      "path": "data/chemistry-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8d9e080c95f3",
+      "parent_count": 17,
+      "child_count": 38
+    },
+    {
+      "path": "data/chinese-language-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "72567ef45f50",
+      "parent_count": 7,
+      "child_count": 11
+    },
+    {
+      "path": "data/chinese-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "591f9b61d8bd",
+      "parent_count": 14,
+      "child_count": 31
+    },
+    {
+      "path": "data/civil-environmental-engineering--construction-project-management-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "2ea0d0aea34b",
+      "parent_count": 8,
+      "child_count": 16
+    },
+    {
+      "path": "data/civil-environmental-engineering-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8d1a2a6bfd08",
+      "parent_count": 10,
+      "child_count": 35
+    },
+    {
+      "path": "data/civil-fall-2025-gradplan-ADA.pdf",
+      "doc_type": "pdf",
+      "file_hash": "ec2871c70893",
+      "parent_count": 11,
+      "child_count": 21
+    },
+    {
+      "path": "data/classical-languages-literature--archaeology-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "9a2733262b88",
+      "parent_count": 3,
+      "child_count": 11
+    },
+    {
+      "path": "data/classical-mythology-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "0dfd00900d14",
+      "parent_count": 5,
+      "child_count": 7
+    },
+    {
+      "path": "data/classics-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7a9f195fa3df",
+      "parent_count": 13,
+      "child_count": 41
+    },
+    {
+      "path": "data/communication--rhetoric-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "e2a67c606545",
+      "parent_count": 6,
+      "child_count": 18
+    },
+    {
+      "path": "data/communication-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "0c01342d4318",
+      "parent_count": 67,
+      "child_count": 82
+    },
+    {
+      "path": "data/communication.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7e09bfd1cf7f",
+      "parent_count": 20,
+      "child_count": 39
+    },
+    {
+      "path": "data/computer-engineering-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "77520eacf36f",
+      "parent_count": 18,
+      "child_count": 49
+    },
+    {
+      "path": "data/computer-engineering-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "527d2b3a8c7d",
+      "parent_count": 6,
+      "child_count": 12
+    },
+    {
+      "path": "data/computer-fall-2025-gradplan-ADA_0.pdf",
+      "doc_type": "pdf",
+      "file_hash": "bb1ce79c8fdf",
+      "parent_count": 10,
+      "child_count": 25
+    },
+    {
+      "path": "data/computer-mathematical-natural-sciences--biological-sciences.pdf",
+      "doc_type": "pdf",
+      "file_hash": "21998b61ae3f",
+      "parent_count": 74,
+      "child_count": 129
+    },
+    {
+      "path": "data/computer-science--computational-finance-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b52772a70a59",
+      "parent_count": 6,
+      "child_count": 12
+    },
+    {
+      "path": "data/computer-science--data-science-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "00a075bc1882",
+      "parent_count": 4,
+      "child_count": 19
+    },
+    {
+      "path": "data/computer-science--immersive-media-design-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "de5ca640b61a",
+      "parent_count": 24,
+      "child_count": 45
+    },
+    {
+      "path": "data/computer-science--robotics-autonomous-systems-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "4e8e53a8bfd9",
+      "parent_count": 14,
+      "child_count": 21
+    },
+    {
+      "path": "data/computer-science-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "2a9ae8c4c76f",
+      "parent_count": 33,
+      "child_count": 73
+    },
+    {
+      "path": "data/computer-science-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "88f7047acfb4",
+      "parent_count": 11,
+      "child_count": 19
+    },
+    {
+      "path": "data/creative-writing-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "86969c1f2f4c",
+      "parent_count": 6,
+      "child_count": 10
+    },
+    {
+      "path": "data/criminal-justice-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "36c87a6b3991",
+      "parent_count": 8,
+      "child_count": 12
+    },
+    {
+      "path": "data/criminology-criminal-justice--criminology-criminal-justice-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "f7de2d0ff139",
+      "parent_count": 12,
+      "child_count": 32
+    },
+    {
+      "path": "data/cyber-physical-systems-engineering-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "a286ce3fbdcb",
+      "parent_count": 21,
+      "child_count": 43
+    },
+    {
+      "path": "data/cyber-physical-systems-engineering.pdf",
+      "doc_type": "pdf",
+      "file_hash": "d624677b5937",
+      "parent_count": 22,
+      "child_count": 44
+    },
+    {
+      "path": "data/dance-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "f693faadccd6",
+      "parent_count": 19,
+      "child_count": 42
+    },
+    {
+      "path": "data/demography-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "03eba1c943fb",
+      "parent_count": 7,
+      "child_count": 11
+    },
+    {
+      "path": "data/digital-storytelling-poetics-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "55442b344192",
+      "parent_count": 7,
+      "child_count": 21
+    },
+    {
+      "path": "data/disability-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "d516d458c1bb",
+      "parent_count": 9,
+      "child_count": 13
+    },
+    {
+      "path": "data/early-childhood-special-education-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "20d2a81b82b3",
+      "parent_count": 18,
+      "child_count": 54
+    },
+    {
+      "path": "data/earth-history-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "761ea6cd2c4e",
+      "parent_count": 4,
+      "child_count": 9
+    },
+    {
+      "path": "data/earth-material-properties-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "00a3371698a7",
+      "parent_count": 5,
+      "child_count": 9
+    },
+    {
+      "path": "data/economics-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "85155d6ab8a8",
+      "parent_count": 16,
+      "child_count": 45
+    },
+    {
+      "path": "data/economics-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "bc73b718c766",
+      "parent_count": 4,
+      "child_count": 16
+    },
+    {
+      "path": "data/electrical-engineering-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "5d14c6e75ff6",
+      "parent_count": 18,
+      "child_count": 46
+    },
+    {
+      "path": "data/electrical-fall-2025-gradplan-ADA.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b53b08c58bb8",
+      "parent_count": 13,
+      "child_count": 27
+    },
+    {
+      "path": "data/elementary-education-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8e6199c24543",
+      "parent_count": 24,
+      "child_count": 60
+    },
+    {
+      "path": "data/elementary-middle-special-education-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b1d793cff1e2",
+      "parent_count": 28,
+      "child_count": 63
+    },
+    {
+      "path": "data/engineering--robotics-autonomous-systems-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "d3210269e7ba",
+      "parent_count": 14,
+      "child_count": 21
+    },
+    {
+      "path": "data/engineering--science-technology-ethics-policy-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "4abac7d6f8f7",
+      "parent_count": 6,
+      "child_count": 24
+    },
+    {
+      "path": "data/english-education-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "22bddd0a782c",
+      "parent_count": 18,
+      "child_count": 56
+    },
+    {
+      "path": "data/english-language-literature--cinema-media-studies-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c7d6ece64e0c",
+      "parent_count": 12,
+      "child_count": 38
+    },
+    {
+      "path": "data/english-language-literature--rhetoric-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "2624b0157aec",
+      "parent_count": 6,
+      "child_count": 18
+    },
+    {
+      "path": "data/english-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "2e937918b03b",
+      "parent_count": 15,
+      "child_count": 38
+    },
+    {
+      "path": "data/entomology--paleobiology-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8d41a7a5ed2e",
+      "parent_count": 9,
+      "child_count": 20
+    },
+    {
+      "path": "data/entomology-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "92b159f369a5",
+      "parent_count": 11,
+      "child_count": 17
+    },
+    {
+      "path": "data/entrepreneurial-leadership-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "a33b90762933",
+      "parent_count": 7,
+      "child_count": 15
+    },
+    {
+      "path": "data/environmental-science-policy--sustainability-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "fc51bff5dc9b",
+      "parent_count": 4,
+      "child_count": 18
+    },
+    {
+      "path": "data/environmental-science-policy-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "54fda76108cf",
+      "parent_count": 68,
+      "child_count": 95
+    },
+    {
+      "path": "data/environmental-science-technology-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8950e8f70c9b",
+      "parent_count": 45,
+      "child_count": 78
+    },
+    {
+      "path": "data/family-health-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "56fab145395f",
+      "parent_count": 13,
+      "child_count": 28
+    },
+    {
+      "path": "data/fermentation-science-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "dd1e69e09afe",
+      "parent_count": 14,
+      "child_count": 32
+    },
+    {
+      "path": "data/fermentation-science.pdf",
+      "doc_type": "pdf",
+      "file_hash": "d3fd687b41b2",
+      "parent_count": 14,
+      "child_count": 31
+    },
+    {
+      "path": "data/finance-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "3a0abdc1814e",
+      "parent_count": 10,
+      "child_count": 19
+    },
+    {
+      "path": "data/fire-protection-engineering-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8d8bd679b9a8",
+      "parent_count": 22,
+      "child_count": 54
+    },
+    {
+      "path": "data/fire-protection-fall-2025-gradplan-ADA.pdf",
+      "doc_type": "pdf",
+      "file_hash": "523fe6cb7f07",
+      "parent_count": 10,
+      "child_count": 25
+    },
+    {
+      "path": "data/french-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "26b9ab5e7050",
+      "parent_count": 8,
+      "child_count": 28
+    },
+    {
+      "path": "data/french-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "fb1c3e87176c",
+      "parent_count": 6,
+      "child_count": 9
+    },
+    {
+      "path": "data/general-business-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "e28d675be962",
+      "parent_count": 6,
+      "child_count": 9
+    },
+    {
+      "path": "data/general-education-requirements.pdf",
+      "doc_type": "pdf",
+      "file_hash": "9385846cb8f4",
+      "parent_count": 13,
+      "child_count": 51
+    },
+    {
+      "path": "data/geochemistry-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "0d3ea20704c0",
+      "parent_count": 5,
+      "child_count": 10
+    },
+    {
+      "path": "data/geographic-information-science-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "75943e725f6a",
+      "parent_count": 7,
+      "child_count": 13
+    },
+    {
+      "path": "data/geographical-sciences-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "0097cdac9654",
+      "parent_count": 30,
+      "child_count": 75
+    },
+    {
+      "path": "data/geology--paleobiology-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "5db8f795bae0",
+      "parent_count": 9,
+      "child_count": 20
+    },
+    {
+      "path": "data/geology--planetary-sciences-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "cb8c8240b55c",
+      "parent_count": 8,
+      "child_count": 16
+    },
+    {
+      "path": "data/geology-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "08fc7e7d79fc",
+      "parent_count": 41,
+      "child_count": 74
+    },
+    {
+      "path": "data/geophysics-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "4b0583a84723",
+      "parent_count": 4,
+      "child_count": 10
+    },
+    {
+      "path": "data/german-studies-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "0174f4acbd3a",
+      "parent_count": 12,
+      "child_count": 29
+    },
+    {
+      "path": "data/german-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8638bbfb48d6",
+      "parent_count": 2,
+      "child_count": 6
+    },
+    {
+      "path": "data/global-engineering-leadership-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "03e4e5cc36b2",
+      "parent_count": 5,
+      "child_count": 12
+    },
+    {
+      "path": "data/global-health-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "9429de223fb5",
+      "parent_count": 17,
+      "child_count": 37
+    },
+    {
+      "path": "data/global-poverty-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "a03c6c4e6a05",
+      "parent_count": 17,
+      "child_count": 24
+    },
+    {
+      "path": "data/global-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "fb1de2b14d76",
+      "parent_count": 2,
+      "child_count": 8
+    },
+    {
+      "path": "data/global-terrorism-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "ec3da8251c77",
+      "parent_count": 13,
+      "child_count": 18
+    },
+    {
+      "path": "data/government-politics-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8ff60dd6d5f8",
+      "parent_count": 29,
+      "child_count": 61
+    },
+    {
+      "path": "data/greek-language-culture-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "02014f228411",
+      "parent_count": 3,
+      "child_count": 8
+    },
+    {
+      "path": "data/hearing-speech-sciences-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "44fcc7bd79c2",
+      "parent_count": 17,
+      "child_count": 46
+    },
+    {
+      "path": "data/hearing-speech-sciences-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "6a905741ff2c",
+      "parent_count": 8,
+      "child_count": 16
+    },
+    {
+      "path": "data/hebrew-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "f376bc3d90f2",
+      "parent_count": 10,
+      "child_count": 23
+    },
+    {
+      "path": "data/hebrew-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "0a531a8ca611",
+      "parent_count": 10,
+      "child_count": 23
+    },
+    {
+      "path": "data/history--east-asian-studies-certificate.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c94d7573c39a",
+      "parent_count": 8,
+      "child_count": 19
+    },
+    {
+      "path": "data/history-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "d29f45db6fe9",
+      "parent_count": 8,
+      "child_count": 25
+    },
+    {
+      "path": "data/history-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "4869c912bb9c",
+      "parent_count": 3,
+      "child_count": 8
+    },
+    {
+      "path": "data/history-theory-architecture-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "51209bc5f9cf",
+      "parent_count": 7,
+      "child_count": 11
+    },
+    {
+      "path": "data/human-development-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "ac8890c141c7",
+      "parent_count": 22,
+      "child_count": 42
+    },
+    {
+      "path": "data/human-development-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "402c4cab8686",
+      "parent_count": 11,
+      "child_count": 18
+    },
+    {
+      "path": "data/humanities-health-medicine-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "d5752aeef246",
+      "parent_count": 6,
+      "child_count": 15
+    },
+    {
+      "path": "data/hydrology-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "748fb29e6ca9",
+      "parent_count": 4,
+      "child_count": 9
+    },
+    {
+      "path": "data/individual-studies.pdf",
+      "doc_type": "pdf",
+      "file_hash": "843f3fcdcfd7",
+      "parent_count": 2,
+      "child_count": 9
+    },
+    {
+      "path": "data/information--science-technology-ethics-policy-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "37e83b8fc093",
+      "parent_count": 6,
+      "child_count": 24
+    },
+    {
+      "path": "data/information--social-data-science-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "6cac2c208880",
+      "parent_count": 48,
+      "child_count": 63
+    },
+    {
+      "path": "data/information-risk-management-ethics-privacy-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7d88f6f9daea",
+      "parent_count": 8,
+      "child_count": 16
+    },
+    {
+      "path": "data/information-risk-management-ethics-privacy.pdf",
+      "doc_type": "pdf",
+      "file_hash": "ff68bf0cbcd5",
+      "parent_count": 8,
+      "child_count": 16
+    },
+    {
+      "path": "data/information-science-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "151088a72ab6",
+      "parent_count": 11,
+      "child_count": 36
+    },
+    {
+      "path": "data/information-science.pdf",
+      "doc_type": "pdf",
+      "file_hash": "146789f84af1",
+      "parent_count": 25,
+      "child_count": 111
+    },
+    {
+      "path": "data/information-systems-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "14347134140b",
+      "parent_count": 9,
+      "child_count": 24
+    },
+    {
+      "path": "data/international-agriculture-natural-resources-certificate.pdf",
+      "doc_type": "pdf",
+      "file_hash": "4eb29bae7a8b",
+      "parent_count": 6,
+      "child_count": 14
+    },
+    {
+      "path": "data/international-business-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8ef45e7227ba",
+      "parent_count": 13,
+      "child_count": 23
+    },
+    {
+      "path": "data/international-development-conflict-management-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "439c0932f0df",
+      "parent_count": 3,
+      "child_count": 10
+    },
+    {
+      "path": "data/international-relations-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "77b918ee7fac",
+      "parent_count": 21,
+      "child_count": 52
+    },
+    {
+      "path": "data/israel-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b1b86dabb382",
+      "parent_count": 9,
+      "child_count": 20
+    },
+    {
+      "path": "data/italian-language-culture-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "45724e393b48",
+      "parent_count": 4,
+      "child_count": 7
+    },
+    {
+      "path": "data/italian-studies-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "3e209c23cf0e",
+      "parent_count": 6,
+      "child_count": 16
+    },
+    {
+      "path": "data/japanese-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8228b5ad81c2",
+      "parent_count": 12,
+      "child_count": 34
+    },
+    {
+      "path": "data/japanese-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c7ffd55c46f0",
+      "parent_count": 8,
+      "child_count": 11
+    },
+    {
+      "path": "data/jewish-studies-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "dfc9e5c47b95",
+      "parent_count": 15,
+      "child_count": 32
+    },
+    {
+      "path": "data/jewish-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "710e237c072d",
+      "parent_count": 5,
+      "child_count": 8
+    },
+    {
+      "path": "data/journalism-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c892d73803d6",
+      "parent_count": 25,
+      "child_count": 59
+    },
+    {
+      "path": "data/kinesiology-biomechanics-motor-control-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "39e62747bef5",
+      "parent_count": 6,
+      "child_count": 12
+    },
+    {
+      "path": "data/kinesiology-exercise-physiology-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "abbb83838d70",
+      "parent_count": 6,
+      "child_count": 12
+    },
+    {
+      "path": "data/kinesiology-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c11d20647fb1",
+      "parent_count": 9,
+      "child_count": 21
+    },
+    {
+      "path": "data/kinesiology-sport-commerce-culture-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "0346ac8edc5d",
+      "parent_count": 6,
+      "child_count": 12
+    },
+    {
+      "path": "data/korean-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "abf8857f9f8b",
+      "parent_count": 6,
+      "child_count": 13
+    },
+    {
+      "path": "data/landscape-architecture-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7871f47c45f0",
+      "parent_count": 20,
+      "child_count": 62
+    },
+    {
+      "path": "data/landscape-management-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c9a96e46d4e4",
+      "parent_count": 4,
+      "child_count": 13
+    },
+    {
+      "path": "data/languages-literatures-cultures--cinema-media-studies-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "5b0822d194c1",
+      "parent_count": 12,
+      "child_count": 38
+    },
+    {
+      "path": "data/languages-literatures-cultures--east-asian-studies-certificate.pdf",
+      "doc_type": "pdf",
+      "file_hash": "506d37ab7a40",
+      "parent_count": 8,
+      "child_count": 19
+    },
+    {
+      "path": "data/latin-american-caribbean-studies-certificate.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7f09e8f1cfa8",
+      "parent_count": 5,
+      "child_count": 13
+    },
+    {
+      "path": "data/latin-american-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "9b9def816d5f",
+      "parent_count": 4,
+      "child_count": 15
+    },
+    {
+      "path": "data/latin-language-literature-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "97e8897be68f",
+      "parent_count": 3,
+      "child_count": 7
+    },
+    {
+      "path": "data/law-society-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "34fd3257c543",
+      "parent_count": 4,
+      "child_count": 10
+    },
+    {
+      "path": "data/leadership-studies-certificate.pdf",
+      "doc_type": "pdf",
+      "file_hash": "30f808aa0812",
+      "parent_count": 6,
+      "child_count": 19
+    },
+    {
+      "path": "data/leadership-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "e8cb567c45f1",
+      "parent_count": 6,
+      "child_count": 21
+    },
+    {
+      "path": "data/lesbian-gay-bisexual-transgender-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c836a35e4f23",
+      "parent_count": 7,
+      "child_count": 19
+    },
+    {
+      "path": "data/linguistics-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "3b8a5c1df4bc",
+      "parent_count": 11,
+      "child_count": 34
+    },
+    {
+      "path": "data/linguistics-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "6dc58179e665",
+      "parent_count": 4,
+      "child_count": 7
+    },
+    {
+      "path": "data/management-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "15ad652a01fb",
+      "parent_count": 7,
+      "child_count": 24
+    },
+    {
+      "path": "data/management.pdf",
+      "doc_type": "pdf",
+      "file_hash": "225784429706",
+      "parent_count": 8,
+      "child_count": 23
+    },
+    {
+      "path": "data/marketing-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "20bd5a011e03",
+      "parent_count": 10,
+      "child_count": 23
+    },
+    {
+      "path": "data/marketing.pdf",
+      "doc_type": "pdf",
+      "file_hash": "acf2983f6f2e",
+      "parent_count": 10,
+      "child_count": 22
+    },
+    {
+      "path": "data/materials-fall2025-gradplan-ADA.pdf",
+      "doc_type": "pdf",
+      "file_hash": "ce8c5cc4dcba",
+      "parent_count": 12,
+      "child_count": 25
+    },
+    {
+      "path": "data/materials-science-engineering-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "4a0e62a56d3e",
+      "parent_count": 13,
+      "child_count": 37
+    },
+    {
+      "path": "data/mathematics--data-science-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "40a0943e11d0",
+      "parent_count": 4,
+      "child_count": 19
+    },
+    {
+      "path": "data/mathematics-education-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "68107dc830be",
+      "parent_count": 14,
+      "child_count": 42
+    },
+    {
+      "path": "data/mathematics-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "4bea854aab94",
+      "parent_count": 85,
+      "child_count": 127
+    },
+    {
+      "path": "data/mathematics-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7f3aa30aa0ed",
+      "parent_count": 9,
+      "child_count": 12
+    },
+    {
+      "path": "data/mechanical-engineering-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "32c90a5e036b",
+      "parent_count": 11,
+      "child_count": 35
+    },
+    {
+      "path": "data/mechanical-fall-2025-gradlan-ADA.pdf",
+      "doc_type": "pdf",
+      "file_hash": "6a3e6819127d",
+      "parent_count": 10,
+      "child_count": 23
+    },
+    {
+      "path": "data/mechatronics-engineering-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8936a9ceb555",
+      "parent_count": 13,
+      "child_count": 34
+    },
+    {
+      "path": "data/mechatronics-engineering.pdf",
+      "doc_type": "pdf",
+      "file_hash": "9616a0f1278a",
+      "parent_count": 13,
+      "child_count": 33
+    },
+    {
+      "path": "data/media-technology-democracy-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "9ec1d953c07b",
+      "parent_count": 9,
+      "child_count": 15
+    },
+    {
+      "path": "data/meteorology-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7a25e9d6cc9b",
+      "parent_count": 4,
+      "child_count": 13
+    },
+    {
+      "path": "data/middle-eastern-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "a86501d2e074",
+      "parent_count": 8,
+      "child_count": 15
+    },
+    {
+      "path": "data/middle-school-education-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "689959e16f2e",
+      "parent_count": 17,
+      "child_count": 47
+    },
+    {
+      "path": "data/military-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "0a0c9a1f88d8",
+      "parent_count": 10,
+      "child_count": 20
+    },
+    {
+      "path": "data/music-culture-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "5cc906851ef9",
+      "parent_count": 8,
+      "child_count": 17
+    },
+    {
+      "path": "data/music-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b946afec1b13",
+      "parent_count": 16,
+      "child_count": 45
+    },
+    {
+      "path": "data/music-performance-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b32f89701de3",
+      "parent_count": 5,
+      "child_count": 9
+    },
+    {
+      "path": "data/nanoscale-science-technology-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "1008062d9947",
+      "parent_count": 3,
+      "child_count": 13
+    },
+    {
+      "path": "data/naval-science-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "d7f9b57492af",
+      "parent_count": 5,
+      "child_count": 9
+    },
+    {
+      "path": "data/neuroscience-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "4143209f1ce2",
+      "parent_count": 10,
+      "child_count": 22
+    },
+    {
+      "path": "data/nonprofit-leadership-and-social-innovation-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "79230ea2fdb5",
+      "parent_count": 8,
+      "child_count": 16
+    },
+    {
+      "path": "data/nuclear-engineering-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "adf6bbfdd940",
+      "parent_count": 3,
+      "child_count": 8
+    },
+    {
+      "path": "data/nutrition-food-science-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "0dc030b42646",
+      "parent_count": 24,
+      "child_count": 37
+    },
+    {
+      "path": "data/operations-management-business-analytics-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7cce20edf832",
+      "parent_count": 9,
+      "child_count": 20
+    },
+    {
+      "path": "data/persian-studies-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "2868d01ca25e",
+      "parent_count": 13,
+      "child_count": 38
+    },
+    {
+      "path": "data/persian-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b68cf840f9cb",
+      "parent_count": 6,
+      "child_count": 13
+    },
+    {
+      "path": "data/philosophy-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c5fc7a868b4e",
+      "parent_count": 7,
+      "child_count": 18
+    },
+    {
+      "path": "data/philosophy-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "0072fa17ab5f",
+      "parent_count": 3,
+      "child_count": 13
+    },
+    {
+      "path": "data/philosophy-politics-economics-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "367a31fe16ba",
+      "parent_count": 15,
+      "child_count": 24
+    },
+    {
+      "path": "data/physics-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c642596254ea",
+      "parent_count": 23,
+      "child_count": 37
+    },
+    {
+      "path": "data/physics-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b715771e5a7f",
+      "parent_count": 7,
+      "child_count": 18
+    },
+    {
+      "path": "data/plant-sciences-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "523e138a7c0c",
+      "parent_count": 29,
+      "child_count": 41
+    },
+    {
+      "path": "data/portuguese-brazilian-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "4be04ec44a30",
+      "parent_count": 8,
+      "child_count": 14
+    },
+    {
+      "path": "data/professional-writing-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "e63287702130",
+      "parent_count": 6,
+      "child_count": 21
+    },
+    {
+      "path": "data/project-management-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "4ffd588ef4a1",
+      "parent_count": 3,
+      "child_count": 7
+    },
+    {
+      "path": "data/psychology--neuroscience-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c62ffc2115fe",
+      "parent_count": 24,
+      "child_count": 46
+    },
+    {
+      "path": "data/psychology-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c9d3942b55c4",
+      "parent_count": 16,
+      "child_count": 46
+    },
+    {
+      "path": "data/public-health-practice-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "40fc0fe64269",
+      "parent_count": 12,
+      "child_count": 28
+    },
+    {
+      "path": "data/public-health-science-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "adfe67c28932",
+      "parent_count": 11,
+      "child_count": 28
+    },
+    {
+      "path": "data/public-health-science.pdf",
+      "doc_type": "pdf",
+      "file_hash": "1935454635b1",
+      "parent_count": 13,
+      "child_count": 33
+    },
+    {
+      "path": "data/public-leadership-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "a50b459b69cb",
+      "parent_count": 7,
+      "child_count": 17
+    },
+    {
+      "path": "data/public-policy--education-policy-equity-justice-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "ef6224ac2300",
+      "parent_count": 5,
+      "child_count": 21
+    },
+    {
+      "path": "data/public-policy--science-technology-ethics-policy-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "64d186396634",
+      "parent_count": 6,
+      "child_count": 24
+    },
+    {
+      "path": "data/public-policy--sustainability-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "df36ef906f35",
+      "parent_count": 4,
+      "child_count": 18
+    },
+    {
+      "path": "data/public-policy-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b28e153e433c",
+      "parent_count": 12,
+      "child_count": 22
+    },
+    {
+      "path": "data/quantum-science-engineering-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "4222b3be709f",
+      "parent_count": 10,
+      "child_count": 20
+    },
+    {
+      "path": "data/real-estate-built-environment-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "a4c0ad96e23f",
+      "parent_count": 22,
+      "child_count": 35
+    },
+    {
+      "path": "data/real-estate-development-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "1639c6afb655",
+      "parent_count": 4,
+      "child_count": 12
+    },
+    {
+      "path": "data/registration_guide.pdf",
+      "doc_type": "pdf",
+      "file_hash": "d466994ef761",
+      "parent_count": 226,
+      "child_count": 783
+    },
+    {
+      "path": "data/religions-ancient-middle-east-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c37cab57c6df",
+      "parent_count": 10,
+      "child_count": 21
+    },
+    {
+      "path": "data/religious-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "371d1d46fe0b",
+      "parent_count": 13,
+      "child_count": 27
+    },
+    {
+      "path": "data/remote-sensing-environmental-change-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "5924b585e41f",
+      "parent_count": 8,
+      "child_count": 12
+    },
+    {
+      "path": "data/romance-languages-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "08bafc1b8801",
+      "parent_count": 14,
+      "child_count": 23
+    },
+    {
+      "path": "data/russian-language-literature-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "c5bd576993f0",
+      "parent_count": 6,
+      "child_count": 17
+    },
+    {
+      "path": "data/russian-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "8813407eaf9b",
+      "parent_count": 7,
+      "child_count": 16
+    },
+    {
+      "path": "data/science-education-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "986c613826f2",
+      "parent_count": 13,
+      "child_count": 44
+    },
+    {
+      "path": "data/secondary-education-certificate.pdf",
+      "doc_type": "pdf",
+      "file_hash": "917e305b228a",
+      "parent_count": 1,
+      "child_count": 2
+    },
+    {
+      "path": "data/secondary-education-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "06a3fd8372a3",
+      "parent_count": 11,
+      "child_count": 21
+    },
+    {
+      "path": "data/semester-calendar.pdf",
+      "doc_type": "pdf",
+      "file_hash": "e466c48a5632",
+      "parent_count": 7,
+      "child_count": 7
+    },
+    {
+      "path": "data/social-studies-education-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "f6e0beadce2d",
+      "parent_count": 39,
+      "child_count": 83
+    },
+    {
+      "path": "data/sociology-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "946e45293c97",
+      "parent_count": 10,
+      "child_count": 30
+    },
+    {
+      "path": "data/sociology-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7b16cc1dc230",
+      "parent_count": 4,
+      "child_count": 13
+    },
+    {
+      "path": "data/soil-science-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "655d7bc5746a",
+      "parent_count": 4,
+      "child_count": 12
+    },
+    {
+      "path": "data/spanish-heritage-language-latino-culture-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "3539a7a6356a",
+      "parent_count": 11,
+      "child_count": 18
+    },
+    {
+      "path": "data/spanish-language-culture-professional-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "a554741e6697",
+      "parent_count": 9,
+      "child_count": 15
+    },
+    {
+      "path": "data/spanish-language-literatures-culture-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "4c7f130ec11f",
+      "parent_count": 25,
+      "child_count": 46
+    },
+    {
+      "path": "data/spanish-literature-linguistics-culture-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "ef92fdeff2e8",
+      "parent_count": 8,
+      "child_count": 14
+    },
+    {
+      "path": "data/statistics-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "3e09a2fe1b42",
+      "parent_count": 7,
+      "child_count": 10
+    },
+    {
+      "path": "data/supply-chain-management-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "00aa0a43f5db",
+      "parent_count": 11,
+      "child_count": 22
+    },
+    {
+      "path": "data/surficial-geology-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "ff07ddb3c2d1",
+      "parent_count": 5,
+      "child_count": 10
+    },
+    {
+      "path": "data/survey-methodology-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "fc9f29359609",
+      "parent_count": 15,
+      "child_count": 46
+    },
+    {
+      "path": "data/teaching-learning-policy-leadership--education-policy-equity-justice-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "d6aa9208d96b",
+      "parent_count": 5,
+      "child_count": 21
+    },
+    {
+      "path": "data/technology-entrepreneurship-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "6e5ffe4eae02",
+      "parent_count": 7,
+      "child_count": 12
+    },
+    {
+      "path": "data/technology-info-design-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "691be8c1b71c",
+      "parent_count": 18,
+      "child_count": 29
+    },
+    {
+      "path": "data/technology-innovation-leadership-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b9174f684083",
+      "parent_count": 7,
+      "child_count": 19
+    },
+    {
+      "path": "data/technology-innovation-leadership.pdf",
+      "doc_type": "pdf",
+      "file_hash": "87762ccd710f",
+      "parent_count": 6,
+      "child_count": 19
+    },
+    {
+      "path": "data/tesol-education-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b34063977517",
+      "parent_count": 6,
+      "child_count": 12
+    },
+    {
+      "path": "data/theatre-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "7bc66501e6fd",
+      "parent_count": 19,
+      "child_count": 46
+    },
+    {
+      "path": "data/universities-shady-grove--biological-sciences.pdf",
+      "doc_type": "pdf",
+      "file_hash": "0bc37319524c",
+      "parent_count": 25,
+      "child_count": 37
+    },
+    {
+      "path": "data/university-policies.pdf",
+      "doc_type": "pdf",
+      "file_hash": "d41e70b3bf07",
+      "parent_count": 84,
+      "child_count": 358
+    },
+    {
+      "path": "data/us-latina-latino-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "89ad47bf1541",
+      "parent_count": 4,
+      "child_count": 11
+    },
+    {
+      "path": "data/women-gender-sexuality-studies--black-womens-studies-minor.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b0df95be5d6e",
+      "parent_count": 6,
+      "child_count": 17
+    },
+    {
+      "path": "data/women-gender-sexuality-studies-certificate.pdf",
+      "doc_type": "pdf",
+      "file_hash": "ffec84b75d57",
+      "parent_count": 7,
+      "child_count": 15
+    },
+    {
+      "path": "data/womens-gender-sexuality-studies-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "84938a23e2e4",
+      "parent_count": 34,
+      "child_count": 51
+    },
+    {
+      "path": "data/world-language-education-major.pdf",
+      "doc_type": "pdf",
+      "file_hash": "b470246ce7d1",
+      "parent_count": 16,
+      "child_count": 53
+    }
+  ]
+}

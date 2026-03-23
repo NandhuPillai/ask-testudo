@@ -1,0 +1,11 @@
+{
+  "page_content": "ENPM652 Applied Finite Element Methods (3 Credits) Introduces the Finite Element Method (FEM), widely used to perform analyses in areas such as structural/solid mechanics, fluid mechanics, heat transfer. This course presents an introduction to the mathematical and physical concepts underpinning the FEM framework. Additionally, ANSYS Workbench software will be used to demonstrate engineering- scale examples for stress and thermal analysis problems. There are no formal requirements for this course although students will beneﬁt from a familiarity with basic concepts in linear algebra, calculus, differential equations, solid mechanics, and heat transfer. Restriction: Must not have completed ENME674; and must not have completed ENAE652. Credit Only Granted for: ENME674, ENAE652, or ENPM652.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 687,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "c44237b7-1f13-5f25-aace-7da55744ae3c"
+  }
+}

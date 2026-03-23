@@ -4,7 +4,7 @@ langchain
 langchain-cohere
 langchain-pinecone
 langchain-community
-pinecone-client
+pinecone
 pinecone-text
 cohere
 openai

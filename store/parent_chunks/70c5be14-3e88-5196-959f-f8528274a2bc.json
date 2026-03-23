@@ -1,0 +1,11 @@
+{
+  "page_content": "Courses in 2025-2026 Academic Catalog - DRAFT COPY\n\nCMSC414 Computer and Network Security (3 Credits) An introduction to the topic of security in the context of computer systems and networks. Identify, analyze, and solve network-related security problems in computer systems. Fundamentals of number theory, authentication, and encryption technologies, as well as the practical problems that have to be solved in order to make those technologies workable in a networked environment, particularly in the wide-area Internet environment. Prerequisite: Minimum grade of C- in CMSC330 and CMSC351; or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program. Restriction: Permission of CMNS-Computer Science department. Credit Only Granted for: CMSC414, ENEE459C, or ENEE457.\n\nCMSC416 Introduction to Parallel Computing (3 Credits) Introduction to parallel computing. Topics include programming for shared memory and distributed memory parallel architectures, and fundamental issues in design, development, and performance analysis of parallel programs. Prerequisite: Minimum grade of C- in CMSC330 and CMSC351; or permission of instructor. Jointly offered with: CMSC616. Restriction: Permission of CMNS-Computer Science department. Credit Only Granted for: CMSC416, CMSC498X, CMSC616, or CMSC818X. Formerly: CMSC498X.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 111,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "70c5be14-3e88-5196-959f-f8528274a2bc"
+  }
+}

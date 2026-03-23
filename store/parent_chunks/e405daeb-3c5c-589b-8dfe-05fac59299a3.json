@@ -1,0 +1,11 @@
+{
+  "page_content": "DATA605 Big Data Systems (3 Credits) An overview of data management systems for performing data science on large volumes of data, including relational databases, and NoSQL systems. The topics covered include: different types of data management systems, their pros and cons, how and when to use those systems, and best practices for data modeling. Prerequisite: DATA602. Restriction: Must be in the Data Science Post-Baccalaureate Certiﬁcate of Professional Studies or Master of Professional Studies in Data Science and Analytics program. Credit Only Granted for: DATA605 or CMSC642. Formerly: CMSC642.\n\nDATA606 Algorithms for Data Science (3 Credits) Provides an in-depth understanding of some of the key data structures and algorithms essential for advanced data science. Topics include random sampling, graph algorithms, network science, data streams, and optimization. Prerequisite: DATA602. Restriction: Must be in the Data Science Post-Baccalaureate Certiﬁcate of Professional Studies or Master of Professional Studies in Data Science and Analytics program. Credit Only Granted for: DATA606 or CMSC644. Formerly: CMSC644.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 587,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "e405daeb-3c5c-589b-8dfe-05fac59299a3"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "page_content": "ENPM695 Secure Operating Systems (3 Credits) Operating systems are the basic building block on which programmers build applications and on which security-minded professionals rely, whether they are monitoring activity on a computer, testing applications for security, or determining how malicious code affected their network. This course covers advanced topics in operating systems including process management and communication, remote procedure calls, memory management (including shared memory and virtual memory), checkpointing and recovery, ﬁle system, I/O subsystem and device management, distributed ﬁle systems and security. The course consists of reading and discussing research papers and includes a course project. Prerequisite: ENPM691 and CMSC106; or permission of instructor. Restriction: Permission of Maryland Applied Graduate Engineering. Additional Information: This course assumes knowledge of C programming and a previous operating systems class or knowledge in various issues such as process management, process synchronization, the critical section problem, CPU scheduling, memory management, secondary storage management.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 690,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "f5ad600c-9bd9-51c1-8b69-46ee18fe3e8e"
+  }
+}

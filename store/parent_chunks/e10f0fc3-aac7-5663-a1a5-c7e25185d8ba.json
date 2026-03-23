@@ -1,0 +1,11 @@
+{
+  "page_content": "MATH461 Linear Algebra for Scientists and Engineers (3 Credits) Basic concepts of linear algebra. This course is similar to MATH240, but with more extensive coverage of the topics needed in applied linear algebra: change of basis, complex eigenvalues, diagonalization, the Jordan canonical form. Prerequisite: Minimum grade of C- in MATH141. Credit Only Granted for: MATH240, MATH341, or MATH461. Additional Information: This course may not be used towards the upper level math requirements for MATH/STAT majors.\n\nMATH462 Partial Differential Equations (3 Credits) Linear spaces and operators, orthogonality, Sturm-Liouville problems and eigenfunction expansions for ordinary differential equations. Introduction to partial differential equations, including the heat equation, wave equation and Laplace's equation. Boundary value problems, initial value problems and initial-boundary value problems. Prerequisite: 1 course with a minimum grade of C- from (MATH241, MATH340); and 1 course with a minimum grade of C- from (MATH246, MATH341).\n\nMATH463 Complex Variables (3 Credits) The algebra of complex numbers, analytic functions, mapping properties of the elementary functions. Cauchy integral formula. Theory of residues and application to evaluation of integrals. Conformal mapping. Prerequisite: 1 course with a minimum grade of C- from (MATH241, MATH340).",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 796,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "e10f0fc3-aac7-5663-a1a5-c7e25185d8ba"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "page_content": "EPIB685 Causal Inference in Epidemiology (3 Credits) Public health and epidemiologic research are largely focused on asking causal questions (e.g., \"Does X cause disease Y?\"); however, most observational studies do not have appropriate study designs and analytic approaches to generate causal conclusions. This course will introduce students to causal inference fundamentals and methodology, with a focus on how to generate and analyze data to make causal inferences. This course will review the differences between association and causation, how to develop causal research questions, the underlying assumptions needed for causal inference, and how to design and analyze studies with causal questions. Applied examples and hands-on exercises will be used throughout the course to help students master the concepts. Prerequisite: EPIB611 or equivalent; and EPIB651 or equivalent; or permission from instructor. Recommended: EPIB612 or equivalent and previous programming experience through coursework (e.g., EPIB695, EPIB697) or other activities.\n\nEPIB689 Advanced Topics in Epidemiology or Biostatistics (1-6 Credits) Special topics in epidemiology or biostatistics. Repeatable to: 6 credits if content differs.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 705,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "49622703-1ee5-5ffa-88a4-ac0c02bb52f7"
+  }
+}

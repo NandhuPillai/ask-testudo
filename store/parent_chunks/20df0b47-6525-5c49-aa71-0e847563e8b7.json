@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEB457 Foundations of Databases for Web Applications (3 Credits) An introduction to database systems and its applications to the Internet. It develops the database approach as a means to model the real world. The course will cover the fundamentals of the relational model, structured query language (SQL), data modeling, and database administration. This will cover an in-depth coverage of the relational model, logical database design, query languages, and other DB concepts including query optimization, concurrency control, transaction management, and log based crash recovery. In addition, students will be exposed to web- based database processing, data warehouse structures and fundamental concepts of nonrelational structured data storage (Big Data). Concepts will be illustrated with well-known Database Management System (DBMS) products such as MS Access, MS SQL Developer, Oracle Database XE, and MySQL Community Server. Prerequisite: Minimum grade of C- in ENEB345, ENEB352, and ENEB355; and permission from the Cyber-Physical Systems Engineering program. Restriction: Must be in the Cyber-Physical Systems Engineering program.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 165,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "20df0b47-6525-5c49-aa71-0e847563e8b7"
+  }
+}

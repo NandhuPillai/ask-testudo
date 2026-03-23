@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE445 Computer Laboratory (2 Credits) This laboratory course focuses on the hardware/software interface in computer systems. Hands-on experiments are used to teach design, construction, analysis, and measurement of both hardware and software for embedded systems. Projects emphasize using microcontrollers for control, sensing, and communication through various I/O devices. Prerequisite: Minimum grade of C- in ENEE205 and ENEE350. Restriction: Must be in one of the following programs (Engineering: Computer; Engineering: Electrical); and permission of ENGR-Electrical & Computer Engineering department.\n\nENEE446 Digital Computer Design (3 Credits) Hardware design of digital computers. Arithmetic and logic units, adders, multipliers and dividers. Floating-point arithmetic units. Bus and register structures. Control units, both hardwired and microprogrammed. Index registers, stacks, and other addressing schemes. Interrupts, DMA and interfacing. Prerequisite: ENEE350; and completion of all lower-division technical courses in the EE curriculum. Restriction: Permission of ENGR-Electrical & Computer Engineering department. Credit Only Granted for: ENEE446 or CMSC411.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 171,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "9e233cd5-8867-59de-9cdf-5e8950fa5c77"
+  }
+}

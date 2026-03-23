@@ -1,0 +1,11 @@
+{
+  "page_content": "INST772 Policy and Practice of Ethical Hacking (3 Credits) Provides students with an understanding of the ethical frameworks and technical approach in the conduct of penetration testing and ethical hacking. Students will work with real systems in real environments and will leverage real vulnerability analysis and exploitation tools in a live environment. Upon completion, students will understand the overall concepts guiding penetration testing from a practical, hands-on vantage point. Prerequisite: Must have completed or be concurrently enrolled in INST771.\n\nINST773 Cyber Intelligence Fundamentals (3 Credits) Provides students with an understanding of how to identify, track, and report on malicious activity. Students will learn to identify and work with malware and network data and pair it with a broader set of threat intelligence information to draw conclusions based on the totality of open source information and network intelligence. Students will gain a in depth understanding of the principles of cyber threat intelligence and techniques applied in the cyber threat industry. Students will engage in in-depth discussion and practice in evaluating and interpreting indicators of compromise, command and control, and artifacts left by malicious actors. Prerequisite: INST771.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 769,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "502a90a3-2e70-57ae-9ebf-ce7267b9456a"
+  }
+}

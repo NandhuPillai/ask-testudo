@@ -1,0 +1,11 @@
+{
+  "page_content": "CMSC725 Geographical Information Systems and Spatial Databases (3 Credits) Topics in geographic information systems and spatial databases. Integrates related results from databases, cartography, geography, computer graphics, ﬁle access methods, computational geometry, image processing, data structures, and programming languages. Topics include: cartographic modeling, principles of cartography, methods from computational geometry, principles of spatial databases, access methods, and spatial data structures. The architecture of some existing spatial databases and geographic information systems will be examined in greater detail. Prerequisite: CMSC424 and CMSC420; or permission of instructor.\n\nCMSC726 Machine Learning (3 Credits) An introduction to modern statistical data analysis using machine learning techniques. The course quickly surveys elementary statistical models (decision trees, nearest neighbors and linear regression) and moves on to more complex algorithms such as support vector machines, boosting, neural networks, structured prediction, apprenticeship learning, online learning, bandits, recommender systems and reinforcement learning. Throughout an emphasis is placed on mathematical rigor. Prerequisite: CMSC421 or CMSC422; or students who have taken courses with comparable content may contact the department; or permission of instructor.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 575,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "9f8f09a6-e3f8-5ed1-a5b0-2188f1fd2dba"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "page_content": "SURV736 Introduction to Web Scraping with R (1 Credit) Provides a condensed overview of web technologies and techniques to collect data from the web in an automated way. To this end, students will use the statistical software R. The course introduces fundamental parts of web architecture and data transmission on the web. Furthermore, students will learn how to scrape content from static and dynamic web pages and connect to APIs from popular web services. Finally, practical and ethical issues of web data collection are discussed. Prerequisite: Students are expected to be familiar with the statistical software R. Recommended: Knowledge about the ?tidyverse? packages, in particular, dplyr, plyr, magrittr, and stringr. Restriction: Permission of BSOS-Joint Program in Survey Methodology department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 876,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "08d47411-29ec-5a34-bd25-6dda6fe09929"
+  }
+}

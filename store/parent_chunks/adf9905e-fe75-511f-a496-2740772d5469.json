@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE452 Embedded Systems (3 Credits) Embedded systems are part of most of the modern technological systems such as Industrial machines, consumer electronics, agricultural and process industry devices, automobiles, medical equipment, cameras, household appliances, airplanes, vending machines and toys, as well as mobile devices. Embedded systems are comprised of hardware, software and ﬁrmware. Design Methodologies and platforms for real time modern embedded digital systems have been evolving over time. In order to meet the system speciﬁcations, many models, tools, and operating systems exist to automate the design space exploration phase. In this course, students will be introduced to microcontroller-based embedded system design, fundamental concepts of a Real Time Operating System (RTOS), and the design of solutions for the Internet of Things (IOT). Using hands-on experience developed through practical designs, exercises, and projects, we will discuss in detail how to analyze, implement, and synthesize these systems. Prerequisite: Minimum grade of C- in ENEE350 and ENEE244; and minimum grade of C- in ENEE150 or CMSC216. Restriction: Permission of the Electrical and Computer Engineering Department; and must be in one of the following programs (Engineering: Computer; Engineering: Electrical). Credit Only Granted for: ENEE452 or ENEE459V. Formerly: ENEE459V.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 644,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "adf9905e-fe75-511f-a496-2740772d5469"
+  }
+}

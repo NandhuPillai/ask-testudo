@@ -1,0 +1,11 @@
+{
+  "page_content": "Courses in 2025-2026 Academic Catalog - DRAFT COPY\n\nSURV725 Item Nonresponse and Imputation (1 Credit) Missing data are a common problem which can lead to biased results if the missingness is not taken into account at the analysis stage. Imputation is often suggested as a strategy to deal with item nonresponse allowing the analyst to use standard complete data methods after the imputation. However, several misconceptions about the aims and goals of imputation make some users skeptical about the approach. In this course we will illustrate why thinking about the missing data is important and clarify which goals a useful imputation method should try to achieve. Prerequisite: Be comfortable with generalized linear models and basic probability theory through coursework or work experience; and familiarity with the statistical software R. Restriction: Permission of BSOS-Joint Program in Survey Methodology department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 875,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "3fda0d2c-6ef7-5d18-b9d8-ae209e76b871"
+  }
+}

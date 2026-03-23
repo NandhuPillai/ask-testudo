@@ -1,0 +1,11 @@
+{
+  "page_content": "DATA604 Data Representation and Modeling (3 Credits) An introductory course connecting students to the most recent developments in the ﬁeld of data science. It covers several fundamental mathematical concepts which form the foundations of Big Data theory. Among the topics included are Principal Component Analysis, metric learning and nearest neighbor search, elementary spectral graph theory, minimum and maximum graph cuts, graph partitions, Laplacian Eigenmaps, manifold learning and dimension reduction concepts, clustering and classiﬁcation techniques such as k-means, kernel methods, Mercer's theorem, and Support Vector Machines. Some relevant concepts from geometry and topology will be also covered. Prerequisite: DATA601 or MSML601.\n\nDATA640 Computer Vision (3 Credits) An introduction to basic concepts and techniques in computer vision. Topics include low-level operations such as image ﬁltering, correlation, edge detection and Fourier analysis. Image segmentation, texture and color analysis. Perspective, cameras and 3D reconstruction of scenes using stereo and structure from motion. Deep learning for object detection, recognition and classiﬁcation in images and video. Prerequisite: BIOI603, DATA603, or MSML603. Cross-listed with: MSML640. Credit Only Granted for: MSML640 or DATA640.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 587,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "3c9318d0-6bb6-5654-a269-2183f8e335b8"
+  }
+}

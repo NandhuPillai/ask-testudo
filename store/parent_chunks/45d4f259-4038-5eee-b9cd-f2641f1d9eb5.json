@@ -1,0 +1,11 @@
+{
+  "page_content": "CMSC475 Combinatorics and Graph Theory (3 Credits) General enumeration methods, difference equations, generating functions. Elements of graph theory, matrix representations of graphs, applications of graph theory to transport networks, matching theory and graphical algorithms. Prerequisite: 1 course with a minimum grade of C- from (MATH240, MATH341, MATH461); and 1 course with a minimum grade of C- from (MATH241, MATH340). And permission of CMNS-Computer Science department; or permission of CMNS-Mathematics department. Cross- listed with MATH475 .\n\nCMSC477 Robotics Perception and Planning (3 Credits) A hands-on introduction to perception and planning for robotics, including rigid body transformations and rotations, dynamics and control of mobile robots/drones, graph based and sampling based planning algorithms, Bayseian and Kalman ﬁltering, camera models and calibration, projective geometry, visual features, optical flow, pose estimation, RANSAC and Hough transform, structure from motion, visual odometry, machine learning basics, visual recognition and learning. Prerequisite: 1 course from (MATH240, MATH341, MATH461); and (ENEE467 or CMSC420). Restriction: Must be in the Robotics and Autonomous Systems minor; and permission of Computer Science department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 572,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "45d4f259-4038-5eee-b9cd-f2641f1d9eb5"
+  }
+}

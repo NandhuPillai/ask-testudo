@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEB352 Introduction to Networks and Protocols (3 Credits) An introduction to the principles of computer networking and covers the architecture and operation of the TCP/IP protocol stack. Topics will include fundamental networking concepts, the layers of the TCP/ IP protocol stack, the packet structure and operation of each layer with detailed discussion on reliable data transfer, flow control, congestion control, routing algorithms, error detection, Local Area Networks (LANs), and multiple access protocols. The course will also cover wireless protocols relevant to Internet of Things (IoT) such as WLAN (IEEE 802.11), Zigbee (IEEE 802.15.4), and Bluetooth as well as some popular IoT application-layer and network-layer protocols including CoAP, AMQP, MQTT, XMPP and 6LoWPAN. As a part of the course work, the students will attend lab sessions where they will learn how to capture and analyze network trafﬁc, how to conﬁgure networking functions on Linux systems, and how to operate and conﬁgure routers using Juniper Networks devices in a real-world lab environment. Prerequisite: Minimum grade of C- in ENEB341; and permission from the Cyber-Physical Systems Engineering program. Restriction: Must be in the Cyber-Physical Systems Engineering program.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 164,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "0d3c6359-affe-599d-ba4b-4d49a6bda120"
+  }
+}

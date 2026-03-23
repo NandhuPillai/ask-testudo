@@ -1,0 +1,11 @@
+{
+  "page_content": "CMSC457 Introduction to Quantum Computing (3 Credits) An introduction to the concept of a quantum computer, including algorithms that outperform classical computation and methods for performing quantum computation reliably in the presence of noise. As this is a multidisciplinary subject, the course will cover basic concepts in theoretical computer science and physics in addition to introducing core quantum computing topics. Prerequisite: 1 course with a minimum grade of C- from (MATH240, MATH341, MATH461, PHYS274); and 1 course with a minimum grade of C- from (CMSC351, PHYS373). Restriction: Permission of CMNS-Computer Science department. Additional Information: No previous background in quantum mechanics is required.\n\nCMSC437 Introduction to Quantum Software Laboratory (3 Credits) Introductory Programming/Software laboratory for quantum computing. Understand the existing programming tools for quantum computers and the characteristics of quantum hardware. Develop quantum application prototypes and tools to characterize and mitigate the limitations of quantum hardware. Prerequisite: Minimum grade of C- in CMSC457 or PHYS467; and familiarity with basic programming, languages (e.g., Python). Restriction: Permission of CMNS-Computer Science department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 571,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "638938aa-f843-5aa3-a314-2b576c85fbd0"
+  }
+}

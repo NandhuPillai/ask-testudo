@@ -1,0 +1,11 @@
+{
+  "page_content": "SURV665 Introduction to Real World Data Management (2 Credits) Data is omnipresent in the contemporary world coming in different shapes and sized: from survey data to found data. In order to make use of such data through analysis it is necessary ﬁrst to import and clean it. This is often one of the most time consuming and difﬁcult parts of data analysis. In this course you will learn both the conceptual steps needed in preparing data for analysis as well as the practical skills to do this. The course will cover all the essential skills needed to prepare data be it survey data, administrative data or found data. Restriction: Permission of BSOS-Joint Program in Survey Methodology department.\n\nSURV642 Project Consulting (6 Credits) Students will apply the core skills that they learned in the IPSDS program to address real-world problems. The course will provide experience with the steps involved in carrying out a data consulting project, such as discussing the problems to solve with a client, data handling, and communicating work in both written and oral forms. The project is completed in teams (3-4 students per team). Prerequisite: SURV703; and background knowledge in programming in Python and SQL structures. Recommended: SURV736.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 873,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "186cc13e-0fc3-5e1f-b79b-334a0fe46be1"
+  }
+}

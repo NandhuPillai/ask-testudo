@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEB456 Machine Learning Tools (3 Credits) A broad introduction to machine learning and statistical pattern recognition tools. The course will teach students to model existing data and to forecast future behaviors, outcomes, and trends. It will be taught using the Azure Machine Learning Studio that provides an integrated, end-to-end data science and advanced analytics solution. It will enable students to prepare data, develop experiments, and deploy models at cloud scale. Topics include: supervised learning (Bayesian learning and classiﬁer, parametric/non-parameteric learning, discriminant functions, support vector machines, neural networks, deep learning networks); unsupervised learning (clustering, dimensionality reduction, auto- encoders). The course will also discuss recent applications of machine learning, such as computer vision, data mining, autonomous navigation, and speech recognition. Hands-on: implementation of Tensorflow Algorithm on TPU board. Prerequisite: ENEB345 and ENEB346. Restriction: Must be in the Cyber-Physical Systems Engineering program.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 165,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "a85fbcd5-373f-54fe-b457-765dc7cecf37"
+  }
+}

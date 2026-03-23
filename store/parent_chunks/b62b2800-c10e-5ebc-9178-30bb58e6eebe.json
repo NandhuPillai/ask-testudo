@@ -1,0 +1,11 @@
+{
+  "page_content": "PHYS474 Computational Physics (3 Credits) Introduction to computational physics. Overview of some of the most widely used methods of computational physics and computational methods, including data analysis and statistical methods, visualization, numerical solutions of ordinary and partial differential equations (classical equations of motion, Poisson's equation, time independent and time dependent Schrodinger equations) and Monte Carlo simulations. In addition to giving the students a basic working knowledge of these particular techniques, the goal is to make them proﬁcient in scientiﬁc computing and programming in general, so that they will be prepared to tackle other computational and data analysis problems that they may encounter in the future. This course will use the programming language Python. Prerequisite: PHYS373; and (PHYS165, CMSC106, or CMSC131). Recommended: PHYS401 (strongly recommended). Additional Information: Students will need a laptop for this course to run speciﬁc software; however, arrangements will be made for those who need them. Students will need to load the Python 3 language on your computer, which will be done in the ﬁrst week of class. The class will use the \"Anaconda\" environment/distribution, which is available for Mac/ Windows/Linux. Contact the department for more information.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 826,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "b62b2800-c10e-5ebc-9178-30bb58e6eebe"
+  }
+}

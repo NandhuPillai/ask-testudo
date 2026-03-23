@@ -1,0 +1,11 @@
+{
+  "page_content": "CMSC737 Fundamentals of Software Testing (3 Credits) Examine fundamental software testing and related program analysis techniques. In particular, the important phases of testing will be reviewed, emphasizing th signiﬁcance of each phase when testing different types of software. Concepts include: test generation, oracles, prioritization and coverage, regression and mutation testing, and program analysis. Prerequisite: CMSC435; or students who have taken courses with comparable content may contact the department; or permission of instructor. Formerly: CMSC838M.\n\n575\n\n576\n\nCMSC - Computer Science\n\nCMSC740 Advanced Computer Graphics (3 Credits) An introduction to advanced concepts in computer graphics. Includes an introduction to realistic rendering based on physical properties of light transport, radiometric concepts, and the rendering equation; Monte Carlo integration techniques to solve the rendering equation such as path tracing and multiple importance sampling; and neural network techniques for efﬁcient sampling and denoising. Further discusses recent advances in 3D modeling and reconstruction, such as neural network- based 3D reconstruction; inverse rendering using neural radiance ﬁelds and differentiable rendering; and generative modeling for images, videos, and 3D data. Prerequisite: MATH240 and CMSC420; or permission of instructor.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 575,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "00ab7672-6987-57fa-9762-808f8263fee4"
+  }
+}

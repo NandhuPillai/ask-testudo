@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE322 Signal and System Theory (3 Credits) This is a course on signals and systems. The course lectures cover concepts in linear systems, and time and frequency domain analysis of signals and linear systems. Signal analysis topics: discrete- and continuous-time Fourier transforms, Laplace and z-transforms. Dynamical system properties: linearity, time-invariance, stability and invertibility. Analysis of linear time-invariant systems in the time domain (impulse response and convolution) and transform domain (transfer function and frequency response). Applications in signal processing, communications and control. Prerequisite: Minimum grade of C- in MATH246 or ENEE290; and minimum grade of C- in ENEE222. Restriction: Permission of ENGR-Electrical & Computer Engineering department. Must be in the following program (Engineering: Computer). Credit Only Granted for: ENEE322 or ENEE323.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 168,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "8e7163a1-4bc3-50f4-879a-78bd9bd4b819"
+  }
+}

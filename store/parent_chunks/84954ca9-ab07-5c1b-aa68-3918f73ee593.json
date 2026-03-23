@@ -1,0 +1,11 @@
+{
+  "page_content": "ENRE655 Machine Learning Algorithms for Reliability Engineering (3 Credits) Students learn representative machine learning algorithms with applications to reliability engineering. This course will cover model-based methods for reliability analysis, reliability model parameter estimation with both maximum likelihood approaches and Bayesian approaches, model selection, and model-based methods for health monitoring and reliability prediction. This course will also cover data-driven methods for reliability analysis, including neural networks, deep neural networks, random forest, support vector machines. Lastly, this course will cover topics on decision optimization based on reliability analysis, focusing on the Markov decision process and reinforcement learning. Prerequisite: ENRE602.\n\n691\n\n692\n\nENSE - Systems Engineering",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 691,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "84954ca9-ab07-5c1b-aa68-3918f73ee593"
+  }
+}

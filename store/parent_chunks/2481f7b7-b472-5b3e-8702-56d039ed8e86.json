@@ -1,0 +1,11 @@
+{
+  "page_content": "AREC623 Applied Econometrics I (4 Credits) A modern introduction to empirical strategies in applied microeconomic research in public policy, development economics, labor economics, education, marketing and corporate ﬁnance. Emphasis on causal reasoning and design-driven identiﬁcation in the social sciences. Concepts and applications will focus on addressing economically meaningful causal questions. Basic theoretical and mathematical aspects of probability and statistics will be developed to assess the signiﬁcance of the relationship among economic variables. Topics include: the approximation of the conditional expectation function through a linear predictor (Ordinary Least Squares), the effects of omitted variables and the usefulness of variables that resemble the outcome of a randomized experiment (Instrumental Variables), as well as extensions to high-dimensional big-data counterparts. Fundamental concepts in sampling theory, statistical inference (with small and large samples) and hypothesis testing will be studied and applied to real data using Stata, a general-purpose statistical software. Prerequisite: Introductory statistics or econometrics, linear algebra, and differential/calculus; or permission of instructor. Additional Information: Intended for ﬁrst-year Ph.D. students from AREC, BUFN, ECON, EDMS, EDUC, PLCY and URSP departments with a background in introductory statistics or econometrics.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 484,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "2481f7b7-b472-5b3e-8702-56d039ed8e86"
+  }
+}

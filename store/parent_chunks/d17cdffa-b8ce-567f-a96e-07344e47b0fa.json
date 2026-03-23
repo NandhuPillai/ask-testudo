@@ -1,0 +1,11 @@
+{
+  "page_content": "Courses in 2025-2026 Academic Catalog - DRAFT COPY\n\nCMSC460 Computational Methods (3 Credits) Basic computational methods for interpolation, least squares, approximation, numerical quadrature, numerical solution of polynomial and transcendental equations, systems of linear equations and initial value problems for ordinary differential equations. Emphasis on methods and their computational properties rather than their analytic aspects. Intended primarily for students in the physical and engineering sciences. Prerequisite: 1 course with a minimum grade of C- from (MATH240, MATH341, MATH461); and 1 course with a minimum grade of C- from (MATH241, MATH340); and 1 course with a minimum grade of C- from (CMSC106, CMSC131); and minimum grade of C- in MATH246. Cross-listed with: AMSC460. Credit Only Granted for: AMSC460, AMSC466, CMSC460, or CMSC466.\n\nCMSC466 Introduction to Numerical Analysis I (3 Credits) Floating point computations, direct methods for linear systems, interpolation, solution of nonlinear equations. Prerequisite: 1 course with a minimum grade of C- from (CMSC106, CMSC131); and minimum grade of C- in MATH410. Cross-listed with: AMSC466. Credit Only Granted for: AMSC460, CMSC460, AMSC466, or CMSC466.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 113,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "d17cdffa-b8ce-567f-a96e-07344e47b0fa"
+  }
+}

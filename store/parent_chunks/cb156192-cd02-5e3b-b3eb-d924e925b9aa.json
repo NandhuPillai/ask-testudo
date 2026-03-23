@@ -1,0 +1,11 @@
+{
+  "page_content": "ECON432 Applied Machine Learning (4 Credits) Offers a comprehensive examination of the concepts and techniques used in machine learning, with a speciﬁc emphasis on their applications in economics. Focuses on the practical aspects of machine learning, including the use of different methods, model selection, and performance evaluation. Students will explore both supervised and unsupervised learning techniques, such as linear and non-linear regression, k-nearest neighbors, tree-based approaches, support vector machines, neural networks, and dimensionality reduction methods. Additional advanced methods may be covered, depending on the time available. Hands- on implementation of these techniques will be conducted using the R programming language. Prerequisite: 1 course with a minimum grade of C- from (ECON422, ECON424). Restriction: Permission of BSOS-Economics department; and must be in one of the following programs (Economics Bachelor of Arts; Economics Bachelor of Science; Economics minor; Social Data Science-Economics).",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 136,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "cb156192-cd02-5e3b-b3eb-d924e925b9aa"
+  }
+}

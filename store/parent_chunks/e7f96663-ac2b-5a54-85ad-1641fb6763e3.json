@@ -1,0 +1,11 @@
+{
+  "page_content": "SURV727 Fundamentals of Computing and Data Display (3 Credits) The ﬁrst part of this course provides an introduction to web scraping and APIs for gathering data from the web and then discusses how to store and manage (big) data from diverse sources efﬁciently. The second part of the course demonstrates techniques for exploring and ﬁnding patterns in (non-standard) data, with a focus on data visualization. The course focuses on R as the primary computing environment, with excursus into SQL and Big Data processing tools. Restriction: Must be in a major within the BSOS-Joint Program in Survey Methodology department; or permission of BSOS-Joint Program in Survey Methodology department. Additional Information: Students without any R knowledge are encouraged to work through one or more R web tutorials prior or during the ﬁrst weeks of the course.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 875,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "e7f96663-ac2b-5a54-85ad-1641fb6763e3"
+  }
+}

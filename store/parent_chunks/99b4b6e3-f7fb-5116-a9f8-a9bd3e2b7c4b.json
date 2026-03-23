@@ -1,0 +1,11 @@
+{
+  "page_content": "DATA601 Probability and Statistics (3 Credits) Provides a solid understanding of the fundamental concepts of probability theory and statistics. The course covers the basic probabilistic concepts such as probability space, random variables and vectors, expectation, covariance, correlation, probability distribution functions, etc. Important classes of discrete and continuous random variables, their inter-relation, and relevance to applications are discussed. Conditional probabilities, the Bayes formula, and properties of jointly distributed random variables are covered. Limit theorems, which investigate the behavior of a sum of a large number of random variables, are discussed. The main concepts random processes are then introduced. The latter part of the course concerns the basic problems of mathematical statistics, in particular, point and interval estimation and hypothesis testing. Prerequisite: Undergraduate courses in calculus and basic linear algebra. Cross-listed with: BIOI601, MSML601. Credit Only Granted for: BIOI601, DATA601 or MSML601.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 587,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "99b4b6e3-f7fb-5116-a9f8-a9bd3e2b7c4b"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "page_content": "EPIB635 Applied Multilevel Modeling in Health Research (3 Credits) Multilevel modeling is a popular analytic technique in health research that collects data from participants at hierarchic levels, e.g., residents nested in neighborhoods, and patients in hospitals. The course covers topics in multilevel modeling including two- and three-level multilevel linear modeling, logistic regression model, modeling with ordered and nominal outcomes, as well as strategies for model building. This course focuses on the application of multilevel modeling, rather than mathematics. The instructor uses a step-by-step approach to teach this course with real- world examples. The course begins with an overview of the feature of multilevel data then transitions to the analytic foundations of multilevel models. Later lectures cover the use of multilevel modeling to predict the occurrence of an outcome (prediction model) and estimate the exposure- outcome association by controlling potential confounding and assessing interactions (association model). Prerequisite: Working knowledge of fundamental statistical concepts, regression modeling, and SAS programming.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 703,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "25643912-9b90-5e8e-8854-5282c99f4639"
+  }
+}

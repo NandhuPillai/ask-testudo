@@ -1,0 +1,11 @@
+{
+  "page_content": "EPIB742 Association Models for Case-Control and Ecological Studies (3 Credits) The second part of a two-course advanced methods series speciﬁcally designed for doctoral students in epidemiology. EPIB742 emphasizes the implementation of analytical strategies rooted in epidemiologic principles for data analysis. The course focuses on speciﬁc association modeling techniques for analyzing data from traditional, matched, and population- based case-control studies, case-crossover studies, and ecological studies. Key topics include model speciﬁcation, effect estimation, control of confounding, and assessment of interaction effects. The curriculum covers applied multivariate regression models such as traditional logistic regression, conditional logistic regression, conditional Cox proportional hazards regression, and weighted Cox regression models. Additionally, the course introduces spline techniques for analyzing dose-response data. Detailed procedures for model speciﬁcation, assessment of model assumptions, selection of alternative models, effect estimates, and interpretation of ﬁndings from association models are thoroughly explored. Prerequisite: EPIB741.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 705,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "364b3dbe-b1f0-5326-bea1-1e96bc521472"
+  }
+}

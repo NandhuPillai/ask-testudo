@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE651 Parallel Algorithms (3 Credits) A presentation of the theory of parallel computers and parallel processing. Models of parallel processing and the relationships between these models. Techniques for the design and analysis of efﬁcient parallel algorithms including parallel preﬁx, searching, sorting, graph problems, and algebraic problems. Theoretical limits of parallelism. Prerequisite: CMSC451; or ENEE641; or students who have taken courses with comparable content may contact the department. Cross-listed with: CMSC751. Credit Only Granted for: ENEE459P, ENEE651, ENEE759K or CMSC751. Formerly: ENEE759K.\n\nENEE664 Optimal Control (3 Credits) General optimization and control problems. Conditions of optimality for unconstrained and constrained optimization problems; sensitivity; duality. Introduction to linear and nonlinear programming methods. Dynamic optimization. Discrete time maximum principle and applications. Pontryagin maximum principle in continuous time. Dynamic programming. Feedback realization of optimal control. Prerequisite: ENEE660 and MATH410; or students who have taken courses with comparable content may contact the department; or permission of instructor. Corequisite: MATH411; or permission of instructor.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 649,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "b635ce93-771d-56c8-898f-c0fa55a83662"
+  }
+}

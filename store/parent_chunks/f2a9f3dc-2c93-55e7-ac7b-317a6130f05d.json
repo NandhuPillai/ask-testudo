@@ -1,0 +1,11 @@
+{
+  "page_content": "MATH463 Complex Variables (3 Credits) The algebra of complex numbers, analytic functions, mapping properties of the elementary functions. Cauchy integral formula. Theory of residues and application to evaluation of integrals. Conformal mapping. Prerequisite: 1 course with a minimum grade of C- from (MATH241, MATH340).\n\nMATH446 Axiomatic Set Theory (3 Credits) Development of a system of axiomatic set theory, choice principles, induction principles, ordinal arithmetic including discussion of cancellation laws, divisibility, canonical expansions, cardinal arithmetic including connections with the axiom of choice, Hartog's theorem, Konig's theorem, properties of regular, singular and inaccessible cardinals. Prerequisite: 1 course with a minimum grade of C- from (MATH403, MATH410).\n\nMATH464 Transform Methods (3 Credits) Fourier transform, Fourier series, discrete fast Fourier transform (DFT and FFT). Laplace transform. Poisson summations, and sampling. Optional Topics: Distributions and operational calculus, PDEs, Wavelet transform, Radon transform and applications such as Imaging, Speech Processing, PDEs of Mathematical Physics, Communications, Inverse Problems. Prerequisite: 1 course with a minimum grade of C- from (MATH246, MATH341).",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 349,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "f2a9f3dc-2c93-55e7-ac7b-317a6130f05d"
+  }
+}

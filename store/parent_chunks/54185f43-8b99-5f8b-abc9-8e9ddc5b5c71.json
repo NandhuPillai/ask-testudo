@@ -1,0 +1,11 @@
+{
+  "page_content": "ENME725 Probabilistic Optimization (3 Credits) Provide an introduction to optimization under uncertainty. Chance- constrained programming, reliability programming, value of information, two stage problems with recourse, decomposition methods, nonlinear and linear programming theory, probability theory. The objectives of this course are to provide understanding for studying problems that involve optimization under uncertainty, learn about various stochastic programming formulations (chance constrained programs, two stage methods with recourse, etc.) relevant to engineering and economic settings, present theory for solutions to such problems, and present algorithms to solve these problems. Prerequisite: An advanced undergraduate course in probability and a graduate course in optimization or permission of the instructor required. Cross-listed with ENCE725. Credit Only Granted for: ENME725 or ENCE725.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 683,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "54185f43-8b99-5f8b-abc9-8e9ddc5b5c71"
+  }
+}

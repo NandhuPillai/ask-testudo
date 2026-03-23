@@ -1,0 +1,11 @@
+{
+  "page_content": "SURV735 Data Privacy and Data Conﬁdentiality (2 Credits) This course will provide a gentle introduction to statistical disclosure control with a focus on generating synthetic data for maintaining the conﬁdentiality of the survey respondents. The ﬁrst part of the course will introduce several traditional approaches for data protection that are widely used at statistical agencies. Some limitations of these approaches will also be discussed. The second part of the course will introduce synthetic data as a possible alternative. This part of the course will discuss different approaches to generating synthetic datasets in detail. Possible modeling strategies and analytical validity evaluations will be assessed and potential measures to quantify the remaining risk of disclosure will be presented. To provide the participants with hands on experience, all steps will be illustrated using simulated and real data examples in R. Prerequisite: Must have familiarity with the statistical software R; and must have completed a basic statistics course in regression modeling. Restriction: Permission of BSOS-Joint Program in Survey Methodology department.\n\n875\n\n876\n\nSURV - Survey Methodology",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 875,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "55a56aea-e083-5c5f-9826-3507b801ed1d"
+  }
+}

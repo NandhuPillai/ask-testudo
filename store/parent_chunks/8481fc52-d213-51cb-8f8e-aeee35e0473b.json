@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEB453 Web-Based Application Development (3 Credits) Introduction to cloud computing, computer programming in the context of developing full-featured dynamic websites. Uses a problem-solving approach to teach basics of program design and implementation using JavaScript; relates these skills to the creation of dynamic websites; then explores both the potential and limits of web-based information sources for use in research. This course provides a practical introduction to full- stack web development using PHP and JavaScript. The course will start with HTML/CSS/JavaScript to cover the client-side of applications. Then, it will move on to the server-side with PHP and integrating with a MySQL database to create a complete web application. Prerequisite: ENEB340 and ENEB341. Restriction: Must be in the Cyber-Physical Systems Engineering program; and permission of the Cyber-Physical Systems Engineering program.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 165,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "8481fc52-d213-51cb-8f8e-aeee35e0473b"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "page_content": "SURV745 Practical Tools for Study Design and Inference (3 Credits) A statistical methods class appropriate for second year Master's students and PhD students. The course will be a combination of hands-on applications and general review of the theory behinddifferent approaches to sampling and weighting. Topics covered include sample size calculations using estimation targets based on relative standard error, margin of error, and power requirements. Use of mathematical programming to determine sample sizes needed to achieve estimation goals for a series of subgroups and analysis variables. Resources for designing area probability samples. Methods of sample allocation for multistage samples. Steps in weighting, including computation of base weights, non response adjustments, and uses of auxiliary data. Non response adjustment alternatives, including weighting cell adjustments, formation of cells using regression trees, and propensity score adjustments. Weighting via post stratiﬁcation, raking, general regression estimation, and other types of calibration. Prerequisite: SURV615, SURV616, and SURV625; or permission of instructor.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 876,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "a9796b8f-420b-596e-8447-ac39da6da056"
+  }
+}

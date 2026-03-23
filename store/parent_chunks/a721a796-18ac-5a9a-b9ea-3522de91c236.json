@@ -1,0 +1,11 @@
+{
+  "page_content": "STAT741 Linear Statistical Models II (3 Credits) Continuation of STAT 740. Multiway layouts, incomplete designs, Latin squares, complete and fractional factorial designs, crossed and nested models. Balanced random effects models, mixed models, repeated measures.General mixed model, computational algorithms, ML and REML estimates. Generalized linear models, logistic and loglinear regression. Prerequisite: STAT740.\n\nSTAT750 Multivariate Analysis (3 Credits) Multivariate normal, Wishart's and Hotelling's distributions. Tests of hypotheses, estimation. Generalized distance, discriminant analysis. Regression and correlation. Multivariate analysis of variance; distribution of test criteria. Principal components, canonical correlations and factor analysis. Prerequisite: STAT700 or STAT420.\n\n869\n\n870\n\nSURV - Survey Methodology\n\nSTAT770 Analysis of Categorical Data (3 Credits) Loglinear and logistic models. Single classiﬁcation, two-way classiﬁcation; contingency tables; tests of homogeneity and independence models, measures of association, distribution theory. Bayesian methods. Incomplete contingency tables. Square contingency tables - symmetry. Extensions to higher dimensional contingency tables. Prerequisite: STAT430 and STAT420; or permission of CMNS- Mathematics department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 869,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "a721a796-18ac-5a9a-b9ea-3522de91c236"
+  }
+}

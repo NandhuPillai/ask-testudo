@@ -1,0 +1,11 @@
+{
+  "page_content": "SURV747 Practical Tools for Sampling and Weighting Part I (2 Credits) A statistical methods class appropriate for second year Master's students and PhD students. The course will be a combination of hands- on applications and general review of the theory behind different approaches to sampling and weighting. Topics covered include sample size calculations using estimation targets based on relative standard error, margin of error, and power requirements. Use of mathematical programming to determine sample sizes needed to achieve estimation goals for a series of subgroups and analysis variables. Resources for designing area probability samples. Methods of sample allocation for multistage samples. Base weights are discussed in context of the sample designs chosen.Note: Part II of the course will provide a more in-depth discussion on weighting. Prerequisite: Sampling theory (e.g., SURV440 or equivalent) and Applied sampling (e.g., SURV626 or equivalent). Recommended: Experience in the use of statistical software package R. Restriction: Permission of BSOS-Joint Program in Survey Methodology department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 876,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "dd917f0f-5609-5bd8-821f-07a8d005bf4d"
+  }
+}

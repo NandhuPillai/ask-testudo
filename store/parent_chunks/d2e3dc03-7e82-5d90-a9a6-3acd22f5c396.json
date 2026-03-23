@@ -1,0 +1,11 @@
+{
+  "page_content": "BUFN650 Machine Learning in Finance (2 Credits) A hands-on course on applications of cutting-edge machine learning methods to ﬁnancial modeling. It builds on the Financial Analytics class to introduce students to a wide variety of machine learning techniques ranging from lasso regression to deep learning and TensorFlow. The course provides the basic ideas and intuition behind these methods, a more formal understanding of how and why they work, and opportunities to experiment with machine-learning algorithms and apply them to big data modeling in ﬁnance. It will use the Python programming language, Google Colab environment, and machine learning packages. Prerequisite: BUFN640. Restriction: Must be in Business and Management (Master's) program; or permission of BMGT-Robert H. Smith School of Business. Credit Only Granted for: BUFN758O or BUFN650. Formerly: BUFN758O.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 525,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "d2e3dc03-7e82-5d90-a9a6-3acd22f5c396"
+  }
+}

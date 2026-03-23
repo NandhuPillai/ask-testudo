@@ -1,0 +1,11 @@
+{
+  "page_content": "SURV898 Pre-Candidacy Research (1-8 Credits)\n\nSURV899 Doctoral Dissertation Research (1-8 Credits)\n\nTDPS - Theatre, Dance and Performance Studies\n\nSURV753 Machine Learning II (2 Credits) Social scientists and survey researchers are confronted with an increasing number of new data sources such as apps and sensors that often result in (para)data structures that are difﬁcult to handle with traditional modeling methods. At the same time, advances in the ﬁeld of machine learning (ML) have created an array of flexible methods and tools that can be used to tackle a variety of modeling problems. Against this background, this course discusses advanced ML concepts such as cross validation, class imbalance, Boosting and Stacking as well as key approaches for facilitating model tuning and performing feature selection. In this course we also introduce additional machine learning methods including Support Vector Machines, Extra-Trees and LASSO among others. The course aims to illustrate these concepts, methods and approaches from a social science perspective. Furthermore, the course covers techniques for extracting patterns from unstructured data as well as interpreting and presenting results from machine learning algorithms. Code examples will be provided using the statistical programming language R. Prerequisite: SURV751; or comparable knowledge or experience. Recommended: Familiarity with the statistical programming language R.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 877,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "176be434-9e03-5e2f-baad-82b42a6e7231"
+  }
+}

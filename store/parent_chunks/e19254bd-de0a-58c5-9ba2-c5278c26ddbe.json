@@ -1,0 +1,11 @@
+{
+  "page_content": "STAT730 Time Series Analysis (3 Credits) The methodology of probabilistic description and statistical analysis of (primarily stationary) random sequences and processes. Correlation functions, Gaussian processes, Hilbert-space methods including Wold decomposition and spectral representation, periodogram and estimation of spectral densities, parameter estimation and model identiﬁcation for ARMA processes, linear ﬁltering, Kalman-Bucy ﬁltering, sampling theorems for continuous-time series, multivariate time series. Prerequisite: STAT700; and must have completed a graduate course in analysis. Or permission of instructor. Recommended: STAT701 and STAT650.\n\nSTAT740 Linear Statistical Models I (3 Credits) Least squares, general linear models, estimability and Gauss-Markov theorem. Simple and multiple linear regression, analysis of residuals and diagnostics, polynomial models, variable selection. Qualitative predictors, one and two way analysis of variance, multiple comparisons, analysis of covariance. Nonlinear least squares. High-level statistical computer software will be used for data analysis throughout the course. Prerequisite: STAT700 or STAT420.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 869,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "e19254bd-de0a-58c5-9ba2-c5278c26ddbe"
+  }
+}

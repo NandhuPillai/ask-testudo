@@ -1,0 +1,11 @@
+{
+  "page_content": "CMSC330 Organization of Programming Languages (3 Credits) A study of programming languages, including their syntax, semantics, and implementation. Several different models of languages are discussed, including dynamic, scripting (e.g., Ruby, Python) functional (e.g., OCaml, Haskell, Scheme), and memory safe systems programming (e.g., Rust). Explores language features such as formal syntax, scoping and binding of variables, higher-order programming, typing, and type polymorphism. Introduces ﬁnite automata, context free grammar, parsing, lambda calculus, and basics of security attacks and software security. Prerequisite: Minimum grade of C- in CMSC250 and CMSC216. Restriction: Must be in a major within the CMNS-Computer Science department; or must be in the Computer Science Minor program; or must be in Engineering: Computer program; and Permission of CMSC - Computer Science department.\n\nCMSC396 Computer Science Honors Seminar (1 Credit) Overview of computer science research activities, techniques, and tools. Diverse research areas will be covered, including systems, networks, artiﬁcial intelligence, human-computer interaction, software engineering, graphics, vision, and theory. Prerequisite: Must have admission into Computer Science Departmental Honors Program. Restriction: Permission of CMNS-Computer Science department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 110,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "9ea24e62-d60b-54fc-88db-89e14e111fd9"
+  }
+}

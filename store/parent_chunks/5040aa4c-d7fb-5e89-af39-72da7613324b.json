@@ -1,0 +1,11 @@
+{
+  "page_content": "ENCE689 Seminar (1-16 Credits)\n\nENCE710 Steel Structures I (3 Credits) Moment connections of beams and columns. Wind bracing connections. Plate girders. Floor systems for buildings. Strengthening of beams and trusses. Corrosion control. Fatigue and fracture. Formerly: ENCE656.\n\nENCE725 Probabilistic Optimization (3 Credits) Provide an introduction to optimization under uncertainty. Chance- constrained programming, reliability programming, value of information, two stage problems with recourse, decomposition methods, nonlinear and linear programming theory, probability theory. The objectives of this course are to provide understanding for studying problems that involve optimization under uncertainty, learn about various stochastic programming formulations (chance constrained programs, two stage methods with recourse, etc.) relevant to engineering and economic settings, present theory for solutions to such problems, and present algorithms to solve these problems.Cross-listed with ENME725. Credit Only Granted for: ENME725 or ENCE725.\n\nENCE713 Concrete Structures I (3 Credits) The behavior and strength of reinforced concrete members under combined loadings, including the effects of creep, shrinkage and temperature. Mechanisms of shear resistance and design procedures for bond, shear and diagonal tension. Elastic and ultimate strength analysis and design of slabs. Columns in multistory frames. Applications to reinforced concrete structures. Formerly: ENCE753.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 641,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "5040aa4c-d7fb-5e89-af39-72da7613324b"
+  }
+}

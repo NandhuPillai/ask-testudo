@@ -1,0 +1,11 @@
+{
+  "page_content": "ENME674 Finite Element Methods (3 Credits) Theory and application of ﬁnite element methods for mechanical engineering problems such as stress analysis. Basic development of the method for solving the types of governing partial differential equations that are the foundations for many engineering and physical sciences. The emphasis is on balancing the theoretical/mathematical background with a computable implementation to reach applications. Some code writing and debugging will be involved. This class is suited for graduate students or high-achieving undergraduates in engineering, mathematics, or the physical sciences. A very basic knowledge of matrix-vector calculations and multivariable calculus are required. Some exposure to partial differential equations and experience with Matlab or a compiled language will be helpful but are not required. Restriction: Must be in one of the following programs (ENGR: MS/ PhDMechanical Engineering (Master's); ENGR: MS/PhDMechanical Engineering (Doctoral); ENGR: MS/PhDReliability Engineering (Master's); ENGR: MS/PhDReliability Engineering (Doctoral); or permission of ENGR- Mechanical Engineering department. Credit Only Granted for: ENME 674, ENAE652, ENPM652 or ENPM808F.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 681,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "117d965d-f565-5992-879b-2265a2184f5c"
+  }
+}

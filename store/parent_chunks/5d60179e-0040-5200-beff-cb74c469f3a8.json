@@ -1,0 +1,11 @@
+{
+  "page_content": "ENPM662 Introduction to Robot Modeling (3 Credits) This course introduces basic principles for modeling a robot. Most of the course is focused on modeling manipulators based on serial mechanisms. The course begins with a description of the homogenous transformation and rigid motions. It then introduces concepts related to kinematics, inverse kinematics, and Jacobians. This course then introduces Eulerian and Lagrangian Dynamics. Finally, the course concludes by introducing basic principles for modeling manipulators based on parallel mechanisms. The concepts introduced in this course are subsequently utilized in control and planning courses. Recommended: Students should have intermediate programming skills (Python) and basic algebra knowledge for this course.\n\nENPM663 Building a Manufacturing Robotic Software System (3 Credits) This hands-on course will look at the components of manufacturing robots, including architectures, planning/control, simulation, and measurement science. Students will explore the work that is being researched around the world in each of these areas, and will perform small hands-on exercises in most of the classes to gain a deeper understanding of how a selected set of these technologies can be applied to real-world challenges. Recommended: Prior C++ or Python programming experience. Credit Only Granted for: ENPM809B or ENPM663. Formerly: ENPM809B.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 688,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "5d60179e-0040-5200-beff-cb74c469f3a8"
+  }
+}

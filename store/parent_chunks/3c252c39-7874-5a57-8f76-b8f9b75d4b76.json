@@ -1,0 +1,11 @@
+{
+  "page_content": "ECON722 Econometrics IV (3 Credits) Orientated towards micro-econometric methods. Topics covered will be selected from the following: Further discussion of topics covered in ECON624, binary and multinomial response models, semiparametric and non-parametric estimation, machine learning algorithms, neural nets, and applications of ML to program evaluation and treatment effects methods. Introduces students to Python programming and Python ML toolkits Scikit and PyTorch. Structural econometrics, the identiﬁcation problem, stratiﬁed and clustered samples, spatial and social network models, dynamic panel data models, weak instruments, non-parametric and semi- parametric estimation methods, boot strap and Jack Knife methods, pre- test estimators. Prerequisite: ECON624; or permission of BSOS-Economics department.\n\nECON741 Advanced International Economics I (3 Credits) International Business Cycles; Exchange Rate Determination; Imperfect Financial Markets; Deviations from Full Information Rational Expectations; Monetary and Exchange Rate Policy Prerequisite: ECON601; or permission of BSOS-Economics department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 597,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "3c252c39-7874-5a57-8f76-b8f9b75d4b76"
+  }
+}

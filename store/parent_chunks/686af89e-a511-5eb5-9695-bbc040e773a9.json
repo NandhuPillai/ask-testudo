@@ -1,0 +1,11 @@
+{
+  "page_content": "AREC829 Policy Design and Causal Inference for Social Science (3 Credits) A course in applied econometrics that examines empirical strategies in applied microeconomic research used to estimate the effects of a policy or program on the outcomes of interest in ﬁelds like public policy, development economics, labor economics, education, marketing and corporate ﬁnance, as well as in industry and international organizations. Methods in applied econometrics with a focus on the thought experiment, the hypothetical experiment that should be used to answer the causal question of interest. A taxonomy of departures from the experimental ideal is presented, as well as the assumptions required to mimic the conditions of the unfeasible experiment from observational data. Topics include regression and matching, instrumental variables and natural experiments, differences-in-differences, change-in-changes, synthetic control methods and regression discontinuity designs. Causal parameters deﬁned from conditional moments, and quantiles and effects on conditional distributions (for inequality and poverty assessment) are considered. Stata, a general-purpose statistical software widely used by applied economists, is used to develop concepts and applications. Prerequisite: AREC623; or permission of instructor. Repeatable to: 9 credits if content differs. Additional Information: The course is intended for second-year Ph.D. students from AREC, BUFN, ECON, EDMS, EDUC, PLCY and URSP who have a",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 484,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "686af89e-a511-5eb5-9695-bbc040e773a9"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE463 Digital Control Systems (3 Credits) Introduction to techniques for the analysis and design of linear control systems and implementation of control systems using digital technology. Topics include linearization, solution of linear equations, z-transforms and Laplace transforms, design of linear controllers, optimal control, and digital implementation of control designs. Students will use MATLAB for the solution of problems and the design of control systems. Prerequisite: Minimum grade of C- in ENEE322 or ENEE323. Restriction: Must be in one of the following programs (Engineering: Computer; Engineering: Electrical), and permission of ENGR-Electrical & Computer Engineering department.\n\nENEE464 Introduction to Optimization (3 Credits) Students will be introduced to linear, nonlinear, unconstrained, constrained optimization. Convex optimization will be highlighted. Applications will be considered, in particular in the area of machine learning. Some optimization algorithms may be discussed, time permitting. Prerequisite: One of the following: ENEE290, MATH240, MATH341, or MATH461; and must have completed or be concurrently enrolled in ENEE324 or STAT400. Recommended: Experience in Matlab or Python. Restriction: Must be in the Department of Electrical and Computer Engineering. Credit Only Granted for: ENEE464 or ENEE469O. Formerly: ENEE469O.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 645,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "db629e58-f455-5601-9287-1b7c61f9596f"
+  }
+}

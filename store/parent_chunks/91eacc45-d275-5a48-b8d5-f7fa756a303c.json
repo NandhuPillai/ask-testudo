@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE425 Digital Signal Processing (3 Credits) Sampling as a modulation process; aliasing; the sampling theorem; the Z- transform and discrete-time system analysis; direct and computer-aided design of recursive and nonrecursive digital ﬁlters; the Discrete Fourier Transform (DFT) and Fast Fourier Transform (FFT); digital ﬁltering using the FFT; analog-to-digital and digital-to analog conversion; effects of quantization and ﬁnite-word-length arithmetic. Prerequisite: Minimum grade of C- in ENEE322 or ENEE323. Restriction: Must be in one of the following programs (Engineering: Computer; Engineering: Electrical), and permission of ENGR-Electrical & Computer Engineering department.\n\nENEE426 Communication Networks (3 Credits) The main design issues associated with computer networks, satellite systems, radio nets, and general communication networks. Application of analytical tools of queuing theory to design problems in such networks. Review of proposed architectures and protocols. Prerequisite: ENEE324 or STAT400; and completion of all lower-division technical courses in the EE curriculum. Restriction: Must be in Engineering: Computer or Engineering: Electrical program. Credit Only Granted for: CMSC417 or ENEE426.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 643,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "91eacc45-d275-5a48-b8d5-f7fa756a303c"
+  }
+}

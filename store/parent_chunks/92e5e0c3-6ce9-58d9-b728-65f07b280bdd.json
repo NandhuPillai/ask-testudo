@@ -1,0 +1,11 @@
+{
+  "page_content": "CMSC454 Algorithms for Data Science (3 Credits) Fundamental methods for processing a high volume of data. Methods include stream processing, locally sensitive hashing, web search methods, page rank computation, network and link analysis, dynamic graph algorithms as well as methods to handle high dimensional data/ dimensionality reduction. Prerequisite: Minimum grade of C- in CMSC330 and CMSC351. Restriction: Permission of CMSC-Computer Science department.\n\nCMSC456 Cryptography (3 Credits) The theory, application, and implementation of mathematical techniques used to secure modern communications. Topics include symmetric and public-key encryption, message integrity, hash functions, block-cipher design and analysis, number theory, and digital signatures. Prerequisite: (CMSC106, CMSC131, or ENEE150; or equivalent programming experience); and (2 courses from (CMSC330, CMSC351, ENEE324, or ENEE380); or any one of these courses and a 400-level MATH course, or two 400-level MATH courses); and Permission of CMNS- Mathematics department or permission of instructor . Cross-listed with: MATH456, ENEE456. Credit Only Granted for: MATH456, CMSC456 or ENEE456.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 571,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "92e5e0c3-6ce9-58d9-b728-65f07b280bdd"
+  }
+}

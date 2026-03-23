@@ -1,0 +1,11 @@
+{
+  "page_content": "STAT430 Introduction to Statistical Computing with SAS (3 Credits) Descriptive and inferential statistics. SAS software: numerical and graphical data summaries; merging, sorting and splitting data sets. Least squares, regression, graphics and informal diagnostics, interpreting results. Categorical data, lifetime data, time series. Applications to engineering, life science, business and social science. Prerequisite: 1 course with a minimum grade of C- from (STAT400, STAT410); and must have completed or be concurrently enrolled in STAT401 or STAT420; students who do not meet the STAT401 or STAT420 requirement but who have taken a statistics course may contact the math department to conﬁrm eligibility.\n\nSTAT600 Probability Theory I (3 Credits) Probability space; distribution functions and densities; Poissson limit theoreom; de Moivre-Laplace theorem; measure-theoretic deﬁnition of expectation; classiﬁcation of measures on R; convergence of random variables; Radon-Nikodym theorem;LP spaces; conditional probabilities; independence of events, sigma-algebras and random variables; Bayes' theo rem; pi-systems and Dynkin systems; discrete Markov chains; random walks; gambler's ruin problem; Markov chains on a general phase space; Borel-cantelli lemmas; Kolmogorov inequality; three series theorem; laws of large numbers. Prerequisite: STAT410.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 868,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "f07a94d4-d168-53b9-9e85-c3446cd3bbe1"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "page_content": "ENPM661 Planning for Autonomous Robots (3 Credits) Planning is a fundamental capability needed to realize autonomous robots. Planning in the context of autonomous robots is carried out at multiple different levels. At the top level, task planning is performed to identify and sequence the tasks needed to meet mission requirements. At the next level, planning is performed to determine a sequence of motion goals that satisfy individual task goals and constraints. Finally, at the lowest level, trajectory planning is performed to determine actuator actions to realize the motion goals. Different algorithms are used to achieve planning at different levels. This graduate course will introduce planning techniques for realizing autonomous robots. In addition to covering traditional motion planning techniques, this course will emphasize the role of physics in the planning process. This course will also discuss how the planning component is integrated with control component. Mobile robots will be used as examples to illustrate the concepts during this course. However, techniques introduced in the course will be equally applicable to robot manipulators.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 688,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "02c4f0db-32b9-5655-b5e1-cce9ffd303c2"
+  }
+}

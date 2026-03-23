@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE646 Digital Computer Design (3 Credits) Concepts and techniques for design of computer systems with improved performance. Advanced I/O systems, memory organization, pipeland and parallel processors, bus bandwidth, processor/memory interconnections, cache memory, virtual memory, multiprocessors, performance evaluation. Prerequisite: ENEE446; or students who have taken courses with comparable content may contact the department.\n\nENEE648 Advanced Topics in Electrical Engineering (3 Credits) Every semester courses intended for a high degree of specialization are offered by visiting or regular electrical engineering faculty members in two or more of the areas listed in 488. The student should check with the electrical engineering ofﬁce of graduate studies for a list and the description of the topics offered currently. Repeatable to: 99 credits if content differs.\n\nENEE660 System Theory (3 Credits) General systems models. State variables and state space. Linearity and its implications. Controllability and observability. State space structure and representation. Realization theory and algorithmic solutions. Parameterizations of linear systems; canonical forms. Basic results from stability theory. Stabilizability. Fine structure of linear multivariable systems; minimal indices and polynomial matrices. Interplay between frequency domain and state space. Prerequisite: ENEE460 and MATH463; or students who have taken courses with comparable content may contact the department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 649,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "f497c0dc-31aa-5822-9104-0624fc509c5e"
+  }
+}

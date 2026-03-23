@@ -1,0 +1,11 @@
+{
+  "page_content": "AMSC715 Numerical Methods for Evolution Partial Differential Equations (3 Credits) Topics include: Heat and wave equations: maximum principle, energy methods and Sobolev spaces, ﬁnite difference and ﬁnite element methods, von Neumann analysis, stability and error estimates;Linear ﬁrst order PDEs: upwinding and monotone schemes, ﬁnite difference, ﬁnite volume, and discontinuous Galerkin methods; Nonlinear conservation laws: weak solutions and entropy conditions,monotone methods. Prerequisite: Permission of instructor; or one graduate level course in partial differential equations or one graduate level course in numerical analysis or scientiﬁc computing. Credit Only Granted for: AMSC612 or AMSC715. Formerly: AMSC612. Additional Information: This course continues AMSC 714, but can be taken independently, and is a complement to the graduate courses MATH 673 and MATH 674 in PDEs, AMSC 666 in numerical analysis, and AMSC 660 and AMSC 661 in scientiﬁc computing.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 460,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "fe41f5d3-874f-5bbe-b5c7-6b1a0584ddda"
+  }
+}

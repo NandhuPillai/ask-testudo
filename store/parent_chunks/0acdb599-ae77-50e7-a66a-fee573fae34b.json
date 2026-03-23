@@ -1,0 +1,11 @@
+{
+  "page_content": "ENMT301 Structural Dynamics (3 Credits) An introduction to modeling and structural analysis of mechatronic structures subject to dynamic loading. It deals with preliminary analysis of primary structure for mechatronics components, including such topics as load determination, torsion, bending, shear, buckling, fatigue and thermal analysis of thin-walled structures. Emphasis is placed on solving problems by ﬁnding the differential equations of motion of model systems and solving these equations analytically or numerically in Matlab. Prerequisite: Minimum grade of C- in ENES220. Restriction: Must be in the Mechatronics Engineering program.\n\nENMT322 Discrete Signal Analysis (3 Credits) Analysis techniques for simulating resonances and impedances in systems that couple physical interactions electrical, mechanical, magnetic and piezoelectric domains. Analysis applied to modeling the electro-magneto-mechano-acoustic domain interactions in traditional loudspeaker designs, and can be extended to the design of sensors, energy harvesters and actuators. Prerequisite: Minimum grade of C- in MATH246. Restriction: Must be in the Mechatronics Engineering program.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 214,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "0acdb599-ae77-50e7-a66a-fee573fae34b"
+  }
+}

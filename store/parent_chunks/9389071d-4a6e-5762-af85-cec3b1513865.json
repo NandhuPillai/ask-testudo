@@ -1,0 +1,11 @@
+{
+  "page_content": "Courses in 2025-2026 Academic Catalog - DRAFT COPY\n\nSURV613 Machine Learning for Social Science (3 Credits) Introduction to supervised statistical learning techniques such as decision trees, random forests and boosting and discusses their potential application in the social sciences. These methods focus on predicting an outcome Y based on some learned function f(X) and therefore facilitate new research perspectives in comparison with traditional regression models, which primarily focus on causation. Predictive methods also provide a valuable extension to the empirical social scientists' toolkit as new data sources become more prominent. In addition to introducing supervised learning methods, the course will include practical sessions to exemplify how to tune and evaluate prediction models using the statistical programming language R. Recommended: Students are encouraged to work through one or more R tutorials prior or during the ﬁrst weeks of the course. Some resources are listed on the syllabus. Credit Only Granted for: SURV613 or SURV699U. Formerly: SURV699U.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 871,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "9389071d-4a6e-5762-af85-cec3b1513865"
+  }
+}

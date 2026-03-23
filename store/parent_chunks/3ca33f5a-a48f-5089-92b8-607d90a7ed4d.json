@@ -1,0 +1,11 @@
+{
+  "page_content": "INST751 IoT and Streaming Data Analytics (3 Credits) An increasing number of sensors, actuators, Internet-connect instruments and apparatuses, smart devices, and systems are generating and broadcasting a wide variety of continuous data streams. Machine- generated structured data sources are joined by a myriad of unstructured data streams from social media, weather, and news sources, among others. Integrated into networks, these continuously-streaming devices (collectively referred to as the Internet of Things, or IoT) provide a fertile array of data sources that can be ingested and analyzed to inform and automate decision processes for numerous purposes including operational intelligence, process monitoring, optimization, risk management, personalization, and prediction in real time. This course looks at architectures and operational modes for streaming data sources and examine methods for descriptive analytics, creation of predictive models, and integrated deployment of these models via centralized and edge computing resources. We will discuss a variety of uses cases for streaming data analytics and how they are applied in different industries including public utilities, smart cities, manufacturing, telecommunications, and healthcare. Prerequisite: INFM603, INST733, or other programming and database courses, or Permission of the instructor.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 768,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "3ca33f5a-a48f-5089-92b8-607d90a7ed4d"
+  }
+}

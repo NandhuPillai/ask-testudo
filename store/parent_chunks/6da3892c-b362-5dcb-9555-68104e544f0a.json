@@ -1,0 +1,11 @@
+{
+  "page_content": "SURV732 Practical Inference from Complex Surveys (2 Credits) Inference from complex sample surveys covers the theoretical and empirical properties of various variance estimation strategies (e.g., Taylor series approximation, replicated methods, and bootstrap methods for complex sample designs) and how to incorporate those methods into inference for complex sample survey data. Variance estimation procedures are applied to descriptive estimators and to analysis techniques such as regression and analysis of variance. Generalized variances and design effects are presented. Methods of model-based inference for complex sample surveys are also discussed, and the results contrasted to the design-based type of inference used as the standard in the course. The course will use real survey data to illustrate the methods discussed in class. Students will learn the use of computer software that takes account of the sample design in estimation. Prerequisite: SURV440, SURV626, STAT401, or SURV699J; or permission of BSOS-Joint Program in Survey Methodology. Recommended: A sound understanding of linear regression models (OLS), knowledge in linear algebra and calculus is important, as is previous exposure to complex sample designs and common estimation procedures. Previous exposure to maximum likelihood estimation is assumed, but students may meet this requirement by taking the course b online program previously or concurrently.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 875,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "6da3892c-b362-5dcb-9555-68104e544f0a"
+  }
+}

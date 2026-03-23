@@ -1,0 +1,11 @@
+{
+  "page_content": "BIOM - Biometrics\n\nBIOM405 Computer Applications in Biometrics (1 Credit) An introduction to computer applications for data analysis. This is equivalent to the computer lab of 601 and is required for students that have taken BIOM301 and BIOM402 and wish to go directly into BIOM602.\n\nBIOM601 Biostatistics I (4 Credits) Estimation and hypothesis testing, t tests, one and two way analysis of variance, regression, analysis of frequency data. Lecture will emphasize uses and limitations of these methods in biology, while the laboratory will emphasize the use of statistical analysis software for the analysis of biological data. Prerequisite: BIOM301 or STAT464; or students who have taken courses with comparable content may contact the department. Credit Only Granted for: BIOM401 or BIOM601.\n\nBIOM602 Biostatistics II (4 Credits) The principles of experimental design and analysis of variance and covariance. Prerequisite: BIOM601 or BIOM405.\n\nBIOM603 Biostatistics III (4 Credits) Applications and implementation of linear model analysis to biological data, including multivariate regression model, mixed model, generalized linear mixed model, nonlinear logistic and Poisson regression models, power calculation and survival analysis. Prerequisite: Must have completed a graduate-level statistical class; or students who have taken courses with comparable content may contact the department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 500,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "84b47380-206e-527f-bfa8-9a8b86acc3a8"
+  }
+}

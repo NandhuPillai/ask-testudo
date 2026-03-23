@@ -1,0 +1,11 @@
+{
+  "page_content": "GEOG761 Machine Learning for Computational Earth Observation Science (CEOS) (3 Credits) Provides an introduction to machine learning methods and models with an emphasis on Earth observation. Topics will include supervised (decision trees, random forest, neural networks, support vector machine, Gaussian process and ensemble techniques), and unsupervised techniques (clustering/segmentation, dimension reduction, multi- dimensional data visualization). The course will highlight the state-of- the-art deep learning models; object-based versus pixel-based image classiﬁcation; how to deal with missing data and non-uniform coverage of data; and large scale land cover land use mapping from heterogenous satellite data. Practical part will include satellite image classiﬁcation by applying classiﬁcation models and biophysical parameters retrieval by applying regression models. Jointly offered with: GEOG461. Credit Only Granted for: GEOG461, GEOG688M or GEOG761. Formerly: GEOG688M.\n\nGEOG789 Independent Readings (1-8 Credits) Independent reading as arranged between a graduate faculty member and graduate student. Repeatable to: 8 credits if content differs.\n\nGEOG790 Internship in Geography (3 Credits) Field experience in the student's specialty in a Federal, state, or local agency or private business. Research paper required.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 721,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "828b7d16-f0ce-503d-b9ff-2a1b7f117dd3"
+  }
+}
