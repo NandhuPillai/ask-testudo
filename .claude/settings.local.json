@@ -13,7 +13,9 @@
       "Bash(netstat -ano)",
       "Bash(cmd /c \"taskkill /F /PID 21968\")",
       "Bash(.venv/Scripts/uvicorn query:app --host 0.0.0.0 --port 8001)",
-      "Bash(.venv/Scripts/uvicorn query:app --host 0.0.0.0 --port 8002)"
+      "Bash(.venv/Scripts/uvicorn query:app --host 0.0.0.0 --port 8002)",
+      "Bash(grep -E \"\\\\.\\(tsx?|json\\)$\")",
+      "Bash(ls:*)"
     ]
   }
 }
