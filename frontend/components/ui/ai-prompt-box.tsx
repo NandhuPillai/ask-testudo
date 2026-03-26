@@ -22,7 +22,7 @@ const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
       )}
       ref={ref}
       rows={1}
-      style={{ scrollbarWidth: "thin", scrollbarColor: "#444444 transparent" }}
+      style={{ scrollbarWidth: "thin", scrollbarColor: "#3a3a3a transparent" }}
       {...props}
     />
   )
