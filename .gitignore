@@ -4,7 +4,7 @@ docs/
 .env
 __pycache__/
 *.pyc
-
+.superpowers/
 # Frontend
 frontend/node_modules/
 frontend/.next/

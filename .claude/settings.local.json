@@ -15,7 +15,19 @@
       "Bash(.venv/Scripts/uvicorn query:app --host 0.0.0.0 --port 8001)",
       "Bash(.venv/Scripts/uvicorn query:app --host 0.0.0.0 --port 8002)",
       "Bash(grep -E \"\\\\.\\(tsx?|json\\)$\")",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(C:/Users/mail2/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.6/skills/brainstorming/scripts/start-server.sh --project-dir C:/ask-testudo)",
+      "Bash(cat C:/ask-testudo/.superpowers/brainstorm/*/state/server-info)",
+      "Bash(xargs cat:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(npm run:*)",
+      "Bash(find /c/ask-testudo/frontend/components -type f -name *.ts -o -name *.tsx -o -name *.json)",
+      "Bash(find /c/ask-testudo/frontend/app -type f -name *.ts -o -name *.tsx -o -name *.json)",
+      "Bash(bash \"C:\\\\Users\\\\mail2\\\\.claude\\\\plugins\\\\cache\\\\claude-plugins-official\\\\superpowers\\\\5.0.6\\\\skills\\\\brainstorming\\\\scripts\\\\start-server.sh\" --project-dir \"C:\\\\ask-testudo\")",
+      "Bash(git check-ignore:*)",
+      "Bash(npx tsc:*)",
+      "Bash(node -e \":*)"
     ]
   }
 }

@@ -17,7 +17,7 @@ const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
   ({ className, ...props }, ref) => (
     <textarea
       className={cn(
-        "flex w-full rounded-md border-none bg-transparent px-3 py-2.5 text-base text-gray-100 placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-0 disabled:cursor-not-allowed disabled:opacity-50 min-h-[44px] resize-none",
+        "flex w-full rounded-md border-none bg-transparent px-3 py-2.5 text-base text-[var(--umd-text)] placeholder:text-gray-400 focus-visible:outline-none focus-visible:ring-0 disabled:cursor-not-allowed disabled:opacity-50 min-h-[44px] resize-none",
         className
       )}
       ref={ref}
@@ -51,7 +51,7 @@ TooltipContent.displayName = TooltipPrimitive.Content.displayName;
 
 // Button Component
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant?: "default" | "outline" | "ghost";
+  variant?: "default" | "outline" | "ghost" | "none";
   size?: "default" | "sm" | "lg" | "icon";
 }
 const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
@@ -60,6 +60,7 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
       default: "bg-white hover:bg-white/80 text-black",
       outline: "border border-[var(--umd-border)] bg-transparent hover:bg-[var(--umd-surface)]",
       ghost: "bg-transparent hover:bg-[var(--umd-surface)]",
+      none: "",
     };
     const sizeClasses = {
       default: "h-10 px-4 py-2",
@@ -307,13 +308,13 @@ export const PromptInputBox = React.forwardRef(
             tooltip={isLoading ? "Stop generation" : hasContent ? "Send message" : "Send"}
           >
             <Button
-              variant="default"
+              variant="none"
               size="icon"
               className={cn(
                 "h-8 w-8 rounded-full transition-all duration-200",
                 hasContent || isLoading
                   ? "bg-[#D53E0F] hover:bg-[#b83308] text-white"
-                  : "bg-transparent hover:bg-[#2a2a2a] text-[#808080] hover:text-[#f5f5f5] border border-[#3a3a3a]"
+                  : "bg-[#D53E0F]/30 hover:bg-[#D53E0F]/50 text-white/80"
               )}
               onClick={handleSubmit}
               disabled={isLoading}

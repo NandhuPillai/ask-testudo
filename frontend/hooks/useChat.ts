@@ -3,7 +3,7 @@
 import { useState, useCallback } from "react"
 import { v4 as uuidv4 } from "uuid"
 import { ChatMessage, HistoryMessage } from "@/lib/types"
-import { askQuestion } from "@/lib/api"
+import { askQuestionStream } from "@/lib/api"
 
 export function useChat() {
   const [messages, setMessages] = useState<ChatMessage[]>([])
@@ -49,23 +49,55 @@ export function useChat() {
       })
 
       try {
-        const response = await askQuestion(question.trim(), currentHistory)
-
-        setMessages((prev) =>
-          prev.map((m) =>
-            m.loading
-              ? {
-                  ...m,
-                  loading: false,
-                  content: response.answer,
-                  sources: response.sources,
-                  confidence: response.confidence,
-                  rerank_score: response.rerank_score,
-                  fallback: response.fallback,
-                }
-              : m
-          )
-        )
+        let accumulatedText = "";
+        await askQuestionStream(
+          question.trim(),
+          currentHistory,
+          (chunk) => {
+            accumulatedText += chunk;
+            setMessages((prev) =>
+              prev.map((m) =>
+                m.loading
+                  ? { ...m, content: accumulatedText }
+                  : m
+              )
+            );
+          },
+          (data) => {
+            // "done" event
+            setMessages((prev) =>
+              prev.map((m) =>
+                m.loading
+                  ? {
+                      ...m,
+                      loading: false,
+                      content: data.answer || accumulatedText,
+                      sources: data.sources,
+                      confidence: data.confidence,
+                      rerank_score: data.rerank_score,
+                      fallback: data.fallback,
+                    }
+                  : m
+              )
+            );
+          },
+          (err) => {
+            const errorMsg =
+              err instanceof Error ? err.message : "Unknown error occurred.";
+            setMessages((prev) =>
+              prev.map((m) =>
+                m.loading
+                  ? {
+                      ...m,
+                      loading: false,
+                      content: `Something went wrong: ${errorMsg} Please try again.`,
+                      fallback: true,
+                    }
+                  : m
+              )
+            );
+          }
+        );
       } catch (err) {
         const errorMsg =
           err instanceof Error ? err.message : "Unknown error occurred."
