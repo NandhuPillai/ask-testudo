@@ -312,7 +312,7 @@ export const PromptInputBox = React.forwardRef(
               className={cn(
                 "h-8 w-8 rounded-full transition-all duration-200",
                 hasContent || isLoading
-                  ? "bg-[#D53E0F] hover:bg-[#b83308] text-white"
+                  ? "bg-white hover:bg-white/80 text-[#1a1a1a]"
                   : "bg-transparent hover:bg-[#2a2a2a] text-[#808080] hover:text-[#f5f5f5] border border-[#3a3a3a]"
               )}
               onClick={handleSubmit}
