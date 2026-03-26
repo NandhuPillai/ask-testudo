@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 import React, { useEffect, useRef } from "react";
 
@@ -13,36 +15,39 @@ interface AnimatedGradientBackgroundProps {
   topOffset?: number;
 }
 
+const DEFAULT_GRADIENT_COLORS = [
+  "#0A0A0A",
+  "#2979FF",
+  "#FF80AB",
+  "#FF6D00",
+  "#FFD600",
+  "#00E676",
+  "#3D5AFE",
+];
+const DEFAULT_GRADIENT_STOPS = [35, 50, 60, 70, 80, 90, 100];
+
 const AnimatedGradientBackground: React.FC<AnimatedGradientBackgroundProps> = ({
   startingGap = 125,
   Breathing = false,
-  gradientColors = [
-    "#0A0A0A",
-    "#2979FF",
-    "#FF80AB",
-    "#FF6D00",
-    "#FFD600",
-    "#00E676",
-    "#3D5AFE"
-  ],
-  gradientStops = [35, 50, 60, 70, 80, 90, 100],
+  gradientColors = DEFAULT_GRADIENT_COLORS,
+  gradientStops = DEFAULT_GRADIENT_STOPS,
   animationSpeed = 0.02,
   breathingRange = 5,
   containerStyle = {},
   topOffset = 0,
   containerClassName = "",
 }) => {
-  if (gradientColors.length !== gradientStops.length) {
-    throw new Error(
-      `GradientColors and GradientStops must have the same length.
-     Received gradientColors length: ${gradientColors.length},
-     gradientStops length: ${gradientStops.length}`
-    );
-  }
-
   const containerRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
+    if (gradientColors.length !== gradientStops.length) {
+      throw new Error(
+        `GradientColors and GradientStops must have the same length.
+     Received gradientColors length: ${gradientColors.length},
+     gradientStops length: ${gradientStops.length}`
+      );
+    }
+
     let animationFrame: number;
     let width = startingGap;
     let directionWidth = 1;
