@@ -1,6 +1,6 @@
 "use client"
 
-import { useEffect } from "react"
+import { useEffect, useState } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Trash2 } from "lucide-react"
 import { useChat } from "@/hooks/useChat"
@@ -9,17 +9,51 @@ import { ChatThread } from "@/components/ChatThread"
 import { PromptInputBox } from "@/components/ui/ai-prompt-box"
 import { ExampleQuestions } from "@/components/ExampleQuestions"
 import { ThemeToggle } from "@/components/ThemeToggle"
+import AnimatedGradientBackground from "@/components/ui/animated-gradient-background"
+
+const DARK_GRADIENT_COLORS = ["#0A0A0A", "#1a1a1a", "#2a1a0a", "#3d1a05", "#D53E0F", "#ff9a3c"]
+const LIGHT_GRADIENT_COLORS = ["#F7EDD9", "#EED9B9", "#d9b896", "#b06040", "#9B0F06", "#5E0006"]
+const GRADIENT_STOPS = [35, 50, 62, 72, 85, 100]
 
 export default function ChatPage() {
   const { messages, isLoading, sendMessage, clearHistory } = useChat()
   const hasMessages = messages.length > 0
+  const [isDark, setIsDark] = useState(true)
 
   useEffect(() => {
     pingBackend()
   }, [])
 
+  useEffect(() => {
+    setIsDark(document.documentElement.classList.contains('dark'))
+    const observer = new MutationObserver(() => {
+      setIsDark(document.documentElement.classList.contains('dark'))
+    })
+    observer.observe(document.documentElement, { attributeFilter: ['class'] })
+    return () => observer.disconnect()
+  }, [])
+
   return (
     <div className="relative flex flex-col h-dvh bg-[var(--umd-bg)]">
+
+      {/* Animated gradient — empty state only */}
+      <AnimatePresence>
+        {!hasMessages && (
+          <motion.div
+            key="gradient"
+            className="absolute inset-0 z-0"
+            exit={{ opacity: 0, scale: 1.5 }}
+            transition={{ duration: 0.6, ease: "easeOut" }}
+          >
+            <AnimatedGradientBackground
+              Breathing={false}
+              startingGap={125}
+              gradientColors={isDark ? DARK_GRADIENT_COLORS : LIGHT_GRADIENT_COLORS}
+              gradientStops={GRADIENT_STOPS}
+            />
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       {/* Top-right controls — fade in once chat starts */}
       <AnimatePresence>
@@ -48,7 +82,7 @@ export default function ChatPage() {
 
       {!hasMessages ? (
         /* ── Empty state: everything centered ── */
-        <div className="flex flex-1 flex-col items-center justify-center gap-8 px-4">
+        <div className="relative z-10 flex flex-1 flex-col items-center justify-center gap-8 px-4">
           <motion.h1
             layoutId="ask-testudo-title"
             className="text-4xl md:text-5xl font-bold text-[var(--umd-text)] tracking-tight"
