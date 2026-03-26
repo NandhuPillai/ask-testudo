@@ -108,43 +108,49 @@
 }
 
 .dark {
-  --background: #1a0a00;
-  --foreground: #EED9B9;
-  --card: #2a1208;
-  --card-foreground: #EED9B9;
-  --popover: #2a1208;
-  --popover-foreground: #EED9B9;
+  --background: #1a1a1a;
+  --foreground: #f5f5f5;
+  --card: #242424;
+  --card-foreground: #f5f5f5;
+  --popover: #242424;
+  --popover-foreground: #f5f5f5;
   --primary: #D53E0F;
-  --primary-foreground: #1a0a00;
-  --secondary: #2a1208;
-  --secondary-foreground: #EED9B9;
-  --muted: #3a1a0a;
-  --muted-foreground: #c4956a;
-  --accent: #9B0F06;
-  --accent-foreground: #EED9B9;
+  --primary-foreground: #ffffff;
+  --secondary: #242424;
+  --secondary-foreground: #f5f5f5;
+  --muted: #2a2a2a;
+  --muted-foreground: #808080;
+  --accent: #D53E0F;
+  --accent-foreground: #ffffff;
   --destructive: #ff6b47;
-  --border: rgba(238, 217, 185, 0.15);
-  --input: rgba(238, 217, 185, 0.1);
+  --border: #3a3a3a;
+  --input: #2a2a2a;
   --ring: #D53E0F;
 
-  /* UMD brand tokens – dark */
-  --umd-bg: #1a0a00;
-  --umd-surface: #2a1208;
+  /* UMD brand tokens – dark (charcoal palette) */
+  --umd-bg: #1a1a1a;
+  --umd-surface: #242424;
   --umd-dark: #D53E0F;
   --umd-mid: #9B0F06;
-  --umd-light: #EED9B9;
-  --umd-text: #EED9B9;
-  --umd-muted: #c4956a;
-  --umd-border: rgba(238, 217, 185, 0.15);
+  --umd-light: #f5f5f5;
+  --umd-text: #f5f5f5;
+  --umd-muted: #808080;
+  --umd-border: #3a3a3a;
   --umd-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 
-  --sidebar: #2a1208;
-  --sidebar-foreground: #EED9B9;
+  /* shadcn charts */
+  --chart-1: #D53E0F;
+  --chart-2: #9B0F06;
+  --chart-3: #ff6b47;
+  --chart-4: #e8742a;
+  --chart-5: #f0a060;
+  --sidebar: #242424;
+  --sidebar-foreground: #f5f5f5;
   --sidebar-primary: #D53E0F;
-  --sidebar-primary-foreground: #1a0a00;
-  --sidebar-accent: #3a1a0a;
-  --sidebar-accent-foreground: #EED9B9;
-  --sidebar-border: rgba(238, 217, 185, 0.15);
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #2a2a2a;
+  --sidebar-accent-foreground: #f5f5f5;
+  --sidebar-border: #3a3a3a;
   --sidebar-ring: #D53E0F;
 }
 
