@@ -177,17 +177,26 @@ All clients are module-level globals initialised in `lifespan()`: `pinecone_inde
 
 Built with Next.js 16.2.1 (App Router), React 19, TypeScript, and Tailwind CSS 4.
 
+**UI design:** Perplexity-style dark layout. Default mode is dark (charcoal `#1a1a1a` background, UMD red `#D53E0F` accent). Two-state layout — centered empty state that animates into an active chat view when the first message is sent. No persistent top bar.
+
 **Key files:**
-- `app/chat/page.tsx` — Main chat page (uses `useChat` hook)
-- `components/ChatThread.tsx` — Scrollable message list with auto-scroll
-- `components/MessageBubble.tsx` — User/assistant message rendering (markdown via `react-markdown`)
-- `components/SourceCard.tsx` — Citation card (document, page, section)
+- `app/layout.tsx` — Root layout; `class="dark"` on `<html>` sets dark mode as the default
+- `app/chat/page.tsx` — Two-state chat page: empty state (title + input centered) and active state (title animates top-left via Framer Motion `layoutId`, messages fill middle, input pinned bottom). Calls `pingBackend()` on mount. "New chat" + `ThemeToggle` buttons appear top-right once a conversation starts.
+- `components/ChatThread.tsx` — Message list using `StickToBottom` from `use-stick-to-bottom`; auto-scrolls during updates but respects manual scroll-up
+- `components/MessageBubble.tsx` — User messages: right-aligned dark bubble. Assistant messages: `✦ Answer` header in UMD red, then markdown body, then sources/confidence badge below (no bubble wrapper)
+- `components/ExampleQuestions.tsx` — Suggestion chips shown in the empty state below the input
+- `components/SourceCard.tsx` — Expandable citation card (document, page, section)
 - `components/ConfidenceBadge.tsx` — Confidence pill (high/medium/low)
-- `components/Navbar.tsx` — Top bar with logo and theme toggle
-- `components/ui/ai-prompt-box.tsx` — Custom prompt input component
+- `components/ThemeToggle.tsx` — Defaults to dark; only switches to light if user explicitly set `"light"` in localStorage
+- `components/ui/ai-prompt-box.tsx` — Custom prompt input; send button is UMD red when there is input
 - `hooks/useChat.ts` — State management; calls `askQuestion()`, maintains history
 - `lib/api.ts` — `askQuestion()` (POST /ask) and `pingBackend()` (GET /ping)
 - `lib/types.ts` — TypeScript interfaces: `ChatMessage`, `AskResponse`, `Source`, `HistoryMessage`
+
+**Color palette (dark mode):**
+All components use `var(--umd-*)` CSS variables defined in `app/globals.css` so both dark and light modes work. Key dark-mode values: `--umd-bg: #1a1a1a`, `--umd-surface: #242424`, `--umd-border: #3a3a3a`, `--umd-text: #f5f5f5`, `--umd-muted: #808080`, `--umd-dark: #D53E0F` (accent/red).
+
+**Deleted:** `components/Navbar.tsx` — replaced by inline controls in `chat/page.tsx`.
 
 ### Ingestion Flow (`ingest.py`)
 
