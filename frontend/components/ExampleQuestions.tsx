@@ -5,7 +5,7 @@ interface ExampleQuestionsProps {
 const EXAMPLE_QUESTIONS = [
   "What are the prerequisites for CMSC132?",
   "What GPA do I need to stay in good academic standing?",
-  "How do I apply for a late withdrawal?",
+  "When do I need to sign up for classes by?",
   "What are the lower-level requirements for the CS major?",
   "What courses are required for the CS major?",
   "What is the minimum GPA to graduate with honors?",
