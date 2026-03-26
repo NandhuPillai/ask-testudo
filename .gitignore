@@ -9,3 +9,6 @@ __pycache__/
 frontend/node_modules/
 frontend/.next/
 frontend/.env.local
+
+# Superpowers brainstorm artifacts
+.superpowers/
