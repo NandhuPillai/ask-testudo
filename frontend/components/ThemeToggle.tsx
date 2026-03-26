@@ -27,7 +27,8 @@ export function ThemeToggle() {
       aria-label="Toggle dark mode"
       className="
         flex items-center justify-center w-9 h-9 rounded-full
-        bg-white/15 hover:bg-white/25 text-white
+        bg-[#242424] hover:bg-[#2a2a2a] text-[#f5f5f5]
+        border border-[#3a3a3a]
         transition-all duration-200 hover:scale-105
       "
     >

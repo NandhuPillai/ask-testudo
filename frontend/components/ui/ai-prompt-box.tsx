@@ -156,8 +156,8 @@ const PromptInput = React.forwardRef<HTMLDivElement, PromptInputProps>(
           <div
             ref={ref}
             className={cn(
-              "rounded-3xl border border-[#444444] bg-[#1F2023] p-2 shadow-[0_8px_30px_rgba(0,0,0,0.24)] transition-all duration-300",
-              isLoading && "border-red-500/70",
+              "rounded-3xl border border-[#3a3a3a] bg-[#242424] p-2 shadow-[0_8px_30px_rgba(0,0,0,0.24)] transition-all duration-300",
+              isLoading && "border-[#D53E0F]/70",
               className
             )}
             onDragOver={onDragOver}
@@ -291,7 +291,7 @@ export const PromptInputBox = React.forwardRef(
         isLoading={isLoading}
         onSubmit={handleSubmit}
         className={cn(
-          "w-full bg-[#1F2023] border-[#444444] shadow-[0_8px_30px_rgba(0,0,0,0.24)] transition-all duration-300 ease-in-out",
+          "w-full bg-[#242424] border-[#3a3a3a] shadow-[0_8px_30px_rgba(0,0,0,0.24)] transition-all duration-300 ease-in-out",
           className
         )}
         disabled={isLoading}
@@ -312,8 +312,8 @@ export const PromptInputBox = React.forwardRef(
               className={cn(
                 "h-8 w-8 rounded-full transition-all duration-200",
                 hasContent || isLoading
-                  ? "bg-white hover:bg-white/80 text-[#1F2023]"
-                  : "bg-transparent hover:bg-gray-600/30 text-[#9CA3AF] hover:text-[#D1D5DB] border border-[#444444]"
+                  ? "bg-[#D53E0F] hover:bg-[#b83308] text-white"
+                  : "bg-transparent hover:bg-[#2a2a2a] text-[#808080] hover:text-[#f5f5f5] border border-[#3a3a3a]"
               )}
               onClick={handleSubmit}
               disabled={isLoading}
