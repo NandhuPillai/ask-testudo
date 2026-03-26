@@ -18,7 +18,7 @@ const GRADIENT_STOPS = [35, 50, 62, 72, 85, 100]
 export default function ChatPage() {
   const { messages, isLoading, sendMessage, clearHistory } = useChat()
   const hasMessages = messages.length > 0
-  const [isDark, setIsDark] = useState(true)
+  const [isDark, setIsDark] = useState(true) // defaults to dark — matches layout.tsx class="dark"
 
   useEffect(() => {
     pingBackend()
@@ -41,9 +41,10 @@ export default function ChatPage() {
         {!hasMessages && (
           <motion.div
             key="gradient"
+            aria-hidden="true"
             className="absolute inset-0 z-0"
             exit={{ opacity: 0, scale: 1.5 }}
-            transition={{ duration: 0.6, ease: "easeOut" }}
+            transition={{ duration: 0.6, ease: "easeIn" }}
           >
             <AnimatedGradientBackground
               Breathing={false}
