@@ -58,8 +58,8 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   ({ className, variant = "default", size = "default", ...props }, ref) => {
     const variantClasses = {
       default: "bg-white hover:bg-white/80 text-black",
-      outline: "border border-[#444444] bg-transparent hover:bg-[#3A3A40]",
-      ghost: "bg-transparent hover:bg-[#3A3A40]",
+      outline: "border border-[var(--umd-border)] bg-transparent hover:bg-[var(--umd-surface)]",
+      ghost: "bg-transparent hover:bg-[var(--umd-surface)]",
     };
     const sizeClasses = {
       default: "h-10 px-4 py-2",
@@ -156,8 +156,8 @@ const PromptInput = React.forwardRef<HTMLDivElement, PromptInputProps>(
           <div
             ref={ref}
             className={cn(
-              "rounded-3xl border border-[#3a3a3a] bg-[#242424] p-2 shadow-[0_8px_30px_rgba(0,0,0,0.24)] transition-all duration-300",
-              isLoading && "border-[#D53E0F]/70",
+              "rounded-3xl border border-[var(--umd-border)] bg-[var(--umd-surface)] p-2 shadow-[0_8px_30px_rgba(0,0,0,0.24)] transition-all duration-300",
+              isLoading && "border-[var(--umd-dark)]/70",
               className
             )}
             onDragOver={onDragOver}
@@ -291,7 +291,7 @@ export const PromptInputBox = React.forwardRef(
         isLoading={isLoading}
         onSubmit={handleSubmit}
         className={cn(
-          "w-full bg-[#242424] border-[#3a3a3a] shadow-[0_8px_30px_rgba(0,0,0,0.24)] transition-all duration-300 ease-in-out",
+          "w-full bg-[var(--umd-surface)] border-[var(--umd-border)] shadow-[0_8px_30px_rgba(0,0,0,0.24)] transition-all duration-300 ease-in-out",
           className
         )}
         disabled={isLoading}

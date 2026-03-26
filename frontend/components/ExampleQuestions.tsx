@@ -20,8 +20,8 @@ export function ExampleQuestions({ onSelect }: ExampleQuestionsProps) {
           onClick={() => onSelect(q)}
           className="
             px-4 py-2 rounded-full text-sm
-            bg-[#242424] text-[#808080] hover:text-[#f5f5f5]
-            border border-[#3a3a3a] hover:border-[#D53E0F]
+            bg-[var(--umd-surface)] text-[var(--umd-muted)] hover:text-[var(--umd-text)]
+            border border-[var(--umd-border)] hover:border-[var(--umd-dark)]
             transition-all duration-200
           "
         >

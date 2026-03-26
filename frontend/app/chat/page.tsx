@@ -1,8 +1,10 @@
 "use client"
 
+import { useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Trash2 } from "lucide-react"
 import { useChat } from "@/hooks/useChat"
+import { pingBackend } from "@/lib/api"
 import { ChatThread } from "@/components/ChatThread"
 import { PromptInputBox } from "@/components/ui/ai-prompt-box"
 import { ExampleQuestions } from "@/components/ExampleQuestions"
@@ -11,6 +13,10 @@ import { ThemeToggle } from "@/components/ThemeToggle"
 export default function ChatPage() {
   const { messages, isLoading, sendMessage, clearHistory } = useChat()
   const hasMessages = messages.length > 0
+
+  useEffect(() => {
+    pingBackend()
+  }, [])
 
   return (
     <div className="relative flex flex-col h-dvh bg-[var(--umd-bg)]">
@@ -29,8 +35,8 @@ export default function ChatPage() {
               onClick={clearHistory}
               aria-label="New chat"
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm
-                bg-[#242424] hover:bg-[#2a2a2a] text-[#f5f5f5]/70 hover:text-[#f5f5f5]
-                border border-[#3a3a3a] transition-all duration-200"
+                bg-[var(--umd-surface)] hover:bg-[var(--umd-surface)] text-[var(--umd-muted)] hover:text-[var(--umd-text)]
+                border border-[var(--umd-border)] transition-all duration-200"
             >
               <Trash2 size={14} />
               <span className="hidden sm:inline">New chat</span>
@@ -61,7 +67,7 @@ export default function ChatPage() {
       ) : (
         /* ── Active chat: title top-left, messages, input pinned bottom ── */
         <div className="flex flex-col h-full">
-          <div className="px-4 pt-4 pb-2 shrink-0">
+          <div className="px-4 pt-4 pb-2 pr-36 shrink-0">
             <motion.h1
               layoutId="ask-testudo-title"
               className="text-base font-bold text-[var(--umd-text)] tracking-tight"
@@ -78,7 +84,7 @@ export default function ChatPage() {
               isLoading={isLoading}
               placeholder="Ask a follow-up..."
             />
-            <p className="text-center text-[10px] text-[#808080] mt-1.5">
+            <p className="text-center text-[10px] text-[var(--umd-muted)] mt-1.5">
               Ask Testudo — UMD academic policy only. Always verify with your advisor.
             </p>
           </div>
