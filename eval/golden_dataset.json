@@ -1,0 +1,655 @@
+[
+  {
+    "id": "q001",
+    "category": "factual_lookup",
+    "question": "What GPA is required for Latin honors (cum laude) at UMD?",
+    "ground_truth_answer": "UMD does NOT use fixed GPA thresholds for Latin honors. Instead, Latin honors are awarded to the top 10% of graduates in each specific College or School, based on cumulative GPA percentiles from the previous academic year's graduating classes. Summa cum laude is awarded to the top 2% of GPAs, magna cum laude to the next highest 3%, and cum laude to the following 5%. Additionally, any student with a cumulative GPA of 3.9 or higher who would not otherwise qualify is also awarded cum laude. To be eligible, students must have earned at least 60 semester hours at UMD, and no student with a GPA below 3.3 will be considered for any Latin honor. The exact GPA cutoffs vary by college and year and are published by the Office of the Registrar.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q002",
+    "category": "factual_lookup",
+    "question": "how many credits do i need to be considered full time at umd?",
+    "ground_truth_answer": "To be considered a full-time student at UMD, you must be enrolled in at least 12 credit hours per semester. This status affects financial aid, health insurance, and other benefits. Part-time is defined as fewer than 12 credits.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q003",
+    "category": "factual_lookup",
+    "question": "What is the minimum GPA you need to graduate from UMD?",
+    "ground_truth_answer": "Students must have a cumulative GPA of at least 2.0 to graduate from UMD. Beginning with students matriculating in Fall 2012, students must also have a minimum 2.0 cumulative GPA across all courses used to satisfy major degree requirements, minor requirements, and undergraduate certificate requirements. Some programs have higher minimum GPA requirements.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q004",
+    "category": "factual_lookup",
+    "question": "How many times can you use grade replacement at UMD?",
+    "ground_truth_answer": "UMD does not have a traditional 'Course Replacement Option' that allows blanket grade replacement. Under UMD's course repeat policy, students may repeat a course once (i.e., take it a maximum of two times total); a dean's office exception may allow a third attempt in special circumstances. Students may repeat no more than 18 total credit hours across all repeated courses. Importantly, for most students the GPA includes all attempts at a course. The only exception is if the original course was taken in the student's first semester at UMD, or within their first 24 credit hours attempted (including transfer credits) — in those cases, only the higher grade is factored into the cumulative GPA. All grades from all attempts remain on the transcript permanently.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q005",
+    "category": "factual_lookup",
+    "question": "whats the max credits per semester before i need special permission",
+    "ground_truth_answer": "At UMD, undergraduates may not exceed 20 credits per semester (fall or spring) without prior approval from their Advising College. Before the first day of classes for that semester, the limit requiring approval is 16 credits. During summer sessions, different credit limits apply. Students should consult with their college advisor before attempting to register above these thresholds.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q006",
+    "category": "factual_lookup",
+    "question": "What GPA do you need to make Dean's List at UMD?",
+    "ground_truth_answer": "To be named to the Dean's List (Semester Academic Honors) at UMD, a student must complete 12 or more credits using the regular grading method and earn a semester GPA of 3.5 or higher. Only fall and spring semesters are eligible; winter and summer terms do not count. Pass-Fail, Satisfactory/Unsatisfactory, and audit courses are excluded from both the credit count and the GPA determination.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q007",
+    "category": "factual_lookup",
+    "question": "How many credits do I need total to graduate from UMD?",
+    "ground_truth_answer": "Most bachelor's degree programs at UMD require a minimum of 120 credit hours to graduate. Some programs (such as engineering and architecture) may require more credits. The exact requirement depends on the specific degree program.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q008",
+    "category": "factual_lookup",
+    "question": "How many upper-level credits do i need to graduate",
+    "ground_truth_answer": "UMD requires that all candidates for an undergraduate degree take a minimum of 15 credits in courses numbered 300 or above, and at least 12 of those upper-level credits must be in the student's major field. These upper-level credits must also be part of the minimum 30 credits completed in residence at UMD. Individual colleges or programs may impose additional upper-level course requirements beyond this university-wide minimum of 15.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q009",
+    "category": "factual_lookup",
+    "question": "At what GPA do you get put on academic probation at UMD?",
+    "ground_truth_answer": "Students are placed on academic probation at UMD when their cumulative GPA falls below 2.0. Students with fewer than 60 earned credits may continue on probation semester-to-semester if they earn a minimum semester GPA of 2.0 each probationary term. Students who have earned 60 or more credits will be academically dismissed if their cumulative GPA remains below 2.0 at the end of a probationary semester. Additional probation rules may apply to specific colleges.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q010",
+    "category": "factual_lookup",
+    "question": "What is the minimum grade needed to pass a course at UMD?",
+    "ground_truth_answer": "At UMD, a grade of D- (0.7 GPA quality points) or higher earns credit for a course and is considered a passing grade in terms of credit completion. However, many major programs require a minimum grade of C- or higher in required major courses. Some prerequisites also require C- or better for the grade to count toward satisfying the prerequisite. A grade of F (0.0) earns no credit.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q011",
+    "category": "factual_lookup",
+    "question": "what gpa do you need for summa cum laude",
+    "ground_truth_answer": "There is no single fixed GPA cutoff for summa cum laude at UMD. Latin honors use a percentile-based system by College or School: summa cum laude is awarded to students with a cumulative GPA equal to or greater than the highest 2% of GPAs among graduates from their specific college or school, calculated from the previous academic year's graduating classes. Cutoffs therefore vary by college and year. To be eligible, students must have earned at least 60 semester hours at UMD and have a minimum GPA of 3.3. Current cutoffs are published each year by the Office of the Registrar.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q012",
+    "category": "factual_lookup",
+    "question": "How many credits do you have to take AT UMD to get a UMD degree (residency req)?",
+    "ground_truth_answer": "All candidates for an undergraduate degree from UMD must complete a minimum of 30 credits in residence at UMD. Normally, these 30 credits are the final 30 credits counted toward the degree. Within that residency requirement, at least 15 of the 30 credits must be in courses numbered 300 or above, and at least 12 of those must be in the student's major field. Credits from University-approved study abroad programs may count toward the final 30, up to 6 credits, if approved in advance by the relevant dean. For Latin honors eligibility, at least 60 semester hours must be earned in residence at UMD.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q013",
+    "category": "factual_lookup",
+    "question": "What's the minimum grade you need in a prereq course for CS classes at UMD?",
+    "ground_truth_answer": "For Computer Science courses at UMD, students must earn a C- or better in each prerequisite course for the grade to count toward satisfying the prerequisite requirement. A D or D- in a prerequisite does NOT satisfy the prerequisite for CMSC courses. This C- minimum applies across the CS major's LEP benchmark requirements (e.g., CMSC131, CMSC132, CMSC330, CMSC351, MATH140).",
+    "ground_truth_sources": [
+      {"filename": "computer-science-major.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q014",
+    "category": "factual_lookup",
+    "question": "What's the minimum GPA to keep your scholarship if you're in honors college",
+    "ground_truth_answer": "Students in UMD's Honors College must maintain a minimum cumulative GPA of 3.0 to remain in good standing. Falling below 3.0 can result in being placed on honors probation or removed from the program. A higher GPA of 3.2 is required specifically to earn the Honors College citation upon graduation. Individual Honors living-learning programs (such as Gemstone) may have additional requirements.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "medium",
+    "expected_fallback": false
+  },
+  {
+    "id": "q015",
+    "category": "factual_lookup",
+    "question": "How many CORE (general education) credits does UMD require?",
+    "ground_truth_answer": "UMD's General Education (CORE) program requires students to complete courses in several distribution areas including Fundamental Studies (English composition, math, professional writing) and Distributive Studies (Natural Science with lab, Social Science, Humanities), as well as Scholarship in Practice and Advanced Studies requirements. The total is approximately 40 credits depending on the specific requirements fulfilled. Students should consult the 2025-2026 Academic Catalog and their advisor for the precise number.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q016",
+    "category": "requirement_list",
+    "question": "What are all the lower-level required courses for the CS major at UMD?",
+    "ground_truth_answer": "All CS majors at UMD, regardless of specialization, must complete the following lower-level coursework: CMSC131 (Object-Oriented Programming I) or CMSC133 (Object-Oriented Programming I Beyond Fundamentals), CMSC132 (Object-Oriented Programming II), CMSC216 (Introduction to Computer Systems), CMSC250 (Discrete Structures), CMSC330 (Organization of Programming Languages), CMSC351 (Algorithms), MATH140 (Calculus I), MATH141 (Calculus II), one STAT4XX course with a MATH141 prerequisite (e.g., STAT400 or STAT410), and one additional MATH or STAT course with a MATH141 prerequisite. Students in the Data Science, Machine Learning, and Quantum Information specializations must additionally take a linear algebra course such as MATH240, MATH341, or MATH461.",
+    "ground_truth_sources": [
+      {"filename": "computer-science-major.pdf", "page": 1},
+      {"filename": "CMSCFourYearPlan.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q017",
+    "category": "requirement_list",
+    "question": "What math classes does a CS major at UMD have to take?",
+    "ground_truth_answer": "All CS majors at UMD are required to take MATH140 (Calculus I), MATH141 (Calculus II), one STAT4XX course with a MATH141 prerequisite (typically STAT400 or STAT410), and one additional MATH or STAT course with a MATH141 prerequisite. Students pursuing the Data Science, Machine Learning, or Quantum Information specializations must also take a linear algebra course (MATH240, MATH341, or MATH461). CMSC250 (Discrete Structures) satisfies a discrete math requirement within the CS curriculum itself. The general track does not universally require MATH240 unless it is chosen to satisfy the second MATH/STAT elective requirement.",
+    "ground_truth_sources": [
+      {"filename": "computer-science-major.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q018",
+    "category": "requirement_list",
+    "question": "what science courses are required for the cs major",
+    "ground_truth_answer": "The CS major at UMD does not include a separate lab science sequence as a CS-specific degree requirement. However, CS students must fulfill UMD's General Education (DSNS) requirement, which requires completion of a two-course lab science sequence. Students typically satisfy this with sequences such as PHYS161/PHYS260 (General Physics), CHEM131/CHEM132 (General Chemistry), or BIOL101/BIOL102 (Biology). The specific sequence is chosen by the student to satisfy the university-wide General Education requirement, not a CS-major-specific mandate.",
+    "ground_truth_sources": [
+      {"filename": "computer-science-major.pdf", "page": 1},
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q019",
+    "category": "requirement_list",
+    "question": "What are the requirements for a CS minor at UMD?",
+    "ground_truth_answer": "The CS minor at UMD is a Limited Enrollment Program with competitive admission. Effective Spring 2025, the gateway requirements for admission are: CMSC131 (or CMSC133 or CMSC141) with a minimum grade of B-, CMSC132 (or CMSC142) with a minimum grade of B-, MATH140 with a minimum grade of B-, and a minimum cumulative GPA of 3.0 in all UMD courses. Once admitted, the minor curriculum requires: MATH141 (Calculus II), CMSC216 (Introduction to Computer Systems), CMSC250 (Discrete Structures), CMSC330 (Organization of Programming Languages), CMSC351 (Algorithms), and two 400-level CMSC courses from the approved list. The minor is 15-24 credits total. All non-gateway courses must be completed with a grade of C- or better. Computer Engineering majors and the computing track of Immersive Media Design are not eligible for the CS minor.",
+    "ground_truth_sources": [
+      {"filename": "computer-science-minor.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q020",
+    "category": "requirement_list",
+    "question": "What courses does the Computer Engineering major require?",
+    "ground_truth_answer": "The Computer Engineering major at UMD requires courses in circuits, electronics, digital logic, computer architecture, and software. Core required courses include ENEE140 (Introduction to Programming Concepts for Engineers), ENEE245 (Digital Circuits and Systems), ENEE307 (Electronic Circuits), ENEE322 (Signal and System Theory), ENEE350 (Computer Organization), CMSC216, CMSC250, CMSC330, along with math courses MATH140, MATH141, MATH246 or MATH341, MATH240. Students should consult the official Computer Engineering degree requirements in the 2025-2026 Academic Catalog for the complete and authoritative list.",
+    "ground_truth_sources": [
+      {"filename": "computer-engineering-major.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q021",
+    "category": "requirement_list",
+    "question": "What are the required courses for the Finance major at UMD?",
+    "ground_truth_answer": "The Finance major at UMD (Robert H. Smith School of Business) requires: BMGT220 (Principles of Accounting I), BMGT221 (Principles of Accounting II), BMGT230 (Business Statistics), BMGT340 (Business Finance), BMGT343 (Investments), BMGT344 (Financial Institutions and Markets), BMGT345 (Advanced Business Finance), and two Finance electives. Business core courses including BMGT301, BMGT350, BMGT364, and BMGT380 are also required. Students should verify current requirements with the Smith School advising office as course numbers and requirements may change.",
+    "ground_truth_sources": [
+      {"filename": "Finance - Degree Requirements - 2025.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q022",
+    "category": "requirement_list",
+    "question": "List all the required courses for the Math major at UMD",
+    "ground_truth_answer": "The Mathematics major at UMD requires: MATH140, MATH141 (Calculus I and II), MATH241 (Calculus III), MATH240 (Linear Algebra), MATH246 (Differential Equations), MATH310 (Introduction to Mathematical Proof), MATH401 (Applications of Linear Algebra), MATH403 (Abstract Algebra), MATH410 (Advanced Calculus I). Additionally, students must complete upper-level math electives and a 3-credit course in an applied area. Students should consult the 2025-2026 Academic Catalog and their advisor for the current complete list.",
+    "ground_truth_sources": [
+      {"filename": "MATH-FourYearPlan.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q023",
+    "category": "requirement_list",
+    "question": "What CORE general education requirements does every UMD student have to complete?",
+    "ground_truth_answer": "Every UMD student must complete General Education requirements including: Fundamental Studies (FSAW - Academic Writing, FSAR - Analytic Reasoning, FSMA - Math, FSOC - Oral Communication), Distributive Studies (DSHS - History and Social Sciences, DSHU - Humanities, DSNS - Natural Sciences with lab, DSSP - Scholarship in Practice, DSSL - Scholarship and its Social Context), and Advanced Studies (SCIS - Scholarship and its Social Context interdisciplinary). Students should confirm all specific requirements with their academic advisor and the current catalog.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q024",
+    "category": "requirement_list",
+    "question": "What do i need to do to officially declare CS as my major",
+    "ground_truth_answer": "Computer Science is a Limited Enrollment Program (LEP) at UMD, meaning declaration is competitive and not automatic. Students admitted directly as CS freshmen or transfer students are already declared. For students who need to switch into CS internally, the process involves applying through the CS LEP application and undergoing benchmark reviews. The 45-credit LEP benchmark requires a minimum grade of C- in CMSC131, CMSC132, and MATH140, and a cumulative GPA of at least 2.0. A 75-credit benchmark additionally requires C- in CMSC330, CMSC351, and a STAT4XX course, plus a 2.0 GPA. For students who matriculated Fall 2024 or later, internal transfer admission is selective with limited seats (approximately 100 per year) and considers academic record, research experience, and other factors. Students should contact cs-lep@umd.edu for guidance.",
+    "ground_truth_sources": [
+      {"filename": "computer-science-major.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q025",
+    "category": "requirement_list",
+    "question": "What are the upper-level CS elective requirements I need to fulfill",
+    "ground_truth_answer": "CS majors at UMD must complete five (5) 400-level CMSC courses from at least three (3) of the following five Distributive Areas: Area 1 (Systems), Area 2 (Information Processing), Area 3 (Software Engineering and Programming Languages), Area 4 (Theory), and Area 5 (Numerical Analysis). No more than three courses from any single area may count toward the five required. Specific courses eligible in each area are listed on the CS department's degree requirements page. Additionally, all CS majors must complete an Upper-Level Concentration (ULC) of 12 credits in 300-400 level coursework in one discipline outside of CS, with a cumulative GPA of 1.7 or higher in that coursework.",
+    "ground_truth_sources": [
+      {"filename": "computer-science-major.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q026",
+    "category": "requirement_list",
+    "question": "what courses are in the data science minor requirements",
+    "ground_truth_answer": "The Data Science minor at UMD (offered through CMNS) requires: CMSC320 (Introduction to Data Science), a programming prerequisite (CMSC131 or equivalent), a statistics course (STAT400 or STAT410), a linear algebra course (MATH240 or MATH461), and additional elective courses in data science or machine learning. The total is approximately 15-18 credits. Students should verify current requirements with the CMNS advising office and the 2025-2026 Academic Catalog.",
+    "ground_truth_sources": [
+      {"filename": "computer-science--data-science-minor.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q027",
+    "category": "requirement_list",
+    "question": "What are the CS major requirements for the first two years according to the four year plan",
+    "ground_truth_answer": "According to the CS four-year plan at UMD, Year 1 typically includes: CMSC131, CMSC132, MATH140, MATH141, and General Education (CORE) requirements. Year 2 typically includes: CMSC216, CMSC250, CMSC330, a STAT4XX course (e.g., STAT400 or STAT410), the second required MATH/STAT elective, and additional General Education requirements. Students should aim to complete all lower-level requirements before beginning upper-level 400-level CMSC electives.",
+    "ground_truth_sources": [
+      {"filename": "CMSCFourYearPlan.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q028",
+    "category": "requirement_list",
+    "question": "What are the distribution requirements for students in CMNS",
+    "ground_truth_answer": "Students in the College of Computer, Mathematical, and Natural Sciences (CMNS) at UMD must complete the University's General Education requirements plus CMNS college-specific requirements. CMNS students must demonstrate proficiency in mathematics (typically through MATH140/141) and complete the required laboratory science sequence for their major. Specific distribution requirements vary by major within CMNS. Students should consult their academic advisor and the 2025-2026 Academic Catalog for the complete and up-to-date list.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1},
+      {"filename": "computer-science-major.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q029",
+    "category": "requirement_list",
+    "question": "what courses are required for the business analytics minor",
+    "ground_truth_answer": "The Business Analytics minor at UMD requires courses in statistics, data analysis, and business applications. Core requirements typically include BMGT230 (Business Statistics) or equivalent, and courses in data analytics, operations research, or information systems. Specific elective requirements allow students to focus on areas such as predictive analytics or decision modeling. Students should verify current requirements with the Smith School advising office and the 2025-2026 Academic Catalog.",
+    "ground_truth_sources": [
+      {"filename": "business-analytics-minor.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q030",
+    "category": "requirement_list",
+    "question": "What are the requirements for the marketing major at UMD Smith School?",
+    "ground_truth_answer": "The Marketing major at UMD's Robert H. Smith School requires the Business Core (BMGT220, BMGT221, BMGT230, BMGT301, BMGT340, BMGT350, BMGT364, BMGT380), plus Marketing major courses: BMGT350 (Marketing Principles), BMGT452 (Consumer Behavior), BMGT455 (Marketing Research), and at least two Marketing electives from courses like BMGT451, BMGT453, BMGT454, BMGT456. Students should verify the exact current requirements with the Smith School and the 2025-2026 Academic Catalog.",
+    "ground_truth_sources": [
+      {"filename": "Marketing - Degree Requirements - 2025.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q031",
+    "category": "policy",
+    "question": "When is the last day to drop a class without a W on my transcript in fall 2025?",
+    "ground_truth_answer": "At UMD for Fall 2025, the deadline to drop a course without a 'W' (Withdrawal) appearing on your transcript is at the end of the Schedule Adjustment Period, which covers the first 10 business days of classes. After that deadline, dropped courses result in a 'W' on your transcript. Check the Office of the Registrar's academic calendar for the exact date for Fall 2025, as specific dates vary by term.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "medium",
+    "expected_fallback": false
+  },
+  {
+    "id": "q032",
+    "category": "policy",
+    "question": "How does the course repeat/grade replacement policy work at UMD?",
+    "ground_truth_answer": "Under UMD's course repeat policy, students may repeat a course once (2 total attempts maximum); a dean's office exception may allow a third attempt. Students may repeat no more than 18 total credit hours across all courses. For most students, the GPA includes all attempts at a course. There is a key exception: if the original course was taken in the student's first semester at UMD, or within their first 24 credit hours attempted (including transfer credits), only the higher grade is counted in the cumulative GPA. All grades from all attempts appear permanently on the transcript. Students cannot register for a course under the Pass-Fail option when repeating a course.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q033",
+    "category": "policy",
+    "question": "Does plus/minus grading affect my GPA at UMD and how?",
+    "ground_truth_answer": "Yes, UMD uses a plus/minus grading system. An A+ and A are both worth 4.0 GPA quality points per credit hour. An A- is 3.7, B+ is 3.3, B is 3.0, B- is 2.7, C+ is 2.3, C is 2.0, C- is 1.7, D+ is 1.3, D is 1.0, D- is 0.7, and F is 0.0. The GPA is calculated by multiplying the grade points by credit hours for each course to get quality points, summing all quality points, and dividing by total credit hours attempted in graded courses. GPA is truncated at the thousandths digit without rounding.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q034",
+    "category": "policy",
+    "question": "What is UMD's policy on incomplete grades and how long do you have to finish",
+    "ground_truth_answer": "At UMD, an Incomplete (I) grade may be assigned when a student has completed the major portion of coursework but cannot finish a small remaining portion due to illness or other circumstances beyond their control. The instructor and student complete an Incomplete Contract specifying the remaining work and deadline. Students must complete the work within the time stipulated in the contract — usually by the end of the next semester, but no later than 12 months from the end of the original term or by graduation, whichever comes first. If the work is not completed by the deadline, the instructor converts the 'I' to the grade specified in the Incomplete Contract (not automatically an F). This policy applies to both undergraduate and graduate students.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q035",
+    "category": "policy",
+    "question": "Can i take a course pass/fail if it's required for my major?",
+    "ground_truth_answer": "At UMD, courses required for your major generally may NOT be taken on a pass/fail basis. The Pass/Fail option is intended for elective courses only. Under pass/fail, a grade of C- or better converts to a 'P' mark and does not count toward GPA; a grade of D+, D, D-, or F remains as the letter grade and is included in GPA. Students must register for pass/fail by the end of the Schedule Adjustment Period, and this option is typically not available for CORE or major requirements.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q036",
+    "category": "policy",
+    "question": "What is UMD's academic dishonesty policy and what can happen to me?",
+    "ground_truth_answer": "UMD's Code of Academic Integrity prohibits academic dishonesty including cheating, fabrication, facilitating academic dishonesty, and plagiarism. Violations are handled by the Student Honor Council. Consequences range from a grade of XF (failure for academic dishonesty, appearing permanently on transcript) to suspension or expulsion. Students have the right to a hearing before the Student Honor Council.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q037",
+    "category": "policy",
+    "question": "How do grade appeals work at UMD?",
+    "ground_truth_answer": "Students who believe a grade was assigned in error at UMD should first discuss it with the instructor. If unresolved, students may file a formal grade appeal through their college's appeals process. Appeals must typically be filed within a specific timeframe after grades are posted (usually 30 days). The appeal goes to the department chair, then college dean if needed. Appeals are limited to cases of arbitrary and capricious grading — defined as grading on a basis other than performance, applying unreasonable standards different from those applied to others, or substantially departing from initially articulated standards — not merely subjective disagreements about the grade awarded.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q038",
+    "category": "policy",
+    "question": "whats the max community college credits I can transfer to umd",
+    "ground_truth_answer": "Effective Fall 2022, UMD limits transfer credits from 2-year institutions to a maximum of 70 semester credit hours applicable toward a bachelor's degree (not the previously used 60-hour cap). Additionally, no more than 90 total transfer credits (from any combination of 2-year institutions, 4-year institutions, and prior learning credits) may be applied toward UMD degree requirements. Credits beyond these caps will not count toward graduation. Students should plan carefully with an advisor to ensure their transfer credits are applied optimally.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q039",
+    "category": "policy",
+    "question": "How does changing your major work at UMD?",
+    "ground_truth_answer": "To change your major at UMD, you must work through your current college's advising office and meet the requirements of the new major's program. Some majors (like CS, Engineering, and Business) are Limited Enrollment Programs (LEPs) and require meeting specific GPA and course completion criteria; admission to LEPs is selective with limited seats. The process varies by college. Students who complete 10 semesters or 130 credits without earning a degree are subject to mandatory advising before any subsequent registration.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q040",
+    "category": "policy",
+    "question": "what happens to my financial aid if i drop below full time status",
+    "ground_truth_answer": "Dropping below 12 credits (full-time status) at UMD can significantly impact financial aid. Federal Pell Grants and scholarships may be reduced or cancelled for part-time enrollment. Federal loans are also affected based on enrollment intensity. Students should consult with the Office of Student Financial Aid before dropping to part-time to understand the financial implications.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "medium",
+    "expected_fallback": false
+  },
+  {
+    "id": "q041",
+    "category": "cross_document",
+    "question": "Do AP credits from high school count toward the CS major prerequisite requirement, or do I still need to take CMSC131?",
+    "ground_truth_answer": "AP credits may be used to satisfy certain CS major prerequisites at UMD. A score of 4 or 5 on the AP Computer Science A exam typically grants credit equivalent to CMSC131. If you place into CMSC132 via AP credit, you must still earn a C- or better in CMSC132 and subsequent courses to continue in the major. However, students who pass the CMSC131 exemption exam (as an alternative path) will still need to go through the CS LEP process if not directly admitted as a CS freshman or external transfer.",
+    "ground_truth_sources": [
+      {"filename": "computer-science-major.pdf", "page": 1},
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "medium",
+    "expected_fallback": false
+  },
+  {
+    "id": "q042",
+    "category": "cross_document",
+    "question": "Can credits from Montgomery College or PG Community College count toward upper-level requirements for the CS major?",
+    "ground_truth_answer": "No, credits from community colleges cannot count toward upper-level (300-level or above) requirements for the CS major at UMD. Community college courses are lower-division and can fulfill lower-level prerequisites (like CMSC131/132 equivalents), but UMD policy caps community college transfer credits at 70 hours (effective Fall 2022) applicable toward a bachelor's degree, and they do not satisfy upper-division requirements.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1},
+      {"filename": "computer-science-major.pdf", "page": 1}
+    ],
+    "expected_confidence": "medium",
+    "expected_fallback": false
+  },
+  {
+    "id": "q043",
+    "category": "cross_document",
+    "question": "If I transfer in with credit for CMSC131, do I still need to take CMSC132 or can I skip it?",
+    "ground_truth_answer": "If you transfer in with an approved equivalent to CMSC131, you must still complete CMSC132 at UMD (or transfer an approved CMSC132 equivalent). CMSC132 is a required lower-level course for the CS major and cannot be skipped — it is the prerequisite for CMSC216, CMSC250, and all subsequent CS coursework. You cannot bypass the sequential requirement.",
+    "ground_truth_sources": [
+      {"filename": "computer-science-major.pdf", "page": 1},
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "high",
+    "expected_fallback": false
+  },
+  {
+    "id": "q044",
+    "category": "cross_document",
+    "question": "Can I use the same CS course to satisfy both a major requirement and a CORE general education requirement?",
+    "ground_truth_answer": "At UMD, some courses can satisfy both major requirements and General Education (CORE) requirements simultaneously — this is called double-counting or dual fulfillment. However, specific CORE categories allow this in limited cases. Students should verify with their academic advisor which courses qualify for dual fulfillment, as major programs and the Registrar have specific policies on this.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1},
+      {"filename": "computer-science-major.pdf", "page": 1}
+    ],
+    "expected_confidence": "medium",
+    "expected_fallback": false
+  },
+  {
+    "id": "q045",
+    "category": "cross_document",
+    "question": "Does the CS major's writing requirement get waived if I've already done ENGL101 via AP or transfer?",
+    "ground_truth_answer": "The CS major at UMD has a specific upper-level writing requirement that is separate from the general ENGL101/FSAW requirements. Satisfying the freshman writing requirement via AP or transfer credit does not waive the upper-level writing requirement for the CS major. Students typically need to complete a designated upper-level writing course in computer science or a related technical field.",
+    "ground_truth_sources": [
+      {"filename": "computer-science-major.pdf", "page": 1},
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "medium",
+    "expected_fallback": false
+  },
+  {
+    "id": "q046",
+    "category": "cross_document",
+    "question": "If I'm double majoring in CS and Math, can courses like MATH240 and STAT400 count toward both majors?",
+    "ground_truth_answer": "At UMD, courses that fulfill requirements in both a CS major and a Math major may be counted toward both under the double-counting policy. MATH240 (Linear Algebra), for example, is required in both certain CS specializations (Data Science, ML, Quantum Information) and the Math major, and can satisfy both simultaneously. STAT400 may similarly count toward both programs where applicable. However, students must still complete the minimum credit requirements for each major independently and cannot reduce total coursework below program minimums through excessive overlap.",
+    "ground_truth_sources": [
+      {"filename": "computer-science-major.pdf", "page": 1},
+      {"filename": "MATH-FourYearPlan.pdf", "page": 1},
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "medium",
+    "expected_fallback": false
+  },
+  {
+    "id": "q047",
+    "category": "cross_document",
+    "question": "How does the math requirement for the CS major overlap with CMNS distribution requirements?",
+    "ground_truth_answer": "The CS major's required math courses (MATH140, MATH141, STAT4XX) also fulfill CMNS college distribution requirements for mathematics. This means CS students typically satisfy the CMNS math distribution requirements automatically by completing required CS major math courses. Students should confirm with their advisor which specific CMNS requirements are satisfied by these courses.",
+    "ground_truth_sources": [
+      {"filename": "computer-science-major.pdf", "page": 1},
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "medium",
+    "expected_fallback": false
+  },
+  {
+    "id": "q048",
+    "category": "cross_document",
+    "question": "Do honors sections count toward CORE requirements the same way as regular sections?",
+    "ground_truth_answer": "Yes, at UMD, honors sections of courses that carry CORE designations fulfill the same CORE requirements as their regular counterparts. If a course is designated as DSHU (Distributive Studies: Humanities), the honors section also carries DSHU credit. Students in the Honors College often take honors sections of CORE-designated courses to fulfill both their honors requirements and CORE requirements simultaneously.",
+    "ground_truth_sources": [
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "medium",
+    "expected_fallback": false
+  },
+  {
+    "id": "q049",
+    "category": "cross_document",
+    "question": "Does the CS prerequisite grade requirement (C- or better) also apply to transfer students bringing in equivalent courses?",
+    "ground_truth_answer": "Transfer students bringing in courses equivalent to CS prerequisites must meet the same C- or better standard when those courses are evaluated. If a transfer equivalent course was completed with a grade below C-, it may not satisfy the prerequisite requirement for subsequent CS courses at UMD. The CS department evaluates transfer equivalencies on a case-by-case basis and students may need to retake prerequisites.",
+    "ground_truth_sources": [
+      {"filename": "computer-science-major.pdf", "page": 1},
+      {"filename": "2025-2026 Academic Catalog.pdf", "page": 1}
+    ],
+    "expected_confidence": "medium",
+    "expected_fallback": false
+  },
+  {
+    "id": "q050",
+    "category": "cross_document",
+    "question": "Can courses from the CS major be used to satisfy both the major and a CS-related minor simultaneously?",
+    "ground_truth_answer": "At UMD, there are restrictions on overlap between a major and a minor. Per university policy, no more than six credits (or two courses) may be applied to satisfy both the requirements of a minor and a major program. Furthermore, CS majors are explicitly ineligible for the CS minor — the minor is not available to students who are already CS majors. Check with your advisor for specific overlap policies regarding other computing-related minors.",
+    "ground_truth_sources": [
+      {"filename": "computer-science-minor.pdf", "page": 1},
+      {"filename": "computer-science-major.pdf", "page": 1}
+    ],
+    "expected_confidence": "medium",
+    "expected_fallback": false
+  },
+  {
+    "id": "q051",
+    "category": "out_of_corpus",
+    "question": "What time does McKeldin library close on Sundays?",
+    "ground_truth_answer": "This information is not available in the UMD academic policy knowledge base. For current library hours, please check the UMD Libraries website directly.",
+    "ground_truth_sources": [],
+    "expected_confidence": "low",
+    "expected_fallback": true
+  },
+  {
+    "id": "q052",
+    "category": "out_of_corpus",
+    "question": "How do I reserve a study room in Terrapin Learning Community?",
+    "ground_truth_answer": "This information is not in the academic policy knowledge base. Please visit the UMD Residence Life website or contact your Resident Life office directly for room reservation procedures.",
+    "ground_truth_sources": [],
+    "expected_confidence": "low",
+    "expected_fallback": true
+  },
+  {
+    "id": "q053",
+    "category": "out_of_corpus",
+    "question": "How much does a UMD meal plan cost for fall 2025?",
+    "ground_truth_answer": "Dining plan pricing is not covered in the academic policy documents in this system. Please visit the UMD Dining Services website for current meal plan prices and options.",
+    "ground_truth_sources": [],
+    "expected_confidence": "low",
+    "expected_fallback": true
+  },
+  {
+    "id": "q054",
+    "category": "out_of_corpus",
+    "question": "what bus routes go to campus from off campus apartments",
+    "ground_truth_answer": "Transportation and bus route information is not included in this academic policy system. Please check the UMD Transportation Services website or the WMATA/RideOn websites for bus routes serving the UMD campus.",
+    "ground_truth_sources": [],
+    "expected_confidence": "low",
+    "expected_fallback": true
+  },
+  {
+    "id": "q055",
+    "category": "out_of_corpus",
+    "question": "How do I apply for on-campus housing at UMD?",
+    "ground_truth_answer": "Housing application information is not available in this academic policy knowledge base. Please visit the UMD Residence Life website at reslife.umd.edu to learn about housing application procedures and deadlines.",
+    "ground_truth_sources": [],
+    "expected_confidence": "low",
+    "expected_fallback": true
+  },
+  {
+    "id": "q056",
+    "category": "out_of_corpus",
+    "question": "What is the UMD student health center's phone number?",
+    "ground_truth_answer": "Contact information for the UMD Health Center is not in this academic policy system. Please visit the University Health Center website at health.umd.edu or search for their current contact information.",
+    "ground_truth_sources": [],
+    "expected_confidence": "low",
+    "expected_fallback": true
+  },
+  {
+    "id": "q057",
+    "category": "out_of_corpus",
+    "question": "Which dining halls on campus are open late at night?",
+    "ground_truth_answer": "Late-night dining information is not available in the academic policy documents this system covers. Please check the UMD Dining Services website for current hours of operation for all dining halls.",
+    "ground_truth_sources": [],
+    "expected_confidence": "low",
+    "expected_fallback": true
+  },
+  {
+    "id": "q058",
+    "category": "out_of_corpus",
+    "question": "how do i get a parking permit for spring semester at umd",
+    "ground_truth_answer": "Parking permit information is outside the scope of this academic policy system. Please visit UMD Transportation Services at transportation.umd.edu for information on purchasing and registering for parking permits.",
+    "ground_truth_sources": [],
+    "expected_confidence": "low",
+    "expected_fallback": true
+  },
+  {
+    "id": "q059",
+    "category": "out_of_corpus",
+    "question": "How do I request maintenance for my dorm room at UMD?",
+    "ground_truth_answer": "Residence hall maintenance requests are not covered by this academic policy system. Please contact your Residential Facilities office or submit a request through the UMD Facilities Management portal.",
+    "ground_truth_sources": [],
+    "expected_confidence": "low",
+    "expected_fallback": true
+  },
+  {
+    "id": "q060",
+    "category": "out_of_corpus",
+    "question": "Whats the schedule for the campus rec center at umd",
+    "ground_truth_answer": "Campus Recreation Center hours and schedules are not available in this academic policy knowledge base. Please visit the UMD Department of Campus Recreation website for current facility hours and activity schedules.",
+    "ground_truth_sources": [],
+    "expected_confidence": "low",
+    "expected_fallback": true
+  }
+]

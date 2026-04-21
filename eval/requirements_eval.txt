@@ -1,0 +1,9 @@
+ragas>=0.2.0
+datasets
+pandas
+matplotlib
+seaborn
+litellm
+anthropic
+requests
+python-dotenv

@@ -1,7 +1,9 @@
 data/
 docs/
 .venv/
+.venv-eval/
 .env
+env
 __pycache__/
 *.pyc
 .superpowers/
@@ -12,3 +14,4 @@ frontend/.env.local
 
 # Superpowers brainstorm artifacts
 .superpowers/
+.claude/
