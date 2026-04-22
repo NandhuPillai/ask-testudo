@@ -1,0 +1,11 @@
+{
+  "page_content": "INST753 Data Governance and Data Quality (3 Credits)\n\nSurveys the methods and practices for understanding the relationship between organizational performance objectives and their effective oversight, use, and management of information. Examines methods for instituting information governance, data governance, and data quality in the context of information policies for assessing information risk, observing data policies, and enforcing accountability for protection\n\nof sensitive information. Explores models of data ownership and accountability, roles and responsibilities for data governance and\n\ndata stewardship, and processes for soliciting and documenting information and data requirements. Covers techniques for data quality assessment, specification of data quality rules, and applications for validating compliance with data quality expectations, monitoring levels of data quality, and notifications and dashboards for monitoring data compliance.\n\nPrerequisite: INFM600, INFM603, and INST733; or permission of INFO- College of Information Studies.\n\nINST754 Data Integration and Preparation for Analytics (3 Credits) Provides a comprehensive overview of the end-to-end processes for acquiring, ingesting, managing, cleansing, transforming and integrating data sources for the purposes of reporting andanalytics. Concepts include data acquisition, data streaming, data staging, standardization, data quality, concept and metadata harmonization, transformation,\n\nand data modeling. Students will learn how ingested data sets can be transformed, integrated, and prepared for analytical use.\n\nPrerequisite: INFM600, INST630, and INST733; and (INFM603 or JOUR652) ; or permission of INFO-College of Information Studies.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 768,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "ace93efa-242a-5d71-967c-97c84aa374a5"
+  }
+}

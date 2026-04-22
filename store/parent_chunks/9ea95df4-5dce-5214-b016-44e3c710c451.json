@@ -1,0 +1,11 @@
+{
+  "page_content": "PHYS487 Computerized Instrumentation (3 Credits)\n\nConcentration on computer interfaces to measurement devices. Includes a review of basic electronic circuits and measurement devices. Extensive work with arduinos, making use of a variety of measurement probes. Includes introduction to the C++ programming language, the Segger development environment, and real-time operating systems (RTOS) used in advanced physics experiments.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 826,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "9ea95df4-5dce-5214-b016-44e3c710c451"
+  }
+}

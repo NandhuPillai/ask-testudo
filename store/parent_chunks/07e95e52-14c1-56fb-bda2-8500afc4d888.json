@@ -1,0 +1,11 @@
+{
+  "page_content": "ENSE - Systems Engineering\n\nENSE621 Systems Engineering Concepts and Processes: A Model-Based Approach (3 Credits)\n\nAn INCOSE-oriented introduction to model-based systems engineering. Provides an overview of systems engineering concepts, processes and methods, with a particular focus on: the development of stakeholder\n\nand system requirements; characteristics of well-written requirements; the use of SysML software tools to develop of system- and element- level architectures; and the relationship between requirements and architecture. Architecture-related topics include specification and visualization of system attributes, behavior, and interfaces. Other topics include acquisition and development life cycle models; operational concepts and use cases; requirements and design traceability; analysis, modeling and simulation; systems engineering management; risk management; configuration management; systems-of-systems; and system complexity. The course includes a class project in which teams of 3-5 students use SysML to develop stakeholder requirements, system requirements, and a logical system architecture for an engineered system of interest to them and then perform a design trade-off analysis for some aspect of the system.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 692,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "07e95e52-14c1-56fb-bda2-8500afc4d888"
+  }
+}

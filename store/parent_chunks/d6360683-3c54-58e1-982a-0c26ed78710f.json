@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: ENRE602.\n\n2025-2026 [updated 2025.04.17]\n\n692 ENSE - Systems Engineering\n\nENRE670 Probabilistic Risk Assessment (3 Credits)\n\nWhy study risk, sources of risk, overview of Risk Assessment and Risk Management, relation to System Safety and Reliability Engineering; measures, representation, communication, and perception of risk; overview of use of risk assessment results in decision making; overview of Probabilistic Risk Assessment (PRA) process; detailed converge\n\nof PRA methods including (1) methods for risk scenario development such as identification of initiators, event sequence diagrams, event trees, causal modeling (fault trees, influence diagrams, and hybrid methods), and simulation approaches; (2) methods of risk scenario likelihood assessment, including quantitative and qualitative approaches, as well as uncertainty modeling and analysis. Also covers methods\n\nfor risk modeling of system hardware behavior, physical phenomena, human behavior, software behavior, organizational environment, and external physical environment. Additional core topics include risk model integration and quantification (Boolean-based, binary decsion diagram, Bayesian belief networks, and hybrid methods), simulation- based Dynamic PRA methods (discrete and continuous) and several examples of large scale PRAs for space missions, nuclear power, aviation and medical systems.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 691,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "d6360683-3c54-58e1-982a-0c26ed78710f"
+  }
+}

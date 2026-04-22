@@ -1,0 +1,11 @@
+{
+  "page_content": "ENPM686 Information Assurance (3 Credits)\n\nThe first half of lectures provides an overview of cybersecurity. One\n\nthird of these lectures focuses on the fundamentals of cybersecurity\n\nlike authentication, access control, and security models. The second third focuses on the practice of cybersecurity using Unix and Windows NT as case studies. The last third is dedicated to security in distributed systems including network security, and World Wide Web security.\n\nThe second half of the lectures focuses on the information assurance process. First, information assets are enumerated and classified. Second, the main vulnerabilities and threats are identified. Third, a risk assessment Is conducted by considering the probability and impact of the undesired events. Finally, a risk management plan is developed that includes countermeasures involving mitigating, eliminating, accepting, or transferring the risks, and considers prevention, detection, and response.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 689,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "abe99c95-d03c-5751-a097-be7af624a2d7"
+  }
+}

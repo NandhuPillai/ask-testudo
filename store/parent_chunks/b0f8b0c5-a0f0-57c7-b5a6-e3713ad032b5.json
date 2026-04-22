@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: Permission from the Cyber-Physical Systems Engineering program.\n\nRestriction: Must be in the Cyber-Physical Systems Engineering program.\n\nENEB344 Digital Logic Design for Embedded Systems (4 Credits)\n\nHands on approach on foundations of digital logic for embedded systems applications; including input/output, logic gates, Karnaugh maps, latches, flip-flops and state-machines. This course also covers design and analysis of synchronous sequential systems, implementation with PLA's, multiplexers, decoders, encoders, binary arithmetic units such as adders and subtractors, conversions between decimal and arbitrary radix numbers, especially octal, hexadecimal, and binary representations, radix and diminished radix arithmetic, and character codes.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 163,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "b0f8b0c5-a0f0-57c7-b5a6-e3713ad032b5"
+  }
+}

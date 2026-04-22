@@ -1,0 +1,11 @@
+{
+  "page_content": "PHIL370 Logical Theory I: Metatheory (3 Credits)\n\nThis course is an introduction to logical \"metatheory\", that is, to logical reasoning about logic systems themselves. Topics include alternative alternative proof-theoretic presentations of logical systems as well\n\nas soundness and completeness theorems for propositional and first- order logic. Along the way, we will deepen our understanding of the elementary set-theoretic concepts underlying first order logic. Other topics may include basic results in the semantics of first order logic (such as the Craig interpolation theorem, the Beth definability theorem, or the Lowenhein-Skolem theorem).",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 372,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "5a0a58d1-162f-53c6-8100-cb9f9df4d8a1"
+  }
+}

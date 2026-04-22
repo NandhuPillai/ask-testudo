@@ -1,0 +1,11 @@
+{
+  "page_content": "GEOG666 Drones for Data Collection (3 Credits)\n\nTopics covered in this class include: how to prepare students to obtain their FAA Remote Pilot License, understand how to pick drone systems for a data need, and utilize Pix4D to process drone imagery. Before talking about data students will learn about drone and aviation specific laws that will affect them while carrying out operations. Once legal limitations of drone flights have been covered the course will shift toward learning how to select a drone system based on specifications of the equipment and needs of the project and flying. Students will then move on to data processing utilizing Pix4D, Python, and Bash to clean data and automate processing.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 718,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "0d11759c-3b39-5d9b-8f10-66e708d496fb"
+  }
+}

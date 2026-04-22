@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: MATH240 and CMSC420; or permission of instructor.\n\nCMSC742 Algorithms in Machine Learning: Guarantees and Analyses (3 Credits)\n\nMachine learning studies automatic methods for learning to make accurate predictions, to understand patterns in observed features and to make useful decisions based on past observations. This course introduces theoretical machine learning, including mathematical models of machine learning, and the design and rigorous analysis of learning algorithms. Topics include: (1) Learning theory (traditional and modern), including PAC learning basics, Boosting theory and PAC learning in neural nets. (2) Latent variable graphical models, including spectral methods for learning latent variable models. (3) Reinforcement learning theory, including algorithms, sample complexity and analyses.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 576,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "211e51ec-35d7-5138-b81b-2e6b1ec782d2"
+  }
+}

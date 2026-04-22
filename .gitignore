@@ -2,8 +2,10 @@ data/
 docs/
 .venv/
 .venv-eval/
+.venv-ingest-macos/
+.vscode/
+.claude/
 .env
-env
 __pycache__/
 *.pyc
 .superpowers/

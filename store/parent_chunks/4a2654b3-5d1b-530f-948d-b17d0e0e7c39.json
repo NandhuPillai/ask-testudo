@@ -1,0 +1,11 @@
+{
+  "page_content": "GEOG371 Programming for Image Analysis (3 Credits)\n\nIntroduces application programing interface (API) functions and image processing techniques for efficient processing of satellite images. The main programing language of the course is Python. The course will use a Geospatial Data Abstraction Library (GDAL) which provides a unified way of manipulating images incorporating geospatial information. For image processing, the course will use Python-based libraries such as scikit- image and OpenCV.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 233,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "4a2654b3-5d1b-530f-948d-b17d0e0e7c39"
+  }
+}

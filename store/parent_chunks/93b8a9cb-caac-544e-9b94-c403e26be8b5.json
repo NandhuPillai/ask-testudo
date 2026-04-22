@@ -1,0 +1,11 @@
+{
+  "page_content": "for general classes of unstructured (single species discrete-time\n\nand continuous-time, interacting populations etc.) and structured (spatially-structured, age- structured, sex-structured) population biology models in ecology and epidemiology, dynamics analysis of population biology models (asymptotic stability and bifurcation theory), numerical discretization of continuous-time models, statistical analysis (parameter estimation, uncertainty quantification).\n\nPrerequisite: Calculus, differential equations, modeling, linear algebra, familiarity with mathematical software and programming languages (e.g., MATLAB, R, Python etc.); or permission of instructor.\n\nCross-listed with: AMSC721.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 499,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "93b8a9cb-caac-544e-9b94-c403e26be8b5"
+  }
+}

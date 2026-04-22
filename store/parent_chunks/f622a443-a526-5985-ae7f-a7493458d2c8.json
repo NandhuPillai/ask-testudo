@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: SURV625.\n\nSURV702 Analysis of Complex Survey Data (2 Credits)\n\nThe development and handling of selection and other compensatory weights for survey data analysis; the effects of stratification and clustering on survey estimation and inference; alternative variance estimation procedures for estimated survey statistics; methods and computer software that take into account the effects of complex sample designs on survey estimation and inference; and methods for handling missing data, including weighting adjustment and imputation. Prerequisite: One or more graduate courses in statistics covering techniques through OLS and logistic regression, a course in applied sampling methods.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 874,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "f622a443-a526-5985-ae7f-a7493458d2c8"
+  }
+}

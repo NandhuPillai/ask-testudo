@@ -1,0 +1,11 @@
+{
+  "page_content": "Formerly: ECON698R.\n\nECON626 Empirical Microeconomics (3 Credits)\n\nAn overview is provided of modern microeconometric methods with\n\na focus on reduced form causal inference. Tools discussed include linear regression and selection on observables, instrumental variables including LATE and the role of heterogeneity in causal inference, difference-in-difference, regression discontinuity, synthetic control, matching, propensity score methods, and inverse probability weighted estimation. In addition, inferential issues such as weak instruments\n\nand techniques for robust standard errors, clustering, bootstrap and randomized inference are discussed, time permitting. The course places strong emphasis on relating statistical methods to substantive empirical applications. Each topic is introduced with an empirical paper that uses the technique. The discussion of technical material is at an intuitive level that focuses on applications and recommendations for empirical practice. The course offers an opportunity to work on a number of extended empirical exercises that are based on published papers and original data. Students practice working with data, implementing code in Stata and conducting their own empirical analysis. These exercises also offer practice in scientific writing relevant for empirical work. Prerequisite: ECON624.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 594,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "cd20bd79-33ef-5983-bcc0-f5a3a203eba8"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "page_content": "CMSC401 Algorithms for Geospatial Computing (3 Credits)\n\nAn introduction to fundamental geospatial objects and geometric algorithms for spatio-temporal data processing and analysis. Point data representation and analysis: spatial data models and data structures, algorithms for spatial queries, point clustering algorithms. Surface\n\nand scalar field modeling, such as terrains: raster and triangle-based models (TINs), algorithms for building and querying TINs. Algorithms for natural and urban terrain analysis: morphology computation and visibility analysis. Applications to processing and analysis of LiDAR (Light Detection And Ranging) data in the context of terrain reconstruction, urban modeling, forest management and bathymetry reconstruction for coastal data management. Road network computation and analysis: algorithms for route computation in road networks, and for road network reconstruction from GPS and satellite data.\n\nPrerequisite: GEOG276; or a minimum grade of C- in CMSC330 and CMSC351; or permission of instructor.\n\nCross-listed with: GEOG470.\n\nJointly offered with: GEOG770.\n\nCredit Only Granted for. CMSC498Q, CMSC401, CMSC788l, GEOG470, GEOG498I, GEOG770, or GEOG788l.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 110,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "1fcdc917-75a8-59af-816b-daaa927ed97e"
+  }
+}

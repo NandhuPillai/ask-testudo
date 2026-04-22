@@ -1,0 +1,11 @@
+{
+  "page_content": "Formerly: ENPM809J.\n\nENPM667 Control of Robotic Systems (3 Credits)\n\nThis is a basic course on the design of controllers for robotic systems. The course starts with mainstay principles of linear control, including a review of elementary concepts of systems, and discusses applications to independent joint control. The second part of the course introduces a physics-based approach to control design that uses energy and optimization principles to tackle the design of controllers that exploit the underlying dynamics of robotic systems. The course ends with an introduction to force control and basic principles of geometric control if time allows.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 688,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "70eb9a12-c32b-5276-bd5e-0a0417b7b9fd"
+  }
+}

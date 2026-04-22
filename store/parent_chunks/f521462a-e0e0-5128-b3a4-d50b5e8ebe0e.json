@@ -1,0 +1,11 @@
+{
+  "page_content": "Recommended: GEOG306.\n\n2025-2026 [updated 2025.04.17]\n\n234 GEOG - Geographical Sciences\n\nGE0G377 Artificial Intelligence for Spatial Data (3 Credits)\n\nCovers the basics of deep learning and expand to a variety of\n\nnetwork architectures widely used for spatio-temporal data including convolutional networks, recurrent networks, transformers, generative adversarial networks, diffusion models, etc. with tasks on classification, segmentation, estimation, forecasting, generation, clustering and more. Covers training strategies, transfer learning, domain adaptation, meta- learning, self-supervised learning, kKnowledge-guided learning, spatial- aware learning, etc. Recent advances such as large foundation models, with discussions on both general-purpose and geospatial-focused foundation models, and ethics aspects such as fairness. The techniques will be discussed in the context of spatial and spatio-temporal data. The implementation side will be based on Python. Students will do projects based on research topics or interests, with applications (domain-driven) or technically innovative (general methodology-driven).\n\nCredit Only Granted for. GEOG398E or GEOG377.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 233,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "f521462a-e0e0-5128-b3a4-d50b5e8ebe0e"
+  }
+}

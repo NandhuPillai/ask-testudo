@@ -1,0 +1,11 @@
+{
+  "page_content": "STAT702 Survival Analysis (3 Credits)\n\nConcepts/definitions of survival functions, hazard rate or hazard function, cumulative hazard functions, mean residual life, inversion formulas; Parametric models: exponential distribution, Weibull distribution; Censored/incomplete data and real data examples; right censored\n\ndata, doubly censored data, interval censored data, truncated data; Nonparametric maximal likelihood estimator for the lifetime distribution under different types of censoring (e.g., Kaplan-Meier estimator), self-consistency estimators, the EM algorithm, applications of the empirical likelihood; Semiparametric models: accelerated lifetime model, proportional hazard model, the Cox model; Goodness of fit tests and diagnostic methods for model checking.\n\nPrerequisite: STAT410 and STAT420; or students who have taken courses with comparable content may contact the department; or permission of instructor.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 869,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "7a5cc208-aae3-58d9-8ac6-7d31dadcb040"
+  }
+}

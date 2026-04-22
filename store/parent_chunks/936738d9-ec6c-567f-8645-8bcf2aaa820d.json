@@ -1,0 +1,11 @@
+{
+  "page_content": "Credit Only Granted for: ENEE626 or ENEE722.\n\nFormerly: ENEE722.\n\nENEE627 Information Theory (3 Credits)\n\nInformation measures and their properties; entropy, relative entropy and mutual information. Information source models. Lossless data compression: the Kraft inequality, Shannon-Fano and Huffman codes. Typical sequences, asymptotic equipartition property, lossy source coding. Discrete memoryless channels: capacity, channel coding theorem. The additive Gaussian channel. Source coding under a fidelity constraint: rate distortion function and rate distortion theorem. Prerequisite: ENEE620.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 648,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "936738d9-ec6c-567f-8645-8bcf2aaa820d"
+  }
+}

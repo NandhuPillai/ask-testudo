@@ -1,0 +1,11 @@
+{
+  "page_content": "Formerly: CMSC818D.\n\nCMSC733 Computer Processing of Pictorial Information (3 Credits) Input, output, and storage of pictorial information. Pictures as information sources, efficient encoding, sampling, quantization, approximation. Position-invariant operations on pictures, digital and optical implementations, the pax language, applications to matched and spatial frequency filtering. Picture quality, image enhancement and image restoration. Picture properties and pictorial pattern recognition. Processing of complex pictures; figure extraction, properties of figures. Data structures for pictures description and manipulation; picture languages. Graphics systems for alphanumeric and other symbols, line drawings of two- and three-dimensional objects, cartoons and movies. Prerequisite: CMSC420.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 575,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "d9ec46ae-f84c-5be0-a218-cc4939281b85"
+  }
+}

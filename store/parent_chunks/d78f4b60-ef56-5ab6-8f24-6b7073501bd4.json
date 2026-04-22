@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE425 Digital Signal Processing (3 Credits)\n\nSampling as a modulation process; aliasing; the sampling theorem; the Z- transform and discrete-time system analysis; direct and computer-aided design of recursive and nonrecursive digital filters; the Discrete Fourier Transform (DFT) and Fast Fourier Transform (FFT); digital filtering using the FFT; analog-to-digital and digital-to analog conversion; effects of quantization and finite-word-length arithmetic.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 643,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "d78f4b60-ef56-5ab6-8f24-6b7073501bd4"
+  }
+}

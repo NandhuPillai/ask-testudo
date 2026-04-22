@@ -1,0 +1,11 @@
+{
+  "page_content": "Restriction: Permission of CMNS-Computer Science department.\n\nCMSC471 Introduction to Data Visualization (3 Credits)\n\nDatasets are becoming increasingly large and complex, requiring intuitive ways to explore and interpret them quickly and efficiently. In this case, a picture is worth a thousand words: visualizations enable us to transform data into images that are easier to understand and reason about, compared to raw numbers and raw text. Visualizations are critical tools in externalizing and organizing our knowledge and insights, whether\n\nto explore collected datasets to improve our understanding of the physical world, to assess and debug analysis/experimental workflows, or to present new and interesting results to diverse audiences. In this course we will study techniques and algorithms for creating effective visualizations based on principles from graphic design, perceptual psychology, and cognitive science. Students will learn how to design and build interactive visualizations for the web, using the D3.js (Data-Driven Documents) framework.\n\nPrerequisite: Minimum grade of C- in CMSC330 and CMSC351; and permission of CMNS-Computer Science Department.\n\nRestriction: Permission of the CMNS-Computer Science Department. Credit Only Granted for. CMSC471 or CMSC4980.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 572,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "db9f8dba-4a8b-5f88-bad8-108ee5b269fe"
+  }
+}

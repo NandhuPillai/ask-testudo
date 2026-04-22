@@ -93,17 +93,26 @@ def load_pdfs(data_dir: str) -> Tuple[List[Document], Dict[str, Any]]:
         file_hash = get_file_hash(str(p))
 
         try:
+            # Multi-column documents (catalog) use ocr_only for better column ordering.
+            # All other PDFs use hi_res (detectron2_onnx layout detection).
+            if "Academic Catalog" in p.name or "catalog" in p.name.lower():
+                strategy = "ocr_only"
+                print(f"      INFO: Using ocr_only for multi-column doc {p.name}")
+            else:
+                strategy = "hi_res"
+
             elements = partition_pdf(
                 filename=str(p),
-                strategy="fast",
+                strategy=strategy,
                 infer_table_structure=True,
-                include_page_breaks=True
+                include_page_breaks=True,
+                languages=["eng"],
             )
             chunks = chunk_by_title(
                 elements,
-                max_characters=1500,
-                new_after_n_chars=1200,
-                combine_text_under_n_chars=200
+                max_characters=3000,
+                new_after_n_chars=2500,
+                combine_text_under_n_chars=300,
             )
 
             p_docs = []
@@ -220,15 +229,15 @@ def load_markdowns(docs_dir: str) -> Tuple[List[Document], Dict[str, Any]]:
 # Step 2 — Split parent chunks into child chunks
 #
 # RecursiveCharacterTextSplitter: no API calls, instant, battle-tested.
-# Parents (~1500 chars from unstructured) are split into children (~300 chars)
-# with 30-char overlap to avoid cutting sentences at boundaries.
+# Parents (~3000 chars from unstructured) are split into children (~600 chars)
+# with 60-char overlap to avoid cutting sentences at boundaries.
 # Parents are stored in full for context delivery; only children are indexed.
 # ---------------------------------------------------------------------------
 
 def chunk_parents(parent_docs: List[Document]) -> List[Document]:
     child_splitter = RecursiveCharacterTextSplitter(
-        chunk_size=300,
-        chunk_overlap=30,
+        chunk_size=600,
+        chunk_overlap=60,
         add_start_index=True,
     )
 
@@ -391,10 +400,15 @@ def write_log(
     child_docs: List[Document],
     index_name: str,
     log_path: str,
+    store_path: str = "./store/parent_chunks/",
 ):
     Path(log_path).parent.mkdir(parents=True, exist_ok=True)
 
-    total_parents = sum(s["parent_count"] for s in stats.values())
+    # Count actual files on disk — may be lower than sum(parent_count) due to
+    # UUID5 collisions when multiple chunks from the same file share the same
+    # first 64 chars (e.g. repeated page headers). Disk count is ground truth.
+    actual_parents = len(list(Path(store_path).glob("*.json"))) if Path(store_path).exists() else 0
+    total_parents = actual_parents
 
     child_counts: Dict[str, int] = {rel_path: 0 for rel_path in stats}
     for doc in child_docs:
@@ -417,13 +431,14 @@ def write_log(
         files_list.append(rec)
 
     log_data = {
-        "timestamp":       datetime.now(timezone.utc).isoformat(),
-        "total_files":     len(stats),
-        "total_parents":   total_parents,
-        "total_children":  len(child_docs),
-        "pinecone_index":  index_name,
-        "embedding_model": "embed-english-v3.0",
-        "files":           files_list,
+        "timestamp":        datetime.now(timezone.utc).isoformat(),
+        "pipeline_version": "hi_res-chunk3000",
+        "total_files":      len(stats),
+        "total_parents":    total_parents,
+        "total_children":   len({d.metadata["child_id"] for d in child_docs}),
+        "pinecone_index":   index_name,
+        "embedding_model":  "embed-english-v3.0",
+        "files":            files_list,
     }
 
     Path(log_path).write_text(

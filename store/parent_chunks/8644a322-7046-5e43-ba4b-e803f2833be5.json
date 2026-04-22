@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: ENME690.\n\nENME780 Mechanical Design of High Temperature and High Power Electronics (3 Credits)\n\nThis course will discuss issues related to silicon power device selection (IGBT, MCT, GTO, etc.), the characteristics of silicon device operation at temperatures greater thatn 125C, and the advantages of devices based on SOI and SIC. It will also discuss passive components and packaging materials selection for distributing and controlling power, focusing on the critical limitations to use of many passive components and packaging materials at elevated temperatures. In addition it will cover packaging techniques and analysis to minimize the temperature elevation caused by power dissipation. Finally, models for failure mechanisms in high temperature and high power electronics will be presented together with a discussion of design options to mitigate their occurrence.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 684,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "8644a322-7046-5e43-ba4b-e803f2833be5"
+  }
+}

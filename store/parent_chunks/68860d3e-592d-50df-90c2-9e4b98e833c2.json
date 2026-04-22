@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: Basic statistics understanding and bivariate linear regression.\n\nRecommended: Experience in the use of statistical software package R. Restriction: Permission of BSOS-Joint Program in Survey Methodology department.\n\nSURV753 Machine Learning II (2 Credits)\n\nSocial scientists and survey researchers are confronted with an increasing number of new data sources such as apps and sensors that often result in (para)data structures that are difficult to handle with traditional modeling methods. At the same time, advances in the field\n\nof machine learning (ML) have created an array of flexible methods and tools that can be used to tackle a variety of modeling problems. Against this background, this course discusses advanced ML concepts such\n\nas cross validation, class imbalance, Boosting and Stacking as well as key approaches for facilitating model tuning and performing feature selection. In this course we also introduce additional machine learning methods including Support Vector Machines, Extra-Trees and LASSO among others. The course aims to illustrate these concepts, methods and approaches from a social science perspective. Furthermore, the course covers techniques for extracting patterns from unstructured data as well as interpreting and presenting results from machine learning algorithms. Code examples will be provided using the statistical programming language R.\n\nPrerequisite: SURV751; or comparable knowledge or experience. Recommended: Familiarity with the statistical programming language R.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 877,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "68860d3e-592d-50df-90c2-9e4b98e833c2"
+  }
+}

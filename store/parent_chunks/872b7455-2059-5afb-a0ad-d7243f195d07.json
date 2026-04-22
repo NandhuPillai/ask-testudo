@@ -1,0 +1,11 @@
+{
+  "page_content": "Formerly: CMSC858R.\n\nCMSC754 Computational Geometry (3 Credits)\n\nIntroduction to algorithms and data structures for computational problems in discrete geometry (for points, lines, and polygons) primarily in two and three dimensions. Topics include triangulations and planar subdivisions, geometric search and intersection, convex hulls, Voronoi diagrams, Delaunay triangulations, line arrangements, visibility, and motion planning.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 576,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "872b7455-2059-5afb-a0ad-d7243f195d07"
+  }
+}

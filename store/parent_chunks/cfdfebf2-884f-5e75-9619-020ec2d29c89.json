@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: ENAE601 and ENAE432.\n\nENAE742 Robust Multivariable Control (3 Credits)\n\nLimitations on achievable performance in multivariable feedback systems due to uncertainty. Singular values, matrix norms, multivariable Nyquist stability theory, uncertainty modeling in aerospace systems. Loop- shaping, generalization of Bode design principles. Characterizing the uncertainty, robustness and performance analysis, and synthesis, primarily in the frequency domain. Current research directions. Aerospace examples are used to complement the theory.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 634,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "cfdfebf2-884f-5e75-9619-020ec2d29c89"
+  }
+}

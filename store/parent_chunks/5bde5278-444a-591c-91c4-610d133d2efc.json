@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: Minimum grade of C- in ENBC311 and ENBC312.\n\nENBC424 Al for Biocomputational Engineering (3 Credits)\n\nIntroduces students to the basics and modern deep learning models in the Artificial Intelligence field applied to computer vision problems. The course will teach ResNet for image Classification/Regression, and U- Net for semantic segmentation. The course emphasizes applications of computer vision in medical imaging and cell biology, such as detecting brain tumor using semantic deep learning segmentation network and track dynamic measurements of live 3T3 cells through time using recurrent neural network. Computer vision techniques will be demonstrated using software packages implementing bio-image informatics methods, including ImageJ (FIJI), Python with Keras Tensorflow, Pytorch, and Matlab.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 156,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "5bde5278-444a-591c-91c4-610d133d2efc"
+  }
+}

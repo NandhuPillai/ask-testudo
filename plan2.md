@@ -312,63 +312,117 @@ Do NOT proceed to Phase 2 until all five criteria are met.
 ---
 
 ## PHASE 2 — hi_res Re-ingestion on M5 Pro
-
+ 
 ### Phase 2 goal
-
+ 
 Replace `strategy="fast"` with `strategy="hi_res"` for PDF parsing,
 increase parent chunk size to avoid boundary cutoffs, re-run full
 ingestion, then re-evaluate with the same golden dataset to measure
 improvement.
-
+ 
 ### Step 2.1 — macOS environment setup
-
-Run on the M5 Pro MacBook Pro natively (not WSL, not Docker):
-
+ 
+Run on the M5 Pro MacBook Pro natively (not WSL, not Docker). The setup
+is simpler than it was for Windows — `unstructured` ships ONNX-based
+inference models that have pre-built wheels for Apple Silicon.
+ 
 ```bash
-# Install system dependencies via Homebrew
-brew install tesseract poppler cmake ninja
-
+# System dependencies for PDF/OCR processing
+brew install tesseract poppler
+ 
 # Create ingestion venv (separate from query venv)
 cd ~/ask-testudo
 python3 -m venv .venv-ingest-macos
 source .venv-ingest-macos/bin/activate
-
-# Install PyTorch with Apple Silicon MPS support
-pip install torch torchvision
-
-# Verify MPS is available
-python3 -c "import torch; print('MPS available:', torch.backends.mps.is_available())"
-# Expected output: MPS available: True
-
-# Install detectron2 from source (no PyPI wheel for arm64)
-pip install 'git+https://github.com/facebookresearch/detectron2.git'
-# Takes 10-15 minutes to compile
-
-# Install rest of ingestion deps
+ 
+# Install unstructured with the local-inference extra
+# This pulls in onnxruntime and detectron2_onnx automatically
+pip install "unstructured[local-inference,pdf]"
+ 
+# Install remaining ingestion deps from existing requirements file
 pip install -r requirements_ingestion.txt
 ```
-
-If detectron2 compile fails on arm64 (has been reported), fallback:
-
+ 
+**Understanding the `hi_res` dependency stack:**
+ 
+The `hi_res` strategy identifies document layout using `detectron2_onnx` —
+an ONNX-exported layout detection model that runs via `onnxruntime`. This
+is NOT the full Facebook detectron2 framework (which would require building
+from source on Apple Silicon). It's a pre-compiled ONNX model file with
+standard runtime dependencies that install cleanly from PyPI.
+ 
+The `unstructured[local-inference]` extra is the canonical install path
+documented in the unstructured project itself. It installs:
+- `unstructured-inference` (wraps the layout detection)
+- `onnxruntime` (runs the ONNX model — has native arm64 wheels)
+- `pdf2image` (rasterizes PDF pages for layout analysis)
+- `pytesseract` (OCR integration, uses the `tesseract` binary from brew)
+- The detectron2_onnx model weights (downloaded on first use, ~200MB)
+**First-run verification:**
+ 
+Before committing to a full 261-PDF run, verify hi_res works on a single
+known-good document:
+ 
 ```bash
-# Alternative: use unstructured's chipper strategy (lighter, Mac-friendly)
-# Edit ingest.py to use strategy="chipper" instead of "hi_res"
-# chipper uses a smaller transformer model with better Mac support
+python3 -c "
+from unstructured.partition.pdf import partition_pdf
+elements = partition_pdf(
+    filename='data/computer-science-major.pdf',
+    strategy='hi_res',
+    infer_table_structure=True,
+)
+print(f'Extracted {len(elements)} elements')
+print(f'Element types: {set(type(e).__name__ for e in elements)}')
+"
 ```
-
+ 
+Expected output:
+- 15-40 elements per page for typical catalog PDFs
+- Element types include `Title`, `NarrativeText`, `Table`, `ListItem`
+- First run takes 30-60 seconds per page (model download + inference)
+- Subsequent runs cache the model weights and run faster
+If the first run fails with an `onnxruntime` error, install the
+Apple Silicon-specific build:
+ 
+```bash
+pip install onnxruntime-silicon
+```
+ 
+**Alternative — `ocr_only` strategy for multi-column PDFs:**
+ 
+The unstructured docs note that `hi_res` has difficulty ordering elements
+for documents with multiple columns. Your 2025-2026 Academic Catalog is
+heavily multi-column. If `hi_res` produces poor results on the catalog
+specifically, consider running `ocr_only` as a fallback for just that
+document:
+ 
+```python
+# For the catalog specifically if hi_res struggles
+elements = partition_pdf(
+    filename='data/2025-2026 Academic Catalog.pdf',
+    strategy='ocr_only',
+    languages=['eng'],
+)
+```
+ 
+`ocr_only` runs Tesseract on rasterized page images and feeds raw text
+through `partition_text`. Slower than `hi_res` but handles multi-column
+layouts more reliably. Test on 5-10 pages of the catalog before deciding
+which strategy to use for the full corpus.
+ 
 ### Step 2.2 — Update ingest.py for hi_res + larger chunks
-
+ 
 Modify `load_pdfs()` in `ingest.py`:
-
+ 
 ```python
 elements = partition_pdf(
     filename=str(p),
     strategy="hi_res",              # was "fast"
     infer_table_structure=True,
     include_page_breaks=True,
-    hi_res_model_name="yolox",      # smaller, faster than default detectron2
+    languages=["eng"],              # explicit OCR language if fallback to OCR needed
 )
-
+ 
 chunks = chunk_by_title(
     elements,
     max_characters=3000,            # was 1500 — fits requirements tables
@@ -376,9 +430,14 @@ chunks = chunk_by_title(
     combine_text_under_n_chars=300
 )
 ```
-
+ 
+Note: do NOT pass `hi_res_model_name` — that was an incorrect parameter
+from an earlier version of this plan. `hi_res` uses `detectron2_onnx`
+by default, which is what the `unstructured[local-inference]` install
+provides.
+ 
 Modify `chunk_parents()` in `ingest.py`:
-
+ 
 ```python
 child_splitter = RecursiveCharacterTextSplitter(
     chunk_size=600,                 # was 300 — proportional to parent size
@@ -386,18 +445,43 @@ child_splitter = RecursiveCharacterTextSplitter(
     add_start_index=True,
 )
 ```
-
+ 
+**Optional per-document strategy override.** If `hi_res` struggles on the
+multi-column academic catalog, add a strategy override in `load_pdfs()`:
+ 
+```python
+# Default strategy for most documents
+strategy = "hi_res"
+ 
+# Multi-column documents benefit from ocr_only per unstructured docs
+if "Academic Catalog" in p.name or "catalog" in p.name.lower():
+    strategy = "ocr_only"
+    print(f"      INFO: Using ocr_only for multi-column doc {p.name}")
+ 
+elements = partition_pdf(
+    filename=str(p),
+    strategy=strategy,
+    infer_table_structure=True,
+    include_page_breaks=True,
+    languages=["eng"],
+)
+```
+ 
+This gives you hi_res for well-formatted major/minor sheets and ocr_only
+for the catalog. Test both approaches on 10 pages of the catalog and pick
+whichever produces cleaner element boundaries.
+ 
 ### Step 2.3 — Clear existing state before re-ingestion
-
+ 
 The chunking change means existing child IDs will no longer match
 Pinecone records. Clear everything to get a clean baseline:
-
+ 
 ```bash
 # Delete local artifacts
 rm -rf ./store/parent_chunks/
 rm ./store/bm25_encoder.json
 rm ./store/ingestion_log.json
-
+ 
 # Delete Pinecone index and recreate
 # Use the Pinecone console or:
 python3 -c "
@@ -410,58 +494,60 @@ pc.delete_index(os.environ['PINECONE_INDEX_NAME'])
 print('Index deleted')
 "
 ```
-
+ 
 Then recreate the index in the Pinecone console with:
 - metric: `dotproduct`
 - dimension: 1024
 - cloud: AWS, region: us-east-1
-
 ### Step 2.4 — Run hi_res ingestion
-
-Expected runtime on M5 Pro with yolox model: 2-3 hours for 261 PDFs.
+ 
+Expected runtime on M5 Pro for 261 PDFs with `hi_res` strategy:
+2-4 hours depending on how many pages use the catalog (which is longer
+than all other docs combined). First PDF triggers a ~200MB model download
+to `~/.cache/unstructured/` — happens once.
+ 
 Run in a terminal that won't timeout (use `caffeinate` to prevent sleep):
-
+ 
 ```bash
 source .venv-ingest-macos/bin/activate
 caffeinate -i python3 ingest.py 2>&1 | tee ingest_hires.log
 ```
-
+ 
 Monitor the log for parse errors. `hi_res` occasionally fails on specific
-PDFs with detectron2 errors — those files get logged and skipped, which
-is expected and acceptable.
-
+PDFs with onnxruntime errors or layout detection issues — those files
+get logged and skipped, which is expected and acceptable.
+ 
 ### Step 2.5 — Run verify_ingestion.py
-
+ 
 After ingestion completes, run the existing verification suite:
-
+ 
 ```bash
 python3 verify_ingestion.py
 ```
-
+ 
 Expected changes vs. baseline:
 - `total_parents` will be LOWER (fewer parents because each is larger)
 - `total_children` will be LOWER (fewer children per parent)
 - Vector count in Pinecone should match `total_children`
 - BM25 vocabulary should be similar or slightly larger (better table extraction)
-
 ### Step 2.6 — Rerun RAGAS on new pipeline
-
+ 
 Same procedure as Step 1.5 but output to `hires_` prefix:
-
+ 
 ```bash
 # Start backend pointing at new index
 uvicorn query:app --port 8002
-
+ 
 # Run eval
 python eval/run_eval.py --output hires
 ```
-
+ 
 Output: `./eval/results/hires_YYYY-MM-DD.json`
-
+ 
 ### Step 2.7 — Compare baseline vs hires
-
+ 
 Create `./eval/compare_runs.py`:
-
+ 
 ```python
 # Load baseline_*.json and hires_*.json
 # Print side-by-side table of all 4 metrics
@@ -469,33 +555,31 @@ Create `./eval/compare_runs.py`:
 # Print per-question regressions (questions that got worse)
 # Generate matplotlib bar chart → eval/results/comparison.png
 ```
-
+ 
 Write `./eval/results/phase2_analysis.md` covering:
-
+ 
 1. Aggregate score deltas for all 4 metrics
 2. Which categories improved most (expected: `requirement_list`)
 3. Any regressions — questions that scored higher in baseline than hires
 4. Decision: is the improvement sufficient, or proceed to Phase 3?
-
 ### Phase 2 decision criteria
-
+ 
 Use these specific thresholds to decide on Phase 3:
-
+ 
 | Context Recall improvement | Action |
 |---|---|
 | ≥ 0.15 absolute increase | Phase 2 is sufficient. Consider Phase 3 optional. |
 | 0.05 to 0.15 increase | Borderline. Proceed to Phase 3 only if Faithfulness also improved. |
 | < 0.05 increase | Phase 3 needed. Chunking wasn't the bottleneck; likely corpus coverage. |
 | Decreased | Investigate before Phase 3. May need to tune hi_res parameters. |
-
+ 
 ### Phase 2 success criteria
-
+ 
 - `hi_res` ingestion completed without fatal errors
 - Verify script passes with new corpus
 - RAGAS re-run produces `hires_*.json` results file
 - Comparison script generates deltas and chart
 - Phase 2 analysis markdown written with Phase 3 decision
-
 ---
 
 ## PHASE 3 — Agentic Web Search (CONDITIONAL)

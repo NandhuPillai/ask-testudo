@@ -1,0 +1,11 @@
+{
+  "page_content": "Restriction: Must be in Engineering: Fire Protection program.\n\nCredit Only Granted for. ENFP320 or ENFP420.\n\nFormerly: ENFP320.\n\nENFP425 Enclosure Fire Modeling (3 Credits)\n\nAn introduction to enclosure fire dynamics through the development\n\nof fire modeling algorithms and the application of computer-based fire modeling techniques. The objectives of the course are: to provide a basic understanding of enclosure fire dynamics with an emphasis on a system-level viewpoint (i.e., a global description of the coupling between combustion dynamics, smoke filling, vent flows and heat transfer); and to provide an introduction to the zone modeling approach. Topics covered include a review of the mathematical formulation of zone models, a discussion of numerical integration of the zone modeling equations (using MATLAB), and an introduction to zone modeling software used by professional engineers (e.g., CFAST).",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 656,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "7ad24f5c-0042-5993-9c0a-7856bc6ad628"
+  }
+}

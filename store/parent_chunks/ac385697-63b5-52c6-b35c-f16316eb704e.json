@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: GEOG376; or permission of BSOS-Geography department.\n\nGEOG677 Web GIS (3 Credits)\n\nThis course is designed to: (1) introduce the concepts and theories\n\nthat are related to an increasingly important technology b (2) introduce various technologies or techniques for creating, analyzing, and disseminating GIS data and services via the Web. Students will be required to practice almost all of the Web GIS tools including client side mapping frameworks like the ArcGIS API for JavaScript, Mapbox, Leaflet, Google Map API, OpenLayers; server side systems including ArcGIS Enterprise (Server/Portal/DataStore), GeoServer; data formats for the web WMS, WFS, Feature Services, MapServices. Students will also be exposed to the experience of working with the Cloud environment such as AWS EC2 and Azure.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 719,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "ac385697-63b5-52c6-b35c-f16316eb704e"
+  }
+}

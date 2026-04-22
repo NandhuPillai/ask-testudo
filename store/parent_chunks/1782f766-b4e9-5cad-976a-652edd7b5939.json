@@ -1,0 +1,11 @@
+{
+  "page_content": "ENPM690 Robot Learning (3 Credits)\n\nMachine learning may be used to greatly expand the capabilities of robotic systems, and has been applied to a variety of robotic system functions including planning, control, and perception. Adaptation and learning are particularly important for development of autonomous robotic systems that must operate in dynamic or uncertain environments. Ultimately we would like for the robots to expand their knowledge and improve their own performance through learning while operating in the environment (on-line and/or lifelong learning). This graduate course\n\nwill explore the application of machine learning techniques, paradigms, and control design to robotic systems, focusing primarily on key useful representations and model building techniques for application in non- stationary robotic systems.\n\nPrerequisite: Proficiency in at least one commonly used programming language (e.g., C++, Python, Java), CMSC422 (Intro to Machine Learning) or equivalent.\n\nCredit Only Granted for. ENPM808F or ENPM690.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 689,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "1782f766-b4e9-5cad-976a-652edd7b5939"
+  }
+}

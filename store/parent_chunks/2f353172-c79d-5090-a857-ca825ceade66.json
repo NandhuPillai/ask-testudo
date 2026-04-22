@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE244 Digital Logic Design (3 Credits)\n\nThe design and analysis of combinational and synchronous sequential systems comprising digital logic gates and flip-flop memory devices; underlying tools such as switching and Boolean algebras and Karnaugh map simplification of gate networks; design and use of decoders, multiplexers, encoders, adders, registers, counters, sequence recognizers, programmable logic arrays (PLAs), read-only memories (ROMS, PROMS), and similar devices. Arbitrary radix conversion.\n\nPrerequisite: Must have completed or be concurrently enrolled in CMSC132 or ENEE150; and permission of ENGR-Electrical & Computer Engineering department.\n\nRestriction: Sophomore standing or higher; and must be in one of the following programs (Engineering: Computer; Engineering: Electrical).\n\nENEE245 Digital Circuits and Systems Laboratory (2 Credits) Introduction to basic measurement techniques and electrical laboratory equipment (power supplies, oscilloscopes, voltmeters, etc.). Design, construction, and characterization of digital circuits containing logic gates, sequential elements, oscillators, and digital integrated circuits. Introduction to digital design and simulation with the Verilog Hardware Description Language (HDL).\n\nPrerequisite: Minimum grade of C- in ENEE244. And minimum grade of C- in ENEE150; or minimum grade of C- in CMSC132. And permission of ENGR-Electrical & Computer Engineering department.\n\nRestriction: Must be in one of the following programs (Engineering: Electrical; Engineering: Computer).",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 167,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "2f353172-c79d-5090-a857-ca825ceade66"
+  }
+}

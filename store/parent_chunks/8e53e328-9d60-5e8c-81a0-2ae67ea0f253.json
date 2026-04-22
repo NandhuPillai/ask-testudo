@@ -1,0 +1,11 @@
+{
+  "page_content": "STAT650 Applied Stochastic Processes (3 Credits)\n\nBasic concepts of stochastic processes. Markov processes (discrete and continuous parameters), Random walks, Poisson processes, Birth and death processes. Renewal processes and basic limit theorems. Discrete time martingales, stopping times, optional sampling theorem. Applications from theories of stochastic epidemics, survival analysis and others.\n\nPrerequisite: STAT410; or students who have taken courses with comparable content may contact the department.\n\nSTAT658 Advanced Applied Stochastic Processes II (3 Credits) Advanced topics in applied stochastic processes, rotating among the headings of queueing theory, population proceses, and regenerative phenomena. Course includes disucssion of stochastic models and fields of application, Markov process theory including calculation and characterization of stationary distributions and diffusion approximations, renewal theory and Wiener-Hopf factorization theory.\n\nPrerequisite: STAT650; and must have completed a graduate course in analysis. Or permission of instructor.\n\nRecommended: STAT601 and STAT600.\n\nRepeatable to: 6 credits if content differs.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 869,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "8e53e328-9d60-5e8c-81a0-2ae67ea0f253"
+  }
+}

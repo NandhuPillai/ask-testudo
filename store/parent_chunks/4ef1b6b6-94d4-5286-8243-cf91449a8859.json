@@ -1,0 +1,11 @@
+{
+  "page_content": "GEOG680 GEOINT Networks (3 Credits)\n\nNetworks are an important part of the Geospatial Intelligence (GEOINT) cycle, from the sensor networks that are used to collect raw geospatial information to the telecommunication networks that are used to disseminate finished GEOINT products. Transportation networks, computer networks, social networks, and many other man-made and natural features can also be characterized by a link-node network topology, and can be studied using network science methods. Upon completion of this course you will be able characterize and classify real- world GEOINT networks and their components, understand network dynamics including routing, scalability, and robustness, and be able to apply engineering methods for network design and network analysis.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 719,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "4ef1b6b6-94d4-5286-8243-cf91449a8859"
+  }
+}

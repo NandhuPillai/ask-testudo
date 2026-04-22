@@ -1,0 +1,11 @@
+{
+  "page_content": "BUAC746 Systems for Data Analysis (2 Credits)\n\nSince the data grows exponentially and becomes complex, we need computational methods to collect, store, and analyze them in order\n\nto be successful in business, management, science, engineering, and other professions. This course is an introductory data class that meets this need. Class teaches how to analyze and model data, how to define and manipulate database, how to write computer programs in Python language to solve real-world problems, and how to use Tableau to explain your results as a report in a more readable way. This will be useful in your career and your research in the future. This course introduces the conceptual and logical designs of relational database systems and their uses in business environments. Topics include information modeling, optimization via normalization, data definition and manipulation languages, client/server architectures, concurrency and recovery, and data warehousing.\n\nRestriction: Must be in Business and Management (Master's) program; or permission of BMGT-Robert H Smith School of Business.\n\nCredit Only Granted for. BUAC758S or BUAC746.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 519,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "1f297b4e-a5bc-5b48-849b-cdbd88227d7f"
+  }
+}
