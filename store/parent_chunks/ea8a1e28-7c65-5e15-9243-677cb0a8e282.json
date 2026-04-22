@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE621 Estimation and Detection Theory (3 Credits)\n\nEstimation of unknown parameters, Cramer-Rao lower bound; optimum (map) demodulation; filtering, amplitude and angle modulation, comparison with conventional systems; statistical decision theory Bayes, minimax, Neyman/Pearson, Criteria-68 simple and composite hypotheses; application to coherent and incoherent signal detection; M- ary hypotheses; application to uncoded and coded digital communication systems.\n\nPrerequisite: ENEE620; or students who have taken courses with comparable content may contact the department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 647,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "ea8a1e28-7c65-5e15-9243-677cb0a8e282"
+  }
+}

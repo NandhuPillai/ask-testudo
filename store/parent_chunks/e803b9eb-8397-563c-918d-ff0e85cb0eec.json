@@ -1,0 +1,11 @@
+{
+  "page_content": "Courses in 2025-2026 Academic Catalog - DRAFT COPY 705\n\nEPIB741 Association Models for Cohort and Cross-Sectional Studies (3 Credits)\n\nThe first part of a two-course advanced methods series specifically designed for doctoral students in epidemiology. This course focuses on implementing analytical strategies guided by epidemiologic principles for data analysis, with an emphasis on association modeling techniques tailored for cohort and cross-sectional studies. Key topics include model specification, effect estimation, confounding control, and the assessment of interaction and mediation effects. The course covers applied multivariate regression models, such as log-binomial regression, robust Poisson regression, the Cox proportional hazards models, and propensity-score models. Detailed procedures are provided for model specification, assessment of model assumptions, selection of alternative models, estimation of effects, and interpretation of findings from association models.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 705,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "e803b9eb-8397-563c-918d-ff0e85cb0eec"
+  }
+}

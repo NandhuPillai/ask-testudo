@@ -1,0 +1,11 @@
+{
+  "page_content": "Formerly: ENCE654.\n\nENCE725 Probabilistic Optimization (3 Credits)\n\nProvide an introduction to optimization under uncertainty. Chance- constrained programming, reliability programming, value of information, two stage problems with recourse, decomposition methods, nonlinear and linear programming theory, probability theory. The objectives of this course are to provide understanding for studying problems that involve optimization under uncertainty, learn about various stochastic programming formulations (chance constrained programs, two stage methods with recourse, etc.) relevant to engineering and economic settings, present theory for solutions to such problems, and present algorithms to solve these problems.Cross-listed with ENME725. Credit Only Granted for. ENME725 or ENCE725.\n\nENCE730 Environmental and Water Resource Systems II (3 Credits) Advanced topics in operational research. Applications to complex environmental and water resource systems. The use of systems simulation and probabalistic modeling.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 641,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "92563546-e510-5c84-8268-e0bcff93c09b"
+  }
+}

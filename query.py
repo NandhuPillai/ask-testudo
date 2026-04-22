@@ -155,11 +155,11 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:3000",
         "https://ask-testudo.vercel.app",
-        "https://*.vercel.app",
     ],
+    allow_origin_regex=r"https://.*\.vercel\.app|http://localhost(:\d+)?",
     allow_credentials=True,
-    allow_methods=["GET", "POST"],
-    allow_headers=["Content-Type"],
+    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_headers=["*"],
 )
 
 # ---------------------------------------------------------------------------
@@ -507,6 +507,50 @@ def ask(req: AskRequest):
     elapsed = time.time() - t_start
     log.info("[query] answered in %.1fs", elapsed)
 
+    return response
+
+
+@app.post("/ask_with_contexts")
+def ask_with_contexts(req: AskRequest):
+    """Evaluation-only endpoint: returns full pipeline output plus retrieved contexts."""
+    decomposition = decompose_query(req.question)
+    sub_queries = decomposition["sub_queries"]
+    hyde_document = decomposition["hyde_document"]
+
+    try:
+        child_docs = retrieve_chunks(sub_queries, hyde_document)
+    except Exception as exc:
+        return JSONResponse(status_code=500, content={"error": "retrieval failed", "detail": str(exc)})
+
+    try:
+        parents = swap_to_parents(child_docs)
+        if not parents:
+            return JSONResponse(status_code=500, content={"error": "no parent documents found"})
+    except Exception as exc:
+        return JSONResponse(status_code=500, content={"error": "parent swap failed", "detail": str(exc)})
+
+    try:
+        reranked_parents, top_score = rerank_parents(parents, req.question)
+    except Exception as exc:
+        return JSONResponse(status_code=500, content={"error": "reranking failed", "detail": str(exc)})
+
+    if top_score < CRAG_THRESHOLD:
+        return {
+            "answer": FALLBACK_ANSWER,
+            "sources": [],
+            "confidence": "low",
+            "rerank_score": round(top_score, 4),
+            "fallback": True,
+            "retrieved_contexts": [],
+        }
+
+    try:
+        answer = generate_answer(reranked_parents, req.question, req.history)
+    except Exception as exc:
+        return JSONResponse(status_code=500, content={"error": "generation failed", "detail": str(exc)})
+
+    response = format_response(answer, reranked_parents, top_score)
+    response["retrieved_contexts"] = [p["page_content"] for p in reranked_parents]
     return response
 
 

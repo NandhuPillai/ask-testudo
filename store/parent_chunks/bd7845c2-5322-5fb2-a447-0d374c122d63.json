@@ -1,0 +1,11 @@
+{
+  "page_content": "Courses in 2025-2026 Academic Catalog - DRAFT COPY 807\n\nMSML612 Deep Learning (3 Credits)\n\nProvides an introduction to the construction and use of deep neural networks: models that are composed of several layers of nonlinear processing. The class will focus on the main features in deep neural nets structures. Specific topics include backpropagation and its importance to reduce the computational cost of the training of the neural nets, various coding tools available and how they use parallelization, and convolutional neural networks. Additional topics may include autoencoders, variational autoencoders, convolutional neural networks, recurrent and recursive neural networks, generative adversarial networks, and attention-based models. The concepts introduced will be illustrated by examples of applications chosen among various classification/clustering questions, computer vision, natural language processing.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 807,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "bd7845c2-5322-5fb2-a447-0d374c122d63"
+  }
+}

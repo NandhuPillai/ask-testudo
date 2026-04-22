@@ -1,0 +1,11 @@
+{
+  "page_content": "PHYS474 Computational Physics (3 Credits)\n\nIntroduction to computational physics. Overview of some of the most widely used methods of computational physics and computational methods, including data analysis and statistical methods, visualization, numerical solutions of ordinary and partial differential equations (classical equations of motion, Poisson's equation, time independent and time dependent Schrodinger equations) and Monte Carlo simulations.\n\nIn addition to giving the students a basic working knowledge of these particular techniques, the goal is to make them proficient in scientific computing and programming in general, so that they will be prepared to tackle other computational and data analysis problems that they may encounter in the future. This course will use the programming language Python.\n\nPrerequisite: PHYS373; and (PHYS165, CMSC106, or CMSC131). Recommended: PHYS401 (strongly recommended).\n\nAdditional Information: Students will need a laptop for this course to run specific software; however, arrangements will be made for those who need them. Students will need to load the Python 3 language on your computer, which will be done in the first week of class. The class will use the \"Anaconda” environment/distribution, which is available for Mac/ Windows/Linux. Contact the department for more information.\n\nPHYS476 Introduction to Applied Machine Learning (3 Credits) Introduces machine learning techniques that are becoming pertinent in the technology industry. Focus on hands-on work using popular high- level libraries. Students are expected to have a background in functional programming, linear algebra, calculus, and mathematical modeling. Prerequisite: PHYS165, PHYS274, and PHYS276; or interested students with backgrounds in functional programming, linear algebra and statistics, should contact the instructors to request permission.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 382,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "5fbbe278-690c-5165-b4da-e823d4e46b8d"
+  }
+}

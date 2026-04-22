@@ -1,0 +1,11 @@
+{
+  "page_content": "CMSC422 Introduction to Machine Learning (3 Credits)\n\nMachine Learning studies representations and algorithms that allow machines to improve their performance on a task from experience. This is a broad overview of existing methods for machine learning and an introduction to adaptive systems in general. Emphasis is given to practical aspects of machine learning and data mining.\n\nPrerequisite: Minimum grade of C- in CMSC320, CMSC330, and CMSC351; and 1 course with a minimum grade of C- from (MATH240, MATH341, MATH461); and permission of CMNS-Computer Science department.\n\nCMSC423 Bioinformatic Algorithms, Databases, and Tools (3 Credits) An introduction to the main algorithms, databases, and tools used in bioinformatics. Topics may include assembly and analysis of genome sequences, reconstructing evolutionary histories, predicting protein structure, and clustering of biological data. Use of scripting languages to perform analysis tasks on biological data. No prior knowledge of biology is assumed.\n\nPrerequisite: Minimum grade of C- in CMSC351 and CMSC330; and permission of CMNS-Computer Science department. Or must be in the (Computer Science (Doctoral), Computer Science (Master’s)) program.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 570,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "53315eca-236b-5e22-a06c-a79419107c16"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE731 Image Understanding (3 Credits)\n\nAn advanced graduate level course on image understanding. Mathematical and statistical approaches to solving image understanding problems will be discussed. Topics to be covered include: optimal edge and shape detection; image understanding using Markov random field models; Monte Carlo Markov Chain techniques for image understanding; shape from shading, stereo, texture and contour; structure from motion and object recognition. Existence, uniqueness and convergence issues for many of these problems will be discussed.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 650,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "63692a85-c6ca-5e7b-90d2-e41a02dd873f"
+  }
+}

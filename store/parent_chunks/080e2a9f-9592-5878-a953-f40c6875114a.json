@@ -1,0 +1,11 @@
+{
+  "page_content": "ENAE450 Robotics Programming (3 Credits)\n\nIntroduces students to the Robot Operating System (ROS) as well as\n\nto many of the available tools commonly used in robotics. Lectures\n\nfocus on theory and structure, whereas laboratory sections will focus on applications and implementations. Students learn how to create software and simulations, interface to sensors and actuators, and integrate control algorithms. The course works through exercises involving a number\n\nof autonomous robots (i.e., ground and air vehicles) that students will eventually use in their subsequent RAS minor courses. Topics include: ROS architecture, console commands, ROS packages, simulation environments, visualizations, autonomous navigation, manipulation, and robot vision.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 629,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "080e2a9f-9592-5878-a953-f40c6875114a"
+  }
+}

@@ -56,17 +56,14 @@ export default function ChatPage() {
         )}
       </AnimatePresence>
 
-      {/* Top-right controls — fade in once chat starts */}
-      <AnimatePresence>
-        {hasMessages && (
-          <motion.div
-            initial={{ opacity: 0, y: -8 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -8 }}
-            transition={{ duration: 0.2 }}
-            className="absolute top-4 right-4 flex items-center gap-2 z-10"
-          >
-            <button
+      <div className="absolute top-4 right-4 z-20 flex items-center gap-2">
+        <AnimatePresence>
+          {hasMessages && (
+            <motion.button
+              initial={{ opacity: 0, y: -8 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.2 }}
               onClick={clearHistory}
               aria-label="New chat"
               className="flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm
@@ -75,11 +72,11 @@ export default function ChatPage() {
             >
               <Trash2 size={14} />
               <span className="hidden sm:inline">New chat</span>
-            </button>
-            <ThemeToggle />
-          </motion.div>
-        )}
-      </AnimatePresence>
+            </motion.button>
+          )}
+        </AnimatePresence>
+        <ThemeToggle />
+      </div>
 
       {!hasMessages ? (
         /* ── Empty state: everything centered ── */

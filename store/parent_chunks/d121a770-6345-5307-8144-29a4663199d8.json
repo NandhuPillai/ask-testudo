@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: ENEE620.\n\nENEE626 Error Correcting Codes (3 Credits)\n\nIntroduction to linear codes; bounds on the error correction capabilities of codes; convolutional codes with threshold, sequential and viterbi decoding; cyclic random error correcting codes; P-N sequences; cyclic and convolutional burst error correcting codes.\n\nPrerequisite: ENEE420; or students who have taken courses with comparable content may contact the department.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 648,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "d121a770-6345-5307-8144-29a4663199d8"
+  }
+}

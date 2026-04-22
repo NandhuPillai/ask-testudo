@@ -1,0 +1,11 @@
+{
+  "page_content": "CMSC712 Distributed Algorithms and Verification (3 Credits)\n\nStudy of algorithms from the distributed and concurrent systems literature. Formal approach to specifying, verifying, and deriving such algorithms. Areas selected from mutual exclusion, resource allocation, quiescence detection, election, Byzantine agreements, routing, network protocols, and fault-tolerence. Formal approaches will handle system specification and verification of safety, liveness, and real-time properties.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 574,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "d0ad13b6-ab7a-5329-a5d4-bd40db5d4bd0"
+  }
+}

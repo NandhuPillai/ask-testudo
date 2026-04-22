@@ -1,0 +1,11 @@
+{
+  "page_content": "ENPM651 Heat Transfer for Modern Application (3 Credits)\n\nPresents the three modes of heat transfer. conduction, convection,\n\nand radiation. One- and two-dimensional steady-state and transient conductions are studied. The lumped capacitance analysis is used for transient conduction when suitable. Convection heat transfer is studied in both external and internal flow cases and under laminar and turbulent flow regimes. Free convection is also studied where the heat transfer is due to flow-induced by fluid buoyancy. Radiation heat transfer is studied by considering both the general characteristics of radiation along with the properties of radiating surfaces and radiation heat transfer between surfaces. For each subject, real engineering examples will be tackled\n\nby using Engineering Equations Solver and Coil Designer software. As an application of multi-mode heat transfer principles, the design and optimization of air-to-refrigerant heat exchangers are studied in the course.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 687,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "48ea5f40-8eb6-5966-b9db-a3a9a4ea95a8"
+  }
+}

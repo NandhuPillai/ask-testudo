@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: SURV703; and background knowledge in programming in Python and SQL structures.\n\nRecommended: SURV736.\n\nSURV706 General Linear Models (2 Credits)\n\nThe main focus of this course lies on the introduction to statistical models and estimators beyond linear regression useful to social and economic scientists. It provides an overview of generalized linear models (GLM) that encompass non-normal response distributions to model functions of the mean. GLMs thus relate the expected mean E(Y) of the dependent variable to the predictor variables via a specific link function. This link function permits the expected mean to be non-linearly related to the predictor variables. Examples for GLMs are the logistic regression, regressions for ordinal data, or regression models for count data. GLMs are generally estimated by use of maximum likelihood estimation. The course thus not only introduces GLMs but starts with an introduction to the principle of maximum likelihood estimation.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 874,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "48feefcb-1790-5ef2-8a0e-cacfde5d6d00"
+  }
+}

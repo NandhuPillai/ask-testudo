@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEB453 Web-Based Application Development (3 Credits)\n\nIntroduction to cloud computing, computer programming in the context of developing full-featured dynamic websites. Uses a problem-solving approach to teach basics of program design and implementation using JavaScript; relates these skills to the creation of dynamic websites; then explores both the potential and limits of web-based information sources for use in research. This course provides a practical introduction to full- stack web development using PHP and JavaScript. The course will start with HTML/CSS/JavaScript to cover the client-side of applications. Then, it will move on to the server-side with PHP and integrating with a MySQL database to create a complete web application.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 165,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "bf2289a3-c957-5a5b-800c-eefd92b6c88b"
+  }
+}

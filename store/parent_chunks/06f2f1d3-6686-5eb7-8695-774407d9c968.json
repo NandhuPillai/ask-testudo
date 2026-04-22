@@ -1,0 +1,11 @@
+{
+  "page_content": "CMSC452 Elementary Theory of Computation (3 Credits)\n\nTechniques are developed to determine the difficulty of a problem relative to a model of computation. Topics include Finite Automata, P NP decidability, undecidability, and communication complexity.\n\nPrerequisite: Minimum grade of C- in CMSC351; and permission of CMNS-Computer Science department. Or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 571,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "06f2f1d3-6686-5eb7-8695-774407d9c968"
+  }
+}

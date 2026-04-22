@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: Basic statistical concepts; and intermediate knowledge of R.\n\nRecommended: Familiarity with regular expressions, the R packages ggplot2 and tidyverse.\n\nRestriction: Permission of BSOS-Joint Program in Survey Methodology department.\n\nSURV673 Introduction to Python and SQL (1 Credit)\n\nBasics of Python and SQL for data analysis.Students will explore real publicly-available datasets, using the data analysis toolsin Python\n\nto create summaries and generate visualizations. Students will learn thebasics of database management and organization, as well as learn how to code inSQL and work with PostgreSQL databases. By the end of the class, students shouldunderstand how to read in data from CSV files or from the internet and becomfortable using either SQL or Python to aggregate, summarize, describe, andvisualize these datasets. Recommended: Background knowledge in programming in Python and SQL structures.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 873,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "db27b02e-1fa0-503c-9821-25063a8e4914"
+  }
+}

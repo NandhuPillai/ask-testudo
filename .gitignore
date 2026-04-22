@@ -1,6 +1,10 @@
 data/
 docs/
 .venv/
+.venv-eval/
+.venv-ingest-macos/
+.vscode/
+.claude/
 .env
 __pycache__/
 *.pyc
@@ -12,3 +16,4 @@ frontend/.env.local
 
 # Superpowers brainstorm artifacts
 .superpowers/
+.claude/

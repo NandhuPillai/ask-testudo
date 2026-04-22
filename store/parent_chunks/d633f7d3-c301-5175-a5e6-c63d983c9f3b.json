@@ -1,0 +1,11 @@
+{
+  "page_content": "658 ENFP - Engineering, Fire Protection\n\nENFP626 Computational Fire Modeling (3 Credits)\n\nIntroduction to Computational Fluid Dynamics (CFD)-based fire modeling; governing equations of turbulent reacting flows; numerical approaches to the treatment of turbulence (DNS, LES, RANS); numerical methods\n\nfor partial differential equations; physical modeling of enclosure fires (turbulence, combustion, thermal radiation, pyrolysis, suppression). Development of sample programs (Matlab) and use of current CFD-based fire models (FDS).",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 658,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "d633f7d3-c301-5175-a5e6-c63d983c9f3b"
+  }
+}

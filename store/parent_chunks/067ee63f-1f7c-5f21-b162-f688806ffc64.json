@@ -1,0 +1,11 @@
+{
+  "page_content": "718 GEOG - Geographical Sciences\n\nGEOG663 Big Data Analytics (3 Credits)\n\nProvides a comprehensive introduction to big data analytics, emphasizing statistical and machine learning techniques for analyzing large datasets. While rooted in geography and spatial sciences,\n\nthe course is broadly applicable across socio-behavioral sciences. Students will gain hands-on experience with industry-standard tools and frameworks for data exploration, modeling, and visualization. Topics covered include foundational data analytics methods using R, clustering techniques, regression analysis, text analysis, and deep learning with Keras and TensorFlow. The course also explores geospatial machine learning in ArcGIS, big data processing with Hadoop and Spark, and working with distributed computing frameworks such as MapReduce, Pig, Hive, and NoSQL databases.\n\nRecommended: Students taking the course must be familiar with\n\ndata structures, basic GIS and RS concepts, and demonstrate basic understanding of using GIS and RS software.\n\nRestriction: Permission of BSOS-Geography department; or must be enrolled in Geographical Sciences MPS or graduate certificate program.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 718,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "067ee63f-1f7c-5f21-b162-f688806ffc64"
+  }
+}

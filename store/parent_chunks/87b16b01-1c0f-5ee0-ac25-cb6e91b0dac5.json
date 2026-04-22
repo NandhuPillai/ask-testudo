@@ -1,0 +1,11 @@
+{
+  "page_content": "Corequisite: ENEB340; and permission from the Cyber-Physical Systems Engineering program.\n\nRestriction: Must be in the Cyber-Physical Systems Engineering program.\n\nENEB345 Probability & Statistical Inference (3 Credits)\n\nThis is a foundational course on probability and statistics for data science and connected embedded systems. This covers basic statistics and probability theory, including random variables, standard distributions, moments, law of large numbers and central limit theorem, sampling methods, estimation of parameters, testing of hypotheses. The course also includes the mathematical theory of randomness, and applications to big data analysis and analysis in the presence of uncertainty, and applications to machine learning algorithms.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 163,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "87b16b01-1c0f-5ee0-ac25-cb6e91b0dac5"
+  }
+}

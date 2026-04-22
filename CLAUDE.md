@@ -10,17 +10,41 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 - **Backend** (`query.py`, root) — FastAPI server handling live question answering. This runs in production.
 - **Frontend** (`frontend/`) — Next.js 16.2.1 + React 19 chat UI that calls the backend.
 - **Ingestion** (`ingest.py`, root) — One-time process that parses PDFs, creates chunks, fits BM25, embeds with Cohere, and upserts to Pinecone.
+- **Evaluation** (`eval/`) — RAGAS evaluation pipeline for measuring retrieval quality.
+
+## Platform
+
+This project now runs on an **M5 Pro MacBook Pro** (Apple Silicon, macOS). All shell commands use Unix paths (`/bin/`, not `\Scripts\`). Windows-style paths in any older docs or comments are outdated.
+
+## Virtual Environments
+
+There are three separate venvs — keep them isolated, never cross-install:
+
+| Venv | Purpose | Python | How to activate |
+|---|---|---|---|
+| `.venv` | Backend query server + verify script | system | `.venv/bin/activate` |
+| `.venv-ingest-macos` | PDF ingestion (unstructured, hi_res) | 3.11 (conda) | use full binary path (see below) |
+| `.venv-eval` | RAGAS evaluation | system | `.venv-eval/bin/activate` |
+
+**Important:** `.venv-ingest-macos` is a conda environment. Do NOT use `conda activate` — it doesn't propagate reliably in all shell contexts. Always invoke via the full binary path:
+```bash
+.venv-ingest-macos/bin/python3 -u ingest.py
+```
+
+**Known conflict:** `requirements_ingestion.txt` installs `pinecone-client` (old package) which conflicts with `pinecone` (v7+). After installing from requirements into any venv, always run:
+```bash
+pip uninstall -y pinecone-client
+pip install --force-reinstall pinecone==7.3.0
+```
 
 ## Running the Query Server (Backend)
 
-All Python commands use the `.venv` virtual environment, not the system/Anaconda Python.
-
 ```bash
-# Start the server
-.venv\Scripts\uvicorn query:app --host 0.0.0.0 --port 8000
+# Start the server (production port)
+.venv/bin/uvicorn query:app --host 0.0.0.0 --port 8000
 
-# With auto-reload during development (note: on Windows, stdout capture breaks after first reload)
-.venv\Scripts\uvicorn query:app --host 0.0.0.0 --port 8000 --reload
+# Start for evaluation runs (keeps port 8000 free for production)
+.venv/bin/uvicorn query:app --port 8002
 
 # Health check
 curl http://localhost:8000/health
@@ -33,10 +57,10 @@ curl -X POST http://localhost:8000/ask \
   -H "Content-Type: application/json" \
   -d '{"question": "What is the minimum GPA to graduate?"}'
 
-# Streaming response (SSE)
-curl -X POST http://localhost:8000/ask \
+# Evaluation-only endpoint (returns retrieved contexts for RAGAS)
+curl -X POST http://localhost:8002/ask_with_contexts \
   -H "Content-Type: application/json" \
-  -d '{"question": "What are the CS major requirements?", "stream": true}'
+  -d '{"question": "What are the CS major requirements?", "stream": false, "history": []}'
 ```
 
 ## Running the Frontend
@@ -53,38 +77,75 @@ The frontend expects the backend at `NEXT_PUBLIC_API_URL` (defaults to `http://l
 
 ## Running Ingestion
 
-Ingestion has a separate requirements file (`requirements_ingestion.txt`) because it needs `unstructured` (for PDF parsing), which is not needed at query time.
+Ingestion uses `.venv-ingest-macos` (Python 3.11). Always use `caffeinate` to prevent sleep and `-u` for unbuffered output (output is fully buffered when piped without `-u`, so nothing appears for minutes):
 
 ```bash
-# Verify ingestion output is healthy (run from repo root)
-.venv\Scripts\python verify_ingestion.py
+# Full corpus ingestion (~2-4 hours for 311 PDFs with hi_res)
+caffeinate -i .venv-ingest-macos/bin/python3 -u ingest.py 2>&1 | tee ingest_hires.log
 
-# Re-run ingestion (only if source PDFs changed — very slow, makes API calls)
-.venv\Scripts\python ingest.py
+# Verify ingestion output is healthy
+.venv/bin/python3 verify_ingestion.py
 ```
+
+**First run note:** The hi_res strategy downloads detectron2 ONNX model weights (~200MB) to `~/.cache/unstructured/` on first use. Subsequent runs skip the download.
+
+**Academic Catalog note:** `2025-2026 Academic Catalog.pdf` is processed with `ocr_only` strategy (not `hi_res`) because hi_res struggles with multi-column layouts. This is configured automatically in `load_pdfs()` by filename match. The catalog is alphabetically first in `./data/` (starts with "2") and takes 20-40 minutes on its own.
+
+## Running Evaluation (RAGAS)
+
+Evaluation requires the backend running on port 8002 and `.venv-eval` activated.
+
+```bash
+# Terminal 1: start backend pointing at the index under test
+.venv/bin/uvicorn query:app --port 8002
+
+# Terminal 2: run evaluation
+source .venv-eval/bin/activate
+python eval/run_eval.py --output baseline   # or hires, agentic
+python eval/run_eval.py --output hires --skip-ragas   # collect responses only, no scoring
+
+# Compare runs
+python eval/compare_runs.py --auto   # auto-discovers latest of each type
+python eval/compare_runs.py baseline_2026-04-20.json hires_2026-04-21.json
+```
+
+Results are written to `eval/results/{prefix}_{date}.json`. Never run eval against the production Railway backend — always use localhost.
 
 ## Installing Dependencies
 
 ```bash
-# Backend
-python -m venv .venv
-.venv\Scripts\pip install --prefer-binary -r requirements.txt
+# Backend (macOS)
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+
+# Ingestion (macOS — requires Python 3.11 via conda)
+conda create -p .venv-ingest-macos python=3.11 -y
+.venv-ingest-macos/bin/pip install "unstructured[local-inference,pdf]"
+.venv-ingest-macos/bin/pip install -r requirements_ingestion.txt
+.venv-ingest-macos/bin/pip uninstall -y pinecone-client   # remove conflicting old package
+.venv-ingest-macos/bin/pip install --force-reinstall pinecone==7.3.0
+
+# System dependencies for OCR (install once via Homebrew)
+brew install tesseract poppler
+
+# Evaluation
+python3 -m venv .venv-eval
+.venv-eval/bin/pip install -r eval/requirements_eval.txt
 
 # Frontend
 cd frontend && npm install
 ```
 
-The `--prefer-binary` flag is required on Windows to avoid compiling `greenlet` from source (which requires MSVC). `greenlet` and `SQLAlchemy` are pinned at the top of `requirements.txt` for this reason.
-
 ## Required Environment Variables
 
-**Root `.env`** (backend):
+**Root `.env`** (backend + ingestion):
 ```
 COHERE_API_KEY=...
 PINECONE_API_KEY=...
-PINECONE_INDEX_NAME=...
+PINECONE_INDEX_NAME=...        # see Pinecone Indexes section below
 XAI_API_KEY=...
 PYTHONUTF8=1
+ANTHROPIC_API_KEY=...          # required for RAGAS eval (Claude Haiku judge)
 ```
 
 **`frontend/.env.local`** (frontend):
@@ -93,6 +154,19 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 ```
 
 Each key must be on its own line. Appending to `.env` with `echo >>` is dangerous if the file lacks a trailing newline — it will corrupt the last key.
+
+## Pinecone Indexes
+
+There are two indexes — **do not mix them up**:
+
+| Index name | Purpose | Status |
+|---|---|---|
+| `ask-testudo` | Production index (fast strategy, old corpus) | Live on Railway, do not delete |
+| `ask-testudo-high-res` | hi_res evaluation index (current branch) | Local dev + eval only |
+
+`PINECONE_INDEX_NAME` in `.env` currently points to `ask-testudo-high-res` for Phase 2 evaluation. Before deploying to production, switch it back to `ask-testudo` (or promote the hi_res index).
+
+Both indexes: metric=`dotproduct`, dimension=`1024`, AWS us-east-1.
 
 ## Deployment
 
@@ -103,21 +177,24 @@ web: uvicorn query:app --host 0.0.0.0 --port $PORT
 
 CORS in `query.py` allows `localhost:3000` and `*.vercel.app` origins. The frontend calls `/ping` on load to warm Railway cold starts.
 
+**Production uses `ask-testudo` index.** Railway reads `PINECONE_INDEX_NAME` from its environment variables, which are set separately from the local `.env` file.
+
 ## Architecture
 
 ### Parent-Child Chunk Design
 
-The core architectural pattern: Pinecone stores **small child chunks** (~300 chars) for precise retrieval signal, but the LLM receives **large parent chunks** (~1500 chars) for sufficient context.
+The core architectural pattern: Pinecone stores **small child chunks** (~600 chars) for precise retrieval signal, but the LLM receives **large parent chunks** (~3000 chars) for sufficient context.
 
 - **Child chunks** live in Pinecone as dense+sparse vectors. Their metadata includes `parent_id`, `chunk_index`, `source`, `page`, `doc_type`, `file_hash`, and `text` (500-char truncation for console debugging). There is **no `child_id` field in Pinecone metadata** — the vector's Pinecone ID is the child ID.
 - **Parent chunks** live on disk at `./store/parent_chunks/{parent_id}.json`. Each file contains `page_content` and `metadata`. These are what gets reranked and sent to the LLM.
-- `parent_id` is a deterministic UUID5 derived from `source + page_content[:64]`, so re-ingesting unchanged files produces identical IDs (no duplicates).
+- `parent_id` is a deterministic UUID5 derived from `source + page_content[:64]`. Re-ingesting unchanged files produces identical IDs. **Known limitation:** if multiple chunks from the same file share the same first 64 characters (e.g. repeated page headers), they collide and the later one overwrites the earlier on disk. The ingestion log records actual disk count (post-dedup), not raw count.
 
 ### Backend API Endpoints
 
 | Method | Path | Description |
 |--------|------|-------------|
-| `POST` | `/ask` | Main query endpoint |
+| `POST` | `/ask` | Main query endpoint (production) |
+| `POST` | `/ask_with_contexts` | Eval-only endpoint — same as `/ask` but includes `retrieved_contexts` in response |
 | `GET` | `/health` | Returns index vector count, parent chunks on disk, BM25 vocab size |
 | `GET` | `/ping` | Returns `{"status": "warm"}` — used to wake Railway cold starts |
 
@@ -138,6 +215,13 @@ The core architectural pattern: Pinecone stores **small child chunks** (~300 cha
   "confidence": "high|medium|low",
   "rerank_score": 0.0,
   "fallback": false
+}
+```
+
+**`POST /ask_with_contexts` response** adds:
+```json
+{
+  "retrieved_contexts": ["full text of parent chunk 1", "..."]
 }
 ```
 
@@ -200,9 +284,13 @@ All components use `var(--umd-*)` CSS variables defined in `app/globals.css` so 
 
 ### Ingestion Flow (`ingest.py`)
 
-PDF → `unstructured.partition_pdf` (fast strategy) → `chunk_by_title` (parent chunks, ~1500 chars) → `RecursiveCharacterTextSplitter` (child chunks, ~300 chars, 30-char overlap) → Cohere embed (batch 96) + BM25 encode → Pinecone upsert (batch 100). Parents written to `./store/parent_chunks/`. BM25 fitted on child corpus, saved to `./store/bm25_encoder.json`.
+PDF → `unstructured.partition_pdf` (`hi_res` strategy, or `ocr_only` for Academic Catalog) → `chunk_by_title` (parent chunks, max 3000 chars) → `RecursiveCharacterTextSplitter` (child chunks, ~600 chars, 60-char overlap) → Cohere embed (batch 96) + BM25 encode → Pinecone upsert (batch 100). Parents written to `./store/parent_chunks/`. BM25 fitted on child corpus, saved to `./store/bm25_encoder.json`.
 
 Markdown support is implemented in `load_markdowns()` but intentionally disabled in `main()` (see comment in `ingest.py:151`).
+
+**Chunk parameters (current hi_res config):**
+- Parent: `max_characters=3000`, `new_after_n_chars=2500`, `combine_text_under_n_chars=300`
+- Child: `chunk_size=600`, `chunk_overlap=60`
 
 ### Pinecone Index Requirements
 
@@ -214,8 +302,42 @@ Markdown support is implemented in `load_markdowns()` but intentionally disabled
 ```
 store/
 ├── bm25_encoder.json     # Serialised BM25 (fitted on child corpus)
-├── ingestion_log.json    # Ingestion metadata (total counts, file hashes)
-└── parent_chunks/        # ~8,700 JSON files, one per parent chunk
+├── ingestion_log.json    # Ingestion metadata (total counts, file hashes, pipeline_version)
+└── parent_chunks/        # ~10,100 JSON files, one per parent chunk (hi_res corpus)
 ```
 
 `store/` is gitignored. The store must be present for the query server to start.
+
+**hi_res corpus stats (as of 2026-04-21):**
+- 311 PDFs in `./data/`
+- 10,098 unique parent chunks on disk
+- 17,557 child vectors in `ask-testudo-high-res`
+- 31,110 BM25 vocabulary terms
+
+### Evaluation Infrastructure (`eval/`)
+
+```
+eval/
+├── golden_dataset.json        # 60 QA pairs (fixed — do not modify between runs)
+├── run_eval.py                # RAGAS runner — calls /ask_with_contexts on localhost:8002
+├── compare_runs.py            # Side-by-side comparison + bar chart
+├── requirements_eval.txt      # Eval-only deps (ragas, anthropic, etc.)
+└── results/
+    ├── baseline_YYYY-MM-DD.json
+    ├── hires_YYYY-MM-DD.json
+    ├── comparison.png
+    └── phase2_analysis.md
+```
+
+**RAGAS judge:** Claude Haiku (`claude-haiku-4-5-20251001`) via `ANTHROPIC_API_KEY`. Never use Grok as the judge — an LLM evaluating its own output inflates scores.
+
+**Phase 2 RAGAS results (baseline → hi_res):**
+
+| Metric | Baseline | hi_res | Delta |
+|---|---|---|---|
+| context_precision | 0.2027 | 0.1684 | -0.034 |
+| context_recall | 0.2370 | 0.2919 | +0.055 |
+| faithfulness | 0.4411 | 0.5300 | +0.089 |
+| answer_relevancy | 0.5671 | 0.6216 | +0.055 |
+
+Phase 3 (agentic web search) is the next step per `plan2.md`.

@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE661 Nonlinear Control Systems (3 Credits)\n\nState space methods of stability analysis including second order systems and the phase plane, linearization and stability in the small, stability in the large and Lyapunov's second method. Frequency domain methods including the describing function. Popov's method and functional analytic methods. Introduction to Volterra series representations of nonlinear systems. Applications to conrol system design.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 649,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "e0775903-1e47-506d-b9c9-1e1b5abe4c3b"
+  }
+}

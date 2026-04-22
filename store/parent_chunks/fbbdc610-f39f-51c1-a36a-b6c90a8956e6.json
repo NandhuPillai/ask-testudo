@@ -1,0 +1,11 @@
+{
+  "page_content": "PHYS467 Introduction to Quantum Technology (3 Credits)\n\nInvestigates the basic concepts/building blocks of quantum computers, quantum key distribution, quantum networks, and quantum sensors. Examines what is needed to form a working qubit and different hardware platforms that implement them (for example, trapped ions, superconducting microwave circuits, color centers, and neutral atoms.) Conceptual and computational familiarity with complex numbers, vector spaces, bases, matrices, eigenvectors, and eigenvalues will be assumed, as well as quantum states/wave functions, and quantum measurement. Familiarity with spin-1/2 systems, and Pauli matrices is highly recommended.\n\nPrerequisite: MATH141 and MATH240 or equivalent; and one of the following: PHYS360, PHYS401, PHYS457, or ENEE491; or permission of instructor.\n\nCross-listed with: ENEE492.\n\nCredit Only Granted for. PHYS467 or ENEE492.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 382,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "fbbdc610-f39f-51c1-a36a-b6c90a8956e6"
+  }
+}

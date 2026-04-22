@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEB451 Network Security (3 Credits)\n\nThe foundations of modern cryptography including loT security aspects, loT features leading to security issues, as well as design considerations. Various cryptographic algorithms are discussed including the lightweight cryptography used in loT applications. We will focus on the technology advances, industrial standards, and law enforcement that have been or have to be made to establish trust in four key areas to establish the trust in computing: security, privacy, reliability, and business integrity. Students will implement cryptographic algorithms using industry-standard tools and programming languages. Furthermore, students will analyze various encryption algorithms using cryptanalysis tools.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 164,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "712d9046-d000-5bf3-9d6d-57325c6afdbe"
+  }
+}

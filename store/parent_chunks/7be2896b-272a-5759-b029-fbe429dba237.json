@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: Minimum grade of C- in MATH141.\n\nRestriction: Must be in the Cyber-Physical Systems Engineering program.\n\nENEB355 Algorithms in Python (3 Credits)\n\nA study of fundamental algorithmic problem-solving techniques in Python for today's large-scale computer systems as well as microcontrollers. Algorithms are instructions for solving problems and data structures are strategies for organizing information on computers. Efficient algorithms require appropriate data structures, and vice versa. Students will learn about the algorithms and data structures that form the building blocks of Python programming language. Student will also learn to analyze\n\nthe cost of algorithms, according to how their running time or space requirements grows as data size grows.\n\nPrerequisite: Minimum grade of C- in ENEB340 and ENEB354; and permission from the Cyber-Physical Systems Engineering program. Restriction: Must be in the Cyber-Physical Systems Engineering program. Credit Only Granted for. ENEB355 or ENBC322.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 164,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "7be2896b-272a-5759-b029-fbe429dba237"
+  }
+}

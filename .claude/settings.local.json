@@ -27,7 +27,8 @@
       "Bash(bash \"C:\\\\Users\\\\mail2\\\\.claude\\\\plugins\\\\cache\\\\claude-plugins-official\\\\superpowers\\\\5.0.6\\\\skills\\\\brainstorming\\\\scripts\\\\start-server.sh\" --project-dir \"C:\\\\ask-testudo\")",
       "Bash(git check-ignore:*)",
       "Bash(npx tsc:*)",
-      "Bash(node -e \":*)"
+      "Bash(node -e \":*)",
+      "Bash(python3 *)"
     ]
   }
 }

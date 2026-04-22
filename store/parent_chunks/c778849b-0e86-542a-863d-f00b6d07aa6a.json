@@ -1,0 +1,11 @@
+{
+  "page_content": "SURV701 Analysis of Complex Sample Data (3 Credits)\n\nAnalysis of data from complex sample designs covers: the development and handling of selection and other compensatory weights; methods for handling missing data; the effect of stratification and clustering on estimation and inference; alternative variance estimation procedures; methods for incorporating weights, stratification and clustering, and imputed values in estimation and inference procedures for complex sample survey data; and generalized design effects and variance functions. Computer software that takes account of complex sample design in estimation.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 874,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "c778849b-0e86-542a-863d-f00b6d07aa6a"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: STAT/00; or permission of instructor .\n\nCredit Only Granted for. STAT700 or STAT818B.\n\nFormerly: STAT818B.\n\nSTAT730 Time Series Analysis (3 Credits)\n\nThe methodology of probabilistic description and statistical analysis of (primarily stationary) random sequences and processes. Correlation functions, Gaussian processes, Hilbert-space methods including Wold decomposition and spectral representation, periodogram and estimation of spectral densities, parameter estimation and model identification for ARMA processes, linear filtering, Kalman-Bucy filtering, sampling theorems for continuous-time series, multivariate time series. Prerequisite: STAT700; and must have completed a graduate course in analysis. Or permission of instructor.\n\nRecommended: STAT701 and STAT650.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 869,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "e5069c1c-ca94-5837-bf44-718b45855d4c"
+  }
+}

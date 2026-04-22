@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE408 Capstone Design Project (3 Credits)\n\nCulmination of prior course work in electrical and computer engineering. Utilization of modern design tools and methodologies for the design\n\nof components or systems under realistic constraints, with particular emphasis on teamwork and oral/written communication. Areas in which projects are currently offered include: microprocessor-based systems, digital systems, VLSI design (both digital and mixed-signal), and optical systems.\n\nPrerequisite: Must have earned a minimum grade of regular (letter) C- in all required 200-level ENEE courses; and permission of ENGR-Electrical & Computer Engineering department.\n\nRestriction: Must be in one of the following programs (Engineering: Computer; Engineering: Electrical).\n\nRepeatable to: 6 credits if content differs.\n\nENEE411 Advanced Analog and Digital Electronics (3 Credits) Examination of analog and digital device models for analysis, design, and simulation of transistor level electronic circuits, emphasizing Metal Oxide Silicon Field Effect Transistors (MOSFETs); fundamental single transistor configurations; frequency response, feedback, and stability of multi- transistor circuits, such as current mirrors, differential amplifiers, voltage references, operational amplifiers and data converters; complementary Metal Oxide Silicon (CMOS) implementations of static and clocked digital as well as mixed signal circuits.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 642,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "04e91a54-0ec3-5d91-b586-e237398f1300"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "page_content": "CMSC424 Database Design (3 Credits)\n\nStudents are introduced to database systems and motivates the database approach as a mechanism for modeling the real world. An in- depth coverage of the relational model, logical database design, query languages, and other database concepts including query optimization, concurrency control; transaction management, and log based crash recovery. Distributed and Web database architectures are also discussed. Prerequisite: Minimum grade of C- in CMSC351 and CMSC330; and permission of CMNS-Computer Science department. Or must be in the (Computer Science (Doctoral), Computer Science (Master's)) program.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 570,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "a507ba6a-d809-542a-8af6-660734a511fd"
+  }
+}

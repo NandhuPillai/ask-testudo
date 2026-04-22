@@ -1,0 +1,11 @@
+{
+  "page_content": "ENEE651 Parallel Algorithms (3 Credits)\n\nA presentation of the theory of parallel computers and parallel processing. Models of parallel processing and the relationships between these models. Techniques for the design and analysis of efficient parallel algorithms including parallel prefix, searching, sorting, graph problems, and algebraic problems. Theoretical limits of parallelism.\n\nPrerequisite: CMSC451; or ENEE641; or students who have taken courses with comparable content may contact the department.\n\nCross-listed with: CMSC751.\n\nCredit Only Granted for. ENEE459P ENEE651, ENEE759K or CMSC751. Formerly: ENEE759K.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 649,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "e9f02b68-f3a8-59ed-8d81-b4a91307055e"
+  }
+}

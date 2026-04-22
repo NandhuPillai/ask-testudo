@@ -1,0 +1,11 @@
+{
+  "page_content": "AOSC647 Machine Learning in Earth Science (3 Credits)\n\nA comprehensive introductory course designed to prepare undergraduate and graduate students for applying machine learning techniques to solve real-world problems in Earth science. It emphasizes practical solution implementation, providing students with essential hands-on experience using the most popular open-source analytics tools based on Python, a general-purpose programming language. The course works through all steps in machine learning, from problem specification, data analytics\n\nto analytical solution, and applies advanced statistical and analytical algorithms to uncover hidden data relationships and transform them into predictive understanding or decision support. The topics covered include: Python programming, SciPy and Scikit-learn utility, data engineering, visualization, classifiers, regression models, canonical correlation analysis, structural equation models, decision trees, random forests, boosting machines, support vector machines, clustering, dimensionality reduction, principal component analysis, and neural networks. Prerequisite: MATH1 40.\n\nJointly offered with: AOSC447.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 476,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "3bd79077-9e6d-58ad-aafe-014a9cda669e"
+  }
+}

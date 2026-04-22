@@ -1,0 +1,11 @@
+{
+  "page_content": "Prerequisite: STAT/00 or STAT420.\n\nRecommended: Have some programming experience (any language). Credit Only Granted for. STAT705 or STAT798C.\n\nFormerly: STAT798C.\n\nSTAT707 Bayesian Statistics (3 Credits)\n\nThe essentials of Bayesian statistics with some advanced topics. Basic statistical decision theory. Bayesian paradigm. Prior and posterior distributions. Conjugate family. Hierarchical models. Bayesian linear regression. Bayes factors. Markov chain Monte Carlo. Metropolis- Hastings algorithm. Gibbs sampler. Bernstein von-Mise theorem. Posterior consistency. Potential advanced topics include variational Bayes, empirical Bayes, Bayesian inference of high-dimensional data and Bayesian non-parametric inference.",
+  "metadata": {
+    "source": "data/2025-2026 Academic Catalog.pdf",
+    "doc_type": "pdf",
+    "page": 869,
+    "section": "",
+    "file_hash": "14dada9f1bab",
+    "parent_id": "b2f2edf5-0b8e-50cf-bf08-6fad09343ab8"
+  }
+}
